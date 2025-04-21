@@ -1,0 +1,44 @@
+
+Kalign (3.3.2)
+
+Copyright (C) 2006,2019,2020,2021 Timo Lassmann
+
+This program comes with ABSOLUTELY NO WARRANTY; for details type:
+`kalign -showw'.
+This is free software, and you are welcome to redistribute it
+under certain conditions; consult the COPYING file for details.
+
+Please cite:
+  Lassmann, Timo.
+  "Kalign 3: multiple sequence alignment of large data sets."
+  Bioinformatics (2019) 
+  https://doi.org/10.1093/bioinformatics/btz795
+
+[2024-12-14 11:36:30] :     LOG : reading fasta
+[2024-12-14 11:36:32] :     LOG : Detected DNA sequences.
+[2024-12-14 11:36:33] : WARNING : -------------------------------------------- (rwalign.c line 530)
+[2024-12-14 11:36:33] : WARNING : All input sequences have the same length.    (rwalign.c line 531)
+[2024-12-14 11:36:33] : WARNING : BUT there are no gap characters.             (rwalign.c line 532)
+[2024-12-14 11:36:33] : WARNING :                                              (rwalign.c line 533)
+[2024-12-14 11:36:33] : WARNING : Unable to determine whether the sequences    (rwalign.c line 534)
+[2024-12-14 11:36:33] : WARNING : are already aligned.                         (rwalign.c line 535)
+[2024-12-14 11:36:33] : WARNING : Kalign will align the sequences.             (rwalign.c line 536)
+[2024-12-14 11:36:33] : WARNING : -------------------------------------------- (rwalign.c line 537)
+[2024-12-14 11:36:33] :     LOG : CPU Time: 4.38u 00:00:04.38 Elapsed: 00:00:04.00
+[2024-12-14 11:36:33] :     LOG : Detected DNA sequences.
+[2024-12-14 11:36:34] : WARNING : -------------------------------------------- (rwalign.c line 530)
+[2024-12-14 11:36:34] : WARNING : All input sequences have the same length.    (rwalign.c line 531)
+[2024-12-14 11:36:34] : WARNING : BUT there are no gap characters.             (rwalign.c line 532)
+[2024-12-14 11:36:34] : WARNING :                                              (rwalign.c line 533)
+[2024-12-14 11:36:34] : WARNING : Unable to determine whether the sequences    (rwalign.c line 534)
+[2024-12-14 11:36:34] : WARNING : are already aligned.                         (rwalign.c line 535)
+[2024-12-14 11:36:34] : WARNING : Kalign will align the sequences.             (rwalign.c line 536)
+[2024-12-14 11:36:34] : WARNING : -------------------------------------------- (rwalign.c line 537)
+[2024-12-14 11:36:34] :     LOG : Detected: 70 sequences.
+[2024-12-14 11:36:34] :     LOG : Calculating pairwise distances
+[2024-12-14 11:36:40] :     LOG : CPU Time: 186.02u 00:03:06.02 Elapsed: 00:00:06.00
+[2024-12-14 11:36:40] :     LOG : 32 anchors 
+[2024-12-14 11:36:40] :     LOG : Building guide tree.
+[2024-12-14 11:41:55] :     LOG : CPU Time: 313.00u 00:05:12.99 Elapsed: 00:05:15.00
+[2024-12-14 11:41:55] :     LOG : Aligning
+slurmstepd: error: *** JOB 33417353 ON c1-6 CANCELLED AT 2024-12-28T11:36:45 DUE TO TIME LIMIT ***

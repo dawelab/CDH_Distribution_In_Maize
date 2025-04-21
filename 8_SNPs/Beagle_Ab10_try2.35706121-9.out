@@ -1,0 +1,8 @@
+To execute Beagle-5.4.22Jul22.46e run: java -jar ${EBROOTBEAGLE}/beagle.jar
+############ working on chr9
+Exception in thread "main" java.lang.IllegalArgumentException: duplicate arguments: gt
+	at blbutil.Validate.argsToMap(Validate.java:80)
+	at main.Par.<init>(Par.java:125)
+	at main.Main.parameters(Main.java:251)
+	at main.Main.main(Main.java:101)
+[W::vcf_parse] Contig '9' is not defined in the header. (Quick workaround: index the file with tabix.)

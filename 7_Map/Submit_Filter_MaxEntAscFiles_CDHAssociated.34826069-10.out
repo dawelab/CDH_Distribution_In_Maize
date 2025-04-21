@@ -1,0 +1,11 @@
+working on file
+K10L2_MaxEntStand6_SSP585
+K10L2
+SSP585
+Loading required package: sp
+Error in .rasterObjectFromFile(x, objecttype = "RasterBrick", ...) : 
+  Cannot create a RasterLayer object from this file. (file does not exist)
+Calls: stack ... .quickStackOneFile -> brick -> brick -> .rasterObjectFromFile
+In addition: Warning message:
+K10L2_SSP585_projection_avg.asc: No such file or directory (GDAL error 4) 
+Execution halted

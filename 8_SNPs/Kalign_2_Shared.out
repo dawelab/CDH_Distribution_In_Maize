@@ -1,0 +1,45 @@
+
+Kalign (3.3.2)
+
+Copyright (C) 2006,2019,2020,2021 Timo Lassmann
+
+This program comes with ABSOLUTELY NO WARRANTY; for details type:
+`kalign -showw'.
+This is free software, and you are welcome to redistribute it
+under certain conditions; consult the COPYING file for details.
+
+Please cite:
+  Lassmann, Timo.
+  "Kalign 3: multiple sequence alignment of large data sets."
+  Bioinformatics (2019) 
+  https://doi.org/10.1093/bioinformatics/btz795
+
+[2024-12-15 00:08:47] :     LOG : reading fasta
+[2024-12-15 00:11:01] :     LOG : Detected DNA sequences.
+[2024-12-15 00:11:06] : WARNING : -------------------------------------------- (rwalign.c line 530)
+[2024-12-15 00:11:06] : WARNING : All input sequences have the same length.    (rwalign.c line 531)
+[2024-12-15 00:11:06] : WARNING : BUT there are no gap characters.             (rwalign.c line 532)
+[2024-12-15 00:11:06] : WARNING :                                              (rwalign.c line 533)
+[2024-12-15 00:11:06] : WARNING : Unable to determine whether the sequences    (rwalign.c line 534)
+[2024-12-15 00:11:06] : WARNING : are already aligned.                         (rwalign.c line 535)
+[2024-12-15 00:11:06] : WARNING : Kalign will align the sequences.             (rwalign.c line 536)
+[2024-12-15 00:11:06] : WARNING : -------------------------------------------- (rwalign.c line 537)
+[2024-12-15 00:11:07] :     LOG : CPU Time: 148.28u 00:02:28.27 Elapsed: 00:02:29.00
+[2024-12-15 00:11:08] :     LOG : Detected DNA sequences.
+[2024-12-15 00:11:11] : WARNING : -------------------------------------------- (rwalign.c line 530)
+[2024-12-15 00:11:11] : WARNING : All input sequences have the same length.    (rwalign.c line 531)
+[2024-12-15 00:11:11] : WARNING : BUT there are no gap characters.             (rwalign.c line 532)
+[2024-12-15 00:11:11] : WARNING :                                              (rwalign.c line 533)
+[2024-12-15 00:11:11] : WARNING : Unable to determine whether the sequences    (rwalign.c line 534)
+[2024-12-15 00:11:11] : WARNING : are already aligned.                         (rwalign.c line 535)
+[2024-12-15 00:11:11] : WARNING : Kalign will align the sequences.             (rwalign.c line 536)
+[2024-12-15 00:11:11] : WARNING : -------------------------------------------- (rwalign.c line 537)
+[2024-12-15 00:11:11] :     LOG : Detected: 70 sequences.
+[2024-12-15 00:11:13] :     LOG : Calculating pairwise distances
+[2024-12-15 00:12:06] :     LOG : CPU Time: 1582.53u 00:26:22.52 Elapsed: 00:00:53.00
+[2024-12-15 00:12:06] :     LOG : 32 anchors 
+[2024-12-15 00:12:06] :     LOG : Building guide tree.
+[2024-12-15 01:09:58] :     LOG : CPU Time: 3460.35u 00:57:40.34 Elapsed: 00:57:52.00
+[2024-12-15 01:09:58] :     LOG : Aligning
+/var/lib/slurmd/job33417354/slurm_script: line 18: 2044201 Killed                  kalign -n 30 -i $DIR/Consensus/HigginsN10_Ab10Hap.fa -o $DIR/HigginsN10_Ab10Hap.kaln.fasta
+slurmstepd: error: Detected 1 oom_kill event in StepId=33417354.batch. Some of the step tasks have been OOM Killed.

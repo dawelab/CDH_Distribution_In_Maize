@@ -1,0 +1,21 @@
+To execute Beagle-5.4.22Jul22.46e run: java -jar ${EBROOTBEAGLE}/beagle.jar
+############ working on chr1
+beagle.22Jul22.46e.jar (version 5.4)
+Copyright (C) 2014-2022 Brian L. Browning
+Enter "java -jar beagle.22Jul22.46e.jar" to list command line argument
+Start time: 07:25 PM EDT on 22 Mar 2025
+
+Command line: java -Xmx92160m -jar beagle.22Jul22.46e.jar
+  gt=/scratch/mjb51923/Ab10_Global_Survey/out/AlignGBS_HiFiAb10Corrected_v2/GWAS_Mo17_Ab10.chr.landrace.filt_chr1.vcf.gz
+  out=/scratch/mjb51923/Ab10_Global_Survey/out/AlignGBS_HiFiAb10Corrected_v2/GWAS_Mo17_Ab10.chr.landrace.filt_chr1.imputed
+  ne=1000
+  nthreads=24
+
+No genetic map is specified: using 1 cM = 1 Mb
+
+Reference samples:                    0
+Study     samples:                5,401
+
+Window 1 [1:483283-40068768]
+Study     markers:                2,039
+slurmstepd: error: *** JOB 35847421 ON a4-1 CANCELLED AT 2025-03-22T19:25:12 ***

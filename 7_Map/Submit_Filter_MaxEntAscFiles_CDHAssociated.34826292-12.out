@@ -1,0 +1,8 @@
+working on file
+
+
+
+Loading required package: sp
+Error in setwd(paste0("/scratch/mjb51923/Ab10_Global_Survey/out/WorldClim2/",  : 
+  cannot change working directory
+Execution halted

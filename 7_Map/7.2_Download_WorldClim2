@@ -1,0 +1,11 @@
+for i in "tmin" \
+"tmax" \
+"tavg" \
+"prec" \
+"srad" \
+"wind" \
+"vapr" \
+"bio" 
+do
+wget https://biogeo.ucdavis.edu/data/worldclim/v2.1/base/wc2.1_30s_$i.zip
+done

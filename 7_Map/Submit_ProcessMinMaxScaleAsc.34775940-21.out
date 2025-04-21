@@ -1,0 +1,12 @@
+working on file
+Maize_MaxEntStand4_SSP245
+Maize
+SSP245
+Loading required package: sp
+
+Attaching package: ‘spatialEco’
+
+The following object is masked from ‘package:raster’:
+
+    shift
+

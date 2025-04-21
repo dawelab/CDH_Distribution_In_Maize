@@ -1,0 +1,12 @@
+To execute Beagle-5.4.22Jul22.46e run: java -jar ${EBROOTBEAGLE}/beagle.jar
+############ working on chr3
+[W::bcf_sr_add_reader] No BGZF EOF marker; file '/scratch/mjb51923/Ab10_Global_Survey/out/AlignGBS_HiFiAb10Corrected_v2/GWAS_Mo17_Ab10.chr.filt2_chr3.imputed.vcf.gz' may be truncated
+[W::vcf_parse] Contig '3' is not defined in the header. (Quick workaround: index the file with tabix.)
+Error: no BGZF EOF marker; file may be truncated
+Checking the headers and starting positions of 6 files
+Concatenating /scratch/mjb51923/Ab10_Global_Survey/out/AlignGBS_HiFiAb10Corrected_v2/GWAS_Mo17_Ab10.chr.filt2_chr1.imputed.filt.vcf.gz	0.005525 seconds
+Concatenating /scratch/mjb51923/Ab10_Global_Survey/out/AlignGBS_HiFiAb10Corrected_v2/GWAS_Mo17_Ab10.chr.filt2_chr2.imputed.filt.vcf.gz	0.005169 seconds
+Concatenating /scratch/mjb51923/Ab10_Global_Survey/out/AlignGBS_HiFiAb10Corrected_v2/GWAS_Mo17_Ab10.chr.filt2_chr3.imputed.filt.vcf.gz	0.004096 seconds
+Concatenating /scratch/mjb51923/Ab10_Global_Survey/out/AlignGBS_HiFiAb10Corrected_v2/GWAS_Mo17_Ab10.chr.filt2_chr4.imputed.filt.vcf.gz	0.004814 seconds
+Concatenating /scratch/mjb51923/Ab10_Global_Survey/out/AlignGBS_HiFiAb10Corrected_v2/GWAS_Mo17_Ab10.chr.filt2_chr5.imputed.filt.vcf.gz	0.004739 seconds
+Concatenating /scratch/mjb51923/Ab10_Global_Survey/out/AlignGBS_HiFiAb10Corrected_v2/GWAS_Mo17_Ab10.chr.filt2_chr6.imputed.filt.vcf.gz	0.004980 seconds

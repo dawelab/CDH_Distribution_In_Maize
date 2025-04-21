@@ -1,0 +1,24 @@
+working on file
+K10L2_MaxEntStand4_SSP370
+K10L2
+SSP370
+Loading required package: sp
+
+Attaching package: ‘spatialEco’
+
+The following object is masked from ‘package:raster’:
+
+    shift
+
+[1] "This is the mean:"
+[1] -0.3287223
+[1] "This is the sd:"
+[1] 0.2082436
+[1] "This is the max value:"
+[1] 0.6260308
+[1] "This is the min value:"
+[1] -0.9754366
+Error in h(simpleError(msg, call)) : 
+  error in evaluating the argument 'filename' in selecting a method for function 'writeStart': missing value where TRUE/FALSE needed
+Calls: [<- ... as.character -> as.character.POSIXt -> .handleSimpleError -> h
+Execution halted

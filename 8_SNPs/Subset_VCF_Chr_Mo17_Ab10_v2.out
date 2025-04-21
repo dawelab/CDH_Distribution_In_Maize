@@ -1,0 +1,5 @@
+[W::bcf_hdr_check_sanity] PL should be declared as Number=G
+[E::bgzf_read_block] Invalid BGZF header at offset 78885755
+[E::vcf_parse_format] Couldn't read GT data: value not a number or '.' at 1:28967363
+[E::bgzf_read_block] Invalid BGZF header at offset 78885773
+[W::bcf_hdr_check_sanity] PL should be declared as Number=G

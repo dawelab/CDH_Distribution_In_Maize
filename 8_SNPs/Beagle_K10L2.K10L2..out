@@ -1,0 +1,49 @@
+To execute Beagle-5.4.22Jul22.46e run: java -jar ${EBROOTBEAGLE}/beagle.jar
+beagle.22Jul22.46e.jar (version 5.4)
+Copyright (C) 2014-2022 Brian L. Browning
+Enter "java -jar beagle.22Jul22.46e.jar" to list command line argument
+Start time: 09:23 PM EDT on 22 Mar 2025
+
+Command line: java -Xmx92160m -jar beagle.22Jul22.46e.jar
+  gt=/scratch/mjb51923/Ab10_Global_Survey/out/AlignGBS_HiFiAb10Corrected_v2/GWAS_Mo17_K10L2.K10L2.landrace.filt.vcf.gz
+  out=/scratch/mjb51923/Ab10_Global_Survey/out/AlignGBS_HiFiAb10Corrected_v2/GWAS_Mo17_K10L2.K10L2.landrace.filt.imputed
+  ne=1000
+  nthreads=24
+
+No genetic map is specified: using 1 cM = 1 Mb
+
+Reference samples:                    0
+Study     samples:                5,401
+
+Window 1 [K10L2:5460-28957489]
+Study     markers:                  978
+
+Burnin  iteration 1:           3 seconds
+Burnin  iteration 2:           2 seconds
+Burnin  iteration 3:           1 second
+
+Estimated ne:                  425270
+Estimated err:                 2.0e-02
+
+Phasing iteration 1:           1 second
+Phasing iteration 2:           1 second
+Phasing iteration 3:           1 second
+Phasing iteration 4:           1 second
+Phasing iteration 5:           1 second
+Phasing iteration 6:           1 second
+Phasing iteration 7:           1 second
+Phasing iteration 8:           1 second
+Phasing iteration 9:           1 second
+Phasing iteration 10:          1 second
+Phasing iteration 11:          1 second
+Phasing iteration 12:          1 second
+
+Cumulative Statistics:
+
+Study     markers:                  978
+
+Haplotype phasing time:        17 seconds
+Total time:                    21 seconds
+
+End time: 09:24 PM EDT on 22 Mar 2025
+beagle.22Jul22.46e.jar finished

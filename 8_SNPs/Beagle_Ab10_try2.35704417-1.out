@@ -1,0 +1,165 @@
+To execute Beagle-5.4.22Jul22.46e run: java -jar ${EBROOTBEAGLE}/beagle.jar
+############ working on chr8
+beagle.22Jul22.46e.jar (version 5.4)
+Copyright (C) 2014-2022 Brian L. Browning
+Enter "java -jar beagle.22Jul22.46e.jar" to list command line argument
+Start time: 05:43 PM EDT on 18 Mar 2025
+
+Command line: java -Xmx92160m -jar beagle.22Jul22.46e.jar
+  gt=/scratch/mjb51923/Ab10_Global_Survey/out/AlignGBS_HiFiAb10Corrected_v2/GWAS_Mo17_Ab10.chr.filt2_chr8.vcf.gz
+  out=/scratch/mjb51923/Ab10_Global_Survey/out/AlignGBS_HiFiAb10Corrected_v2/GWAS_Mo17_Ab10.chr.filt2_chr8.imputed
+  nthreads=24
+
+No genetic map is specified: using 1 cM = 1 Mb
+
+Reference samples:                    0
+Study     samples:               10,567
+
+Window 1 [8:299265-40240808]
+Study     markers:                7,324
+
+Burnin  iteration 1:           28 seconds
+Burnin  iteration 2:           24 seconds
+Burnin  iteration 3:           24 seconds
+
+Estimated ne:                  2632676
+Estimated err:                 2.8e-03
+
+Phasing iteration 1:           24 seconds
+Phasing iteration 2:           19 seconds
+Phasing iteration 3:           22 seconds
+Phasing iteration 4:           19 seconds
+Phasing iteration 5:           24 seconds
+Phasing iteration 6:           18 seconds
+Phasing iteration 7:           18 seconds
+Phasing iteration 8:           22 seconds
+Phasing iteration 9:           23 seconds
+Phasing iteration 10:          23 seconds
+Phasing iteration 11:          18 seconds
+Phasing iteration 12:          17 seconds
+
+Window 2 [8:38151519-78285377]
+Study     markers:                2,913
+
+Burnin  iteration 1:           12 seconds
+Burnin  iteration 2:           10 seconds
+Burnin  iteration 3:           7 seconds
+
+Estimated ne:                  906692
+Estimated err:                 1.7e-03
+
+Phasing iteration 1:           7 seconds
+Phasing iteration 2:           7 seconds
+Phasing iteration 3:           11 seconds
+Phasing iteration 4:           9 seconds
+Phasing iteration 5:           11 seconds
+Phasing iteration 6:           7 seconds
+Phasing iteration 7:           9 seconds
+Phasing iteration 8:           7 seconds
+Phasing iteration 9:           7 seconds
+Phasing iteration 10:          7 seconds
+Phasing iteration 11:          7 seconds
+Phasing iteration 12:          11 seconds
+
+Window 3 [8:76256096-116282614]
+Study     markers:                4,589
+
+Burnin  iteration 1:           15 seconds
+Burnin  iteration 2:           12 seconds
+Burnin  iteration 3:           15 seconds
+
+Estimated ne:                  1635328
+Estimated err:                 1.7e-03
+
+Phasing iteration 1:           13 seconds
+Phasing iteration 2:           12 seconds
+Phasing iteration 3:           14 seconds
+Phasing iteration 4:           13 seconds
+Phasing iteration 5:           16 seconds
+Phasing iteration 6:           11 seconds
+Phasing iteration 7:           11 seconds
+Phasing iteration 8:           13 seconds
+Phasing iteration 9:           14 seconds
+Phasing iteration 10:          11 seconds
+Phasing iteration 11:          11 seconds
+Phasing iteration 12:          10 seconds
+
+Window 4 [8:114214233-154299066]
+Study     markers:                6,829
+
+Burnin  iteration 1:           21 seconds
+Burnin  iteration 2:           22 seconds
+Burnin  iteration 3:           21 seconds
+
+Estimated ne:                  2459816
+Estimated err:                 2.1e-03
+
+Phasing iteration 1:           20 seconds
+Phasing iteration 2:           20 seconds
+Phasing iteration 3:           18 seconds
+Phasing iteration 4:           17 seconds
+Phasing iteration 5:           27 seconds
+Phasing iteration 6:           17 seconds
+Phasing iteration 7:           17 seconds
+Phasing iteration 8:           23 seconds
+Phasing iteration 9:           19 seconds
+Phasing iteration 10:          21 seconds
+Phasing iteration 11:          16 seconds
+Phasing iteration 12:          16 seconds
+
+Window 5 [8:152245177-192298795]
+Study     markers:                5,374
+
+Burnin  iteration 1:           17 seconds
+Burnin  iteration 2:           14 seconds
+Burnin  iteration 3:           14 seconds
+
+Estimated ne:                  1252018
+Estimated err:                 3.3e-03
+
+Phasing iteration 1:           13 seconds
+Phasing iteration 2:           17 seconds
+Phasing iteration 3:           13 seconds
+Phasing iteration 4:           15 seconds
+Phasing iteration 5:           19 seconds
+Phasing iteration 6:           16 seconds
+Phasing iteration 7:           18 seconds
+Phasing iteration 8:           13 seconds
+Phasing iteration 9:           14 seconds
+Phasing iteration 10:          17 seconds
+Phasing iteration 11:          15 seconds
+Phasing iteration 12:          17 seconds
+
+Window 6 [8:190149572-208378064]
+Study     markers:                8,046
+
+Burnin  iteration 1:           25 seconds
+Burnin  iteration 2:           23 seconds
+Burnin  iteration 3:           22 seconds
+
+Estimated ne:                  6262679
+Estimated err:                 2.2e-03
+
+Phasing iteration 1:           26 seconds
+Phasing iteration 2:           21 seconds
+Phasing iteration 3:           26 seconds
+Phasing iteration 4:           20 seconds
+Phasing iteration 5:           20 seconds
+Phasing iteration 6:           20 seconds
+Phasing iteration 7:           20 seconds
+Phasing iteration 8:           19 seconds
+Phasing iteration 9:           19 seconds
+Phasing iteration 10:          19 seconds
+Phasing iteration 11:          19 seconds
+Phasing iteration 12:          18 seconds
+
+Cumulative Statistics:
+
+Study     markers:               32,673
+
+Haplotype phasing time:        24 minutes 49 seconds
+Total time:                    25 minutes 33 seconds
+
+End time: 06:09 PM EDT on 18 Mar 2025
+beagle.22Jul22.46e.jar finished
+[W::vcf_parse] Contig '8' is not defined in the header. (Quick workaround: index the file with tabix.)

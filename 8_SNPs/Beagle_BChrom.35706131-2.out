@@ -1,0 +1,11 @@
+To execute Beagle-5.4.22Jul22.46e run: java -jar ${EBROOTBEAGLE}/beagle.jar
+############ working on chr2
+Exception in thread "main" java.lang.IllegalArgumentException: duplicate arguments: gt
+	at blbutil.Validate.argsToMap(Validate.java:80)
+	at main.Par.<init>(Par.java:125)
+	at main.Main.parameters(Main.java:251)
+	at main.Main.main(Main.java:101)
+[W::vcf_parse] Contig '2' is not defined in the header. (Quick workaround: index the file with tabix.)
+Checking the headers and starting positions of 9 files
+[E::bcf_hdr_read] Input is not detected as bcf or vcf format
+Failed to parse header: /scratch/mjb51923/Ab10_Global_Survey/out/AlignGBS_HiFiAb10Corrected_v2/GWAS_Mo17_Bchr.chr.filt2_chr1.imputed.filt.vcf.gz

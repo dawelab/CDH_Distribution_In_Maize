@@ -1,0 +1,13 @@
+To execute Beagle-5.4.22Jul22.46e run: java -jar ${EBROOTBEAGLE}/beagle.jar
+############ working on chr8
+Exception in thread "main" java.lang.IllegalArgumentException: duplicate arguments: gt
+	at blbutil.Validate.argsToMap(Validate.java:80)
+	at main.Par.<init>(Par.java:125)
+	at main.Main.parameters(Main.java:251)
+	at main.Main.main(Main.java:101)
+[E::hts_open_format] Failed to open file "/scratch/mjb51923/Ab10_Global_Survey/out/AlignGBS_HiFiAb10Corrected_v2/GWAS_Mo17_Bchr.chr.landrace.filt_chr8.imputed.vcf.gz" : No such file or directory
+Failed to read from /scratch/mjb51923/Ab10_Global_Survey/out/AlignGBS_HiFiAb10Corrected_v2/GWAS_Mo17_Bchr.chr.landrace.filt_chr8.imputed.vcf.gz: No such file or directory
+tbx_index_build failed: /scratch/mjb51923/Ab10_Global_Survey/out/AlignGBS_HiFiAb10Corrected_v2/GWAS_Mo17_Bchr.chr.landrace.filt_chr8.imputed.filt.vcf.gz
+Checking the headers and starting positions of 1 files
+[E::hts_open_format] Failed to open file "/scratch/mjb51923/Ab10_Global_Survey/out/AlignGBS_HiFiAb10Corrected_v2/GWAS_Mo17_Bchr.chr.landrace.filt_chr*.imputed.filt.vcf.gz" : No such file or directory
+Failed to open: /scratch/mjb51923/Ab10_Global_Survey/out/AlignGBS_HiFiAb10Corrected_v2/GWAS_Mo17_Bchr.chr.landrace.filt_chr*.imputed.filt.vcf.gz

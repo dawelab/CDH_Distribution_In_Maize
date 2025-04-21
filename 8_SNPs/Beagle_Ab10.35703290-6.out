@@ -1,0 +1,170 @@
+To execute Beagle-5.4.22Jul22.46e run: java -jar ${EBROOTBEAGLE}/beagle.jar
+############ working on chr6
+beagle.22Jul22.46e.jar (version 5.4)
+Copyright (C) 2014-2022 Brian L. Browning
+Enter "java -jar beagle.22Jul22.46e.jar" to list command line argument
+Start time: 04:48 PM EDT on 18 Mar 2025
+
+Command line: java -Xmx92160m -jar beagle.22Jul22.46e.jar
+  gt=/scratch/mjb51923/Ab10_Global_Survey/out/AlignGBS_HiFiAb10Corrected_v2/GWAS_Mo17_Ab10.chr.filt2_chr6.vcf.gz
+  out=/scratch/mjb51923/Ab10_Global_Survey/out/AlignGBS_HiFiAb10Corrected_v2/GWAS_Mo17_Ab10.chr.filt2_chr6.imputed
+  nthreads=24
+
+No genetic map is specified: using 1 cM = 1 Mb
+
+Reference samples:                    0
+Study     samples:               10,567
+
+Window 1 [6:37299-36374190]
+Study     markers:                2,066
+
+Burnin  iteration 1:           8 seconds
+Burnin  iteration 2:           6 seconds
+Burnin  iteration 3:           5 seconds
+
+Estimated ne:                  608437
+Estimated err:                 6.7e-03
+
+Phasing iteration 1:           5 seconds
+Phasing iteration 2:           5 seconds
+Phasing iteration 3:           5 seconds
+Phasing iteration 4:           5 seconds
+Phasing iteration 5:           5 seconds
+Phasing iteration 6:           5 seconds
+Phasing iteration 7:           5 seconds
+Phasing iteration 8:           5 seconds
+Phasing iteration 9:           5 seconds
+Phasing iteration 10:          5 seconds
+Phasing iteration 11:          5 seconds
+Phasing iteration 12:          4 seconds
+
+Window 2 [6:32442098-78021847]
+Study     markers:                2,764
+
+Burnin  iteration 1:           9 seconds
+Burnin  iteration 2:           8 seconds
+Burnin  iteration 3:           8 seconds
+
+Estimated ne:                  771327
+Estimated err:                 3.0e-03
+
+Phasing iteration 1:           7 seconds
+Phasing iteration 2:           7 seconds
+Phasing iteration 3:           7 seconds
+Phasing iteration 4:           7 seconds
+Phasing iteration 5:           7 seconds
+Phasing iteration 6:           7 seconds
+Phasing iteration 7:           7 seconds
+Phasing iteration 8:           7 seconds
+Phasing iteration 9:           7 seconds
+Phasing iteration 10:          7 seconds
+Phasing iteration 11:          7 seconds
+Phasing iteration 12:          6 seconds
+
+Window 3 [6:75857169-116034615]
+Study     markers:                3,244
+
+Burnin  iteration 1:           10 seconds
+Burnin  iteration 2:           9 seconds
+Burnin  iteration 3:           9 seconds
+
+Estimated ne:                  1091122
+Estimated err:                 2.1e-03
+
+Phasing iteration 1:           9 seconds
+Phasing iteration 2:           8 seconds
+Phasing iteration 3:           8 seconds
+Phasing iteration 4:           8 seconds
+Phasing iteration 5:           8 seconds
+Phasing iteration 6:           9 seconds
+Phasing iteration 7:           9 seconds
+Phasing iteration 8:           8 seconds
+Phasing iteration 9:           8 seconds
+Phasing iteration 10:          9 seconds
+Phasing iteration 11:          17 seconds
+Phasing iteration 12:          16 seconds
+
+Window 4 [6:114008299-153947294]
+Study     markers:                7,859
+
+Burnin  iteration 1:           52 seconds
+Burnin  iteration 2:           47 seconds
+Burnin  iteration 3:           43 seconds
+
+Estimated ne:                  2712782
+Estimated err:                 2.1e-03
+
+Phasing iteration 1:           39 seconds
+Phasing iteration 2:           39 seconds
+Phasing iteration 3:           39 seconds
+Phasing iteration 4:           33 seconds
+Phasing iteration 5:           22 seconds
+Phasing iteration 6:           22 seconds
+Phasing iteration 7:           21 seconds
+Phasing iteration 8:           21 seconds
+Phasing iteration 9:           21 seconds
+Phasing iteration 10:          21 seconds
+Phasing iteration 11:          21 seconds
+Phasing iteration 12:          21 seconds
+
+Window 5 [6:151935053-192019412]
+Study     markers:               10,525
+
+Burnin  iteration 1:           39 seconds
+Burnin  iteration 2:           35 seconds
+Burnin  iteration 3:           35 seconds
+
+Estimated ne:                  4045597
+Estimated err:                 2.2e-03
+
+Phasing iteration 1:           33 seconds
+Phasing iteration 2:           31 seconds
+Phasing iteration 3:           31 seconds
+Phasing iteration 4:           30 seconds
+Phasing iteration 5:           30 seconds
+Phasing iteration 6:           29 seconds
+Phasing iteration 7:           29 seconds
+Phasing iteration 8:           29 seconds
+Phasing iteration 9:           29 seconds
+Phasing iteration 10:          30 seconds
+Phasing iteration 11:          30 seconds
+Phasing iteration 12:          28 seconds
+
+Window 6 [6:190006310-201513481]
+Study     markers:                5,514
+
+Burnin  iteration 1:           17 seconds
+Burnin  iteration 2:           16 seconds
+Burnin  iteration 3:           16 seconds
+
+Estimated ne:                  6519229
+Estimated err:                 2.2e-03
+
+Phasing iteration 1:           15 seconds
+Phasing iteration 2:           15 seconds
+Phasing iteration 3:           15 seconds
+Phasing iteration 4:           15 seconds
+Phasing iteration 5:           15 seconds
+Phasing iteration 6:           14 seconds
+Phasing iteration 7:           14 seconds
+Phasing iteration 8:           15 seconds
+Phasing iteration 9:           14 seconds
+Phasing iteration 10:          14 seconds
+Phasing iteration 11:          14 seconds
+Phasing iteration 12:          14 seconds
+
+Cumulative Statistics:
+
+Study     markers:               30,429
+
+Haplotype phasing time:        24 minutes 44 seconds
+Total time:                    25 minutes 34 seconds
+
+End time: 05:14 PM EDT on 18 Mar 2025
+beagle.22Jul22.46e.jar finished
+[W::bcf_hdr_check_sanity] PL should be declared as Number=G
+[filter.c:2903 filters_init1] Error: the tag "DR2" is not defined in the VCF header
+[tabix] the compression of '/scratch/mjb51923/Ab10_Global_Survey/out/AlignGBS_HiFiAb10Corrected_v2/GWAS_Mo17_Ab10.chr.filt2_chr6.imputed.vcf.gz' is not BGZF
+Checking the headers and starting positions of 10 files
+[E::bcf_hdr_read] Input is not detected as bcf or vcf format
+Failed to parse header: /scratch/mjb51923/Ab10_Global_Survey/out/AlignGBS_HiFiAb10Corrected_v2/GWAS_Mo17_Ab10.chr.filt2_chr10.imputed.vcf.gz

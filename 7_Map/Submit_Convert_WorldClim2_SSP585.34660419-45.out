@@ -1,0 +1,9 @@
+working on file
+45
+wc2.1_30s_tmin_02.tif
+Loading required package: sp
+[1] "##### Working on file wc2.1_30s_tmin_02"
+Error in .startAsciiWriting(x, filename, ...) : 
+  /scratch/mjb51923/Ab10_Global_Survey/out/WorldClim2/ClimateData/SSP585/wc2.1_30s_tmin_02.asc exists. Use 'overwrite=TRUE'
+Calls: writeRaster ... writeStart -> writeStart -> .local -> .startAsciiWriting
+Execution halted

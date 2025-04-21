@@ -1,0 +1,182 @@
+library(ggplot2)
+library(vroom)
+library(tidyverse)
+library(data.table)
+library(pheatmap)
+library(readxl)
+library(dichromat)
+library(RColorBrewer)
+library(ggpubr)
+library(stringr)
+
+#This sets the working directory
+setwd("/Volumes/Transcend")
+
+#setwd("/scratch/mjb51923/Ab10_Global_Survey/out/AlignGBS_v7")
+
+########################################This loads and preps the data 
+GROUPS <- vroom::vroom("/Users/user/University_of_Georgia/Dawe_Lab_Documents/Ab10_Global_Survey/Data/Controls_Swarts_RomeroNavarro_Romay_Groups_Env.csv")
+
+MERGE_K10L2_RPM <- vroom::vroom("/Volumes/Transcend/Tassel_TagTaxaDist_AllData_v7_v_K10L2Contigs.K10L2.RPM.txt")
+
+#8 columns were classed as logicals because they have all NAs, these are the ones that had 0 coverage
+
+BINS <- read_excel("~/University_of_Georgia/Dawe_Lab_Documents/Ab10_Global_Survey/Bins_NoOverlap_K10L2.table.xlsx")
+
+#This drops any column that had an average coverage of 0, resulting in all values being NA
+DT <- as.data.table(MERGE_K10L2_RPM)
+DT <- DT[,which(unlist(lapply(DT, function(x)!all(is.na(x))))),with=F]
+MERGE_K10L2_RPM_FILT_1 <- as.data.frame(DT)
+
+#This saves the list of columns that were dropped
+DROPPED <- setdiff(colnames(MERGE_K10L2_RPM), colnames(MERGE_K10L2_RPM_FILT_1))
+
+#This removes any tag with a MAPQ less than 20
+MERGE_K10L2_RPM_FILT <- subset(MERGE_K10L2_RPM_FILT_1, MAPQ >= 20)
+
+###This selects only the controls
+#This identifies all the index numbers for names marked as controls
+col.num <- grep(".DC", colnames(MERGE_K10L2_RPM_FILT))
+length(col.num)
+#This appends the first 6 columns to that list
+col.num <- append(col.num, values = c(1:6))
+#This selects only the columns that appear in the above list
+MERGE_K10L2_RPM_FILT_CONTROLS <- MERGE_K10L2_RPM_FILT[,sort(c(col.num))]
+
+#This drops the Blanks
+DROP <- grep("BLANK", colnames(MERGE_K10L2_RPM_FILT_CONTROLS) )
+MERGE_K10L2_RPM_FILT_CONTROLS <- MERGE_K10L2_RPM_FILT_CONTROLS[,-DROP]
+
+#this adds a bin value to each line in the MERGE_K10L2_RPM file 
+MERGE_K10L2_RPM_FILT_CONTROLS$bin <- NA
+
+i=1
+x=1
+for (i in 1:nrow(MERGE_K10L2_RPM_FILT_CONTROLS)) {
+  print(i)
+  for (x in 1:nrow(BINS)) {
+    BIN_NUM <- BINS[x,4][[1]]
+    START <- BINS[x,2][[1]]
+    END <- BINS[x,3][[1]]
+    ####CHANGE THIS NUMBER TO 3 WHEN YOU FIX THE PROBLEM WITH THE START
+    if (MERGE_K10L2_RPM_FILT_CONTROLS[i,3] > START & MERGE_K10L2_RPM_FILT_CONTROLS[i,3] < END) {
+      MERGE_K10L2_RPM_FILT_CONTROLS[i,ncol(MERGE_K10L2_RPM_FILT_CONTROLS)] <- BIN_NUM
+    }
+  }
+}
+
+#This outputs the bins as well as the tag coordinates to verify correct identification
+test <- MERGE_K10L2_RPM_FILT_CONTROLS[,c(1:4,ncol(MERGE_K10L2_RPM_FILT_CONTROLS))]
+
+#This function goes over each row and divides each value by the max in that row 
+MinMax = function(xx) { sweep(xx, 1, apply(xx, 1, max), '/') }
+
+#This is being a problem and I'm not sure why 
+SORT_temp1 <- subset(GROUPS, Data_Source == "Dawe_Lab_1" | Data_Source == "Dawe_Lab_2")
+SORT_temp2 <- SORT_temp1[order(SORT_temp1$Ab10_Status),]
+SORT_temp3 <- SORT_temp2$Name
+ADD <- c("Tag", "Chr", "Start", "End", "MAPQ", "Strand", "bin")
+SORT_temp4 <- c(ADD, SORT_temp3)
+
+#This removes the missing samples 
+SORT <- SORT_temp4[! SORT_temp4 %in% setdiff(SORT_temp4, colnames(MERGE_K10L2_RPM_FILT_CONTROLS))]
+
+#This orders the data frame
+MERGE_K10L2_RPM_FILT_CONTROLS <- as.data.frame(MERGE_K10L2_RPM_FILT_CONTROLS[,SORT])
+
+MERGE_K10L2_RPM_FILT_CONTROLS_TAGNUM <- MERGE_K10L2_RPM_FILT_CONTROLS
+
+######## Tag Sums
+#This sums the number of tag numbers across bins, but excludes the bin column from the summing
+A_SUM = as.data.frame(apply(MERGE_K10L2_RPM_FILT_CONTROLS_TAGNUM[,c(8:ncol(MERGE_K10L2_RPM_FILT_CONTROLS_TAGNUM))], 2, function(xx) { by(xx, MERGE_K10L2_RPM_FILT_CONTROLS_TAGNUM$bin, sum)  }))
+
+######## Tag Density
+#This sums the number of tag numbers across bins, but excludes the bin column from the summing
+A_DENS = as.data.frame(apply(MERGE_K10L2_RPM_FILT_CONTROLS_TAGNUM[,c(8:ncol(MERGE_K10L2_RPM_FILT_CONTROLS_TAGNUM))], 2, function(xx) { by(xx, MERGE_K10L2_RPM_FILT_CONTROLS_TAGNUM$bin, function(yy) { sum(yy > 0) }) }))
+
+#This takes the square root of each value
+
+B_DENS <- sqrt(A_DENS)
+
+#This combines the density and sum data
+B_COMB <- A_SUM+B_DENS
+
+#This scales the data so that the min is always 0 and the max is always 1. 
+C <- MinMax(B_COMB)
+
+#This adds bins back
+C$bin <- rownames(C)
+
+C_bed <- merge(BINS, C, by="bin")
+
+#This drops the identifier columns to create a numeric matrix
+rownames(C_bed) <- C_bed$bin
+heat_data2 <- C_bed[,-c(1:4)]
+
+#This generates a data frame with the Ab10 Status of all the lines after sorting them 
+Name <- as.data.frame(colnames(heat_data2))
+colnames(Name) <- "Name"
+df_extra <- merge(Name, GROUPS)
+df_col <- df_extra[,c("Name", "Ab10_Status")]
+rownames(df_col) = df_col$Name
+
+#This orders the df_col rows to match the data columns
+df_col <- as.data.frame(df_col[SORT[-c(1:7)],])
+df_col <- as.data.frame(df_col$Ab10_Status)
+colnames(df_col) <- c("Chr10 Type")
+df_col$`Chr10 Type` <- as.factor(df_col$`Chr10 Type`)
+
+
+#This reorders the actual heat data to match above 
+heat_data2 <- heat_data2[,SORT[-c(1:7)]]
+
+#This line sets the rownames in the df as the column names in the heat map data. IT is very important
+rownames(df_col) = colnames(heat_data2)
+
+#This creates a dataframe for the position data 
+pos <- C_bed$start
+df_row <- as.data.frame(pos)
+df_row$feature <- " "
+i=1
+#This assigns Ab10 regions
+for(i in 1:nrow(df_row)) {
+  VALUE <- df_row[i,1]
+  df_row[i,2] <- ifelse(VALUE >= 1383651 & VALUE <= 7920490, 'TR1', df_row[i,2])
+  df_row[i,2] <- ifelse(VALUE >= 10652268 & VALUE <= 19464951, 'TR1', df_row[i,2])
+  df_row[i,2] <- ifelse(VALUE >= 10243298 & VALUE <= 10319813, 'trkin', df_row[i,2])
+  df_row[i,2] <- ifelse(VALUE >= 19450000 & VALUE <= 25225000, 'Shared region', df_row[i,2])
+}
+
+df_row <- as.data.frame(df_row$feature)
+rownames(df_row) = rownames(C_bed)
+colnames(df_row) <- "Feature"
+df_row$Feature <- as.factor(df_row$Feature)
+
+summary(df_col$`Chr10 Type`)
+
+colors <- list(`Chr10 Type` = c("Ab10-I" = "black","Ab10-II" = "grey25","Ab10-III" =  "grey40", "Ab10_Unknown" =  "grey70", "N10" ="grey90", "K10L2" = "red"), Feature = c('TR1' = "#56B4E9", 'trkin' = "#0072B2", 'Shared region' = "#E69F00", " " = "white" ))
+
+pdf("HeatMap_B73Ab10v2_TagIndexMinMax_K10L2.pdf", height = 5, width = 5)
+pheatmap(heat_data2, scale = "none", show_rownames = FALSE, show_colnames = FALSE, cluster_rows = FALSE, cluster_cols = FALSE, treeheight_row = 0, treeheight_col = 0, annotation_row = df_row, annotation_colors= colors, color = rev(colorRampPalette(rev(brewer.pal(n = 7, name = "YlOrBr")))(500)), annotation_col = df_col, main="Chr10 Haplotypes\nTag Index in 1MB bins")
+dev.off()
+
+pdf("HeatMap_B73Ab10v2_TagIndexMinMax_K10L2_ColNames.pdf", height = 5, width = 5)
+pheatmap(heat_data2, scale = "none", show_rownames = FALSE, show_colnames = TRUE, cluster_rows = FALSE, cluster_cols = FALSE, treeheight_row = 0, treeheight_col = 0, annotation_row = df_row, annotation_colors= colors, color = rev(colorRampPalette(rev(brewer.pal(n = 7, name = "YlOrBr")))(500)), annotation_col = df_col, fontsize_col = 2, main="Chr10 Haplotypes\nTag Index in 1MB bins")
+dev.off()
+
+pdf("HeatMap_B73Ab10v2_TagIndexMinMax_K10L2_ColClust.pdf", height = 5, width = 5)
+pheatmap(heat_data2, scale = "none", show_rownames = FALSE, show_colnames = FALSE, cluster_rows = FALSE, cluster_cols = TRUE, clustering_method = "ward.D", treeheight_row = 0, treeheight_col = 50, annotation_row = df_row, annotation_colors= colors, color = rev(colorRampPalette(rev(brewer.pal(n = 7, name = "YlOrBr")))(100)), annotation_col = df_col, main="Chr10 Haplotypes\nTag Index in 1MB bins")
+dev.off()
+
+pdf("HeatMap_B73Ab10v2_TagIndexMinMax_K10L2_ColClust_ColNames.pdf", height = 5, width = 10)
+pheatmap(heat_data2, scale = "none", show_rownames = FALSE, show_colnames = TRUE, cluster_rows = FALSE, cluster_cols = TRUE, clustering_method = "ward.D", treeheight_row = 0, treeheight_col = 50, annotation_row = df_row, annotation_colors= colors, color = rev(colorRampPalette(rev(brewer.pal(n = 7, name = "YlOrBr")))(100)), annotation_col = df_col, fontsize_col = 3, main="Chr10 Haplotypes\nTag Index in 1MB bins")
+dev.off()
+
+pdf("HeatMap_B73Ab10v2_TagIndexMinMax_K10L2_ColClust_RowClust.pdf", height = 5, width = 10)
+pheatmap(heat_data2, scale = "none", show_rownames = FALSE, show_colnames = FALSE, cluster_rows = TRUE, cluster_cols = TRUE, clustering_method = "ward.D", treeheight_row = 50, treeheight_col = 50, annotation_row = df_row, annotation_colors= colors, color = rev(colorRampPalette(rev(brewer.pal(n = 7, name = "YlOrBr")))(100)), annotation_col = df_col, main="Chr10 Haplotypes\nTag Index in 1MB bins")
+dev.off()
+
+pdf("HeatMap_B73Ab10v2_TagIndexMinMax_K10L2_ColClust_RowClust_RowNames.pdf", height = 5, width = 10)
+pheatmap(heat_data2, scale = "none", show_rownames = TRUE, show_colnames = FALSE, cluster_rows = TRUE, cluster_cols = TRUE, clustering_method = "ward.D", treeheight_row = 50, treeheight_col = 50, annotation_row = df_row, annotation_colors= colors, color = rev(colorRampPalette(rev(brewer.pal(n = 7, name = "YlOrBr")))(100)), annotation_col = df_col, fontsize_row = 3, main="Chr10 Haplotypes\nTag Index in 1MB bins")
+dev.off()
+

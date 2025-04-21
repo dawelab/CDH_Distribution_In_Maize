@@ -1,0 +1,119 @@
+To execute Beagle-5.4.22Jul22.46e run: java -jar ${EBROOTBEAGLE}/beagle.jar
+############ working on chr10
+beagle.22Jul22.46e.jar (version 5.4)
+Copyright (C) 2014-2022 Brian L. Browning
+Enter "java -jar beagle.22Jul22.46e.jar" to list command line argument
+Start time: 04:38 PM EDT on 22 Mar 2025
+
+Command line: java -Xmx92160m -jar beagle.22Jul22.46e.jar
+  gt=/scratch/mjb51923/Ab10_Global_Survey/out/AlignGBS_HiFiAb10Corrected_v2/GWAS_Mo17_Ab10.chr.landrace.filt_chr10.vcf.gz
+  out=/scratch/mjb51923/Ab10_Global_Survey/out/AlignGBS_HiFiAb10Corrected_v2/GWAS_Mo17_Ab10.chr.landrace.filt_chr10.imputed
+  ne=1000
+  nthreads=24
+
+No genetic map is specified: using 1 cM = 1 Mb
+
+Reference samples:                    0
+Study     samples:                5,401
+
+Window 1 [10:166702-40029031]
+Study     markers:                1,797
+
+Burnin  iteration 1:           4 seconds
+Burnin  iteration 2:           2 seconds
+Burnin  iteration 3:           2 seconds
+
+Estimated ne:                  711286
+Estimated err:                 1.4e-02
+
+Phasing iteration 1:           2 seconds
+Phasing iteration 2:           1 second
+Phasing iteration 3:           1 second
+Phasing iteration 4:           2 seconds
+Phasing iteration 5:           1 second
+Phasing iteration 6:           1 second
+Phasing iteration 7:           2 seconds
+Phasing iteration 8:           1 second
+Phasing iteration 9:           1 second
+Phasing iteration 10:          1 second
+Phasing iteration 11:          2 seconds
+Phasing iteration 12:          1 second
+
+Window 2 [10:37604458-77960537]
+Study     markers:                  778
+
+Burnin  iteration 1:           1 second
+Burnin  iteration 2:           1 second
+Burnin  iteration 3:           1 second
+
+Estimated ne:                  301719
+Estimated err:                 5.8e-03
+
+Phasing iteration 1:           1 second
+Phasing iteration 2:           1 second
+Phasing iteration 3:           1 second
+Phasing iteration 4:           1 second
+Phasing iteration 5:           1 second
+Phasing iteration 6:           1 second
+Phasing iteration 7:           1 second
+Phasing iteration 8:           1 second
+Phasing iteration 9:           1 second
+Phasing iteration 10:          1 second
+Phasing iteration 11:          1 second
+Phasing iteration 12:          1 second
+
+Window 3 [10:75868145-116163447]
+Study     markers:                1,515
+
+Burnin  iteration 1:           2 seconds
+Burnin  iteration 2:           2 seconds
+Burnin  iteration 3:           2 seconds
+
+Estimated ne:                  591422
+Estimated err:                 6.0e-03
+
+Phasing iteration 1:           1 second
+Phasing iteration 2:           1 second
+Phasing iteration 3:           1 second
+Phasing iteration 4:           1 second
+Phasing iteration 5:           1 second
+Phasing iteration 6:           1 second
+Phasing iteration 7:           1 second
+Phasing iteration 8:           1 second
+Phasing iteration 9:           1 second
+Phasing iteration 10:          1 second
+Phasing iteration 11:          1 second
+Phasing iteration 12:          1 second
+
+Window 4 [10:114131171-138598166]
+Study     markers:                2,031
+
+Burnin  iteration 1:           2 seconds
+Burnin  iteration 2:           2 seconds
+Burnin  iteration 3:           2 seconds
+
+Estimated ne:                  1304355
+Estimated err:                 9.1e-03
+
+Phasing iteration 1:           2 seconds
+Phasing iteration 2:           2 seconds
+Phasing iteration 3:           2 seconds
+Phasing iteration 4:           2 seconds
+Phasing iteration 5:           2 seconds
+Phasing iteration 6:           2 seconds
+Phasing iteration 7:           2 seconds
+Phasing iteration 8:           2 seconds
+Phasing iteration 9:           1 second
+Phasing iteration 10:          1 second
+Phasing iteration 11:          2 seconds
+Phasing iteration 12:          1 second
+
+Cumulative Statistics:
+
+Study     markers:                5,872
+
+Haplotype phasing time:        1 minute 23 seconds
+Total time:                    1 minute 35 seconds
+
+End time: 04:39 PM EDT on 22 Mar 2025
+beagle.22Jul22.46e.jar finished

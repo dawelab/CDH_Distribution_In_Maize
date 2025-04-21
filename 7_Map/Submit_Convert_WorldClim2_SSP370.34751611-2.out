@@ -1,0 +1,9 @@
+working on file
+2
+wc2.1_30s_bioc_MIROC6_ssp370_2081.2100_10.tif
+Loading required package: sp
+[1] "##### Working of file wc2.1_30s_bioc_MIROC6_ssp370_2081.2100_10"
+Error in .startAsciiWriting(x, filename, ...) : 
+  /scratch/mjb51923/Ab10_Global_Survey/out/WorldClim2/ClimateData/SSP370/asc/wc2.1_30s_bioc_MIROC6_ssp370_2081.2100_10.asc exists. Use 'overwrite=TRUE'
+Calls: writeRaster ... writeStart -> writeStart -> .local -> .startAsciiWriting
+Execution halted

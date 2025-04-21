@@ -1,0 +1,201 @@
+To execute Beagle-5.4.22Jul22.46e run: java -jar ${EBROOTBEAGLE}/beagle.jar
+/var/lib/slurmd/job35848417/slurm_script: line 25: GWAS_Mo17_Bchr.chr.landrace.filt_chr5.vcf.gz: command not found
+############ working on chr4
+beagle.22Jul22.46e.jar (version 5.4)
+Copyright (C) 2014-2022 Brian L. Browning
+Enter "java -jar beagle.22Jul22.46e.jar" to list command line argument
+Start time: 08:47 PM EDT on 22 Mar 2025
+
+Command line: java -Xmx92160m -jar beagle.22Jul22.46e.jar
+  gt=/scratch/mjb51923/Ab10_Global_Survey/out/AlignGBS_HiFiAb10Corrected_v2/GWAS_Mo17_Bchr.chr.landrace.filt_chr4.vcf.gz
+  out=/scratch/mjb51923/Ab10_Global_Survey/out/AlignGBS_HiFiAb10Corrected_v2/GWAS_Mo17_Bchr.chr.landrace.filt_chr4.imputed
+  ne=1000
+  nthreads=24
+
+No genetic map is specified: using 1 cM = 1 Mb
+
+Reference samples:                    0
+Study     samples:                5,401
+
+Window 1 [4:371206-40292875]
+Study     markers:                1,199
+
+Burnin  iteration 1:           3 seconds
+Burnin  iteration 2:           2 seconds
+Burnin  iteration 3:           1 second
+
+Estimated ne:                  563746
+Estimated err:                 8.3e-03
+
+Phasing iteration 1:           1 second
+Phasing iteration 2:           1 second
+Phasing iteration 3:           1 second
+Phasing iteration 4:           1 second
+Phasing iteration 5:           1 second
+Phasing iteration 6:           1 second
+Phasing iteration 7:           1 second
+Phasing iteration 8:           1 second
+Phasing iteration 9:           1 second
+Phasing iteration 10:          1 second
+Phasing iteration 11:          1 second
+Phasing iteration 12:          1 second
+
+Window 2 [4:37970458-78026197]
+Study     markers:                  514
+
+Burnin  iteration 1:           1 second
+Burnin  iteration 2:           0 seconds
+Burnin  iteration 3:           0 seconds
+
+Estimated ne:                  232759
+Estimated err:                 4.6e-03
+
+Phasing iteration 1:           0 seconds
+Phasing iteration 2:           0 seconds
+Phasing iteration 3:           0 seconds
+Phasing iteration 4:           0 seconds
+Phasing iteration 5:           0 seconds
+Phasing iteration 6:           0 seconds
+Phasing iteration 7:           0 seconds
+Phasing iteration 8:           0 seconds
+Phasing iteration 9:           0 seconds
+Phasing iteration 10:          0 seconds
+Phasing iteration 11:          0 seconds
+Phasing iteration 12:          0 seconds
+
+Window 3 [4:75708348-115477124]
+Study     markers:                  240
+
+Burnin  iteration 1:           0 seconds
+Burnin  iteration 2:           0 seconds
+Burnin  iteration 3:           0 seconds
+
+Estimated ne:                  103034
+Estimated err:                 5.0e-03
+
+Phasing iteration 1:           0 seconds
+Phasing iteration 2:           0 seconds
+Phasing iteration 3:           0 seconds
+Phasing iteration 4:           0 seconds
+Phasing iteration 5:           0 seconds
+Phasing iteration 6:           0 seconds
+Phasing iteration 7:           0 seconds
+Phasing iteration 8:           0 seconds
+Phasing iteration 9:           0 seconds
+Phasing iteration 10:          0 seconds
+Phasing iteration 11:          0 seconds
+Phasing iteration 12:          0 seconds
+
+Window 4 [4:107137438-154335862]
+Study     markers:                  417
+
+Burnin  iteration 1:           0 seconds
+Burnin  iteration 2:           0 seconds
+Burnin  iteration 3:           0 seconds
+
+Estimated ne:                  149788
+Estimated err:                 5.1e-03
+
+Phasing iteration 1:           0 seconds
+Phasing iteration 2:           0 seconds
+Phasing iteration 3:           0 seconds
+Phasing iteration 4:           0 seconds
+Phasing iteration 5:           0 seconds
+Phasing iteration 6:           0 seconds
+Phasing iteration 7:           0 seconds
+Phasing iteration 8:           0 seconds
+Phasing iteration 9:           0 seconds
+Phasing iteration 10:          0 seconds
+Phasing iteration 11:          0 seconds
+Phasing iteration 12:          0 seconds
+
+Window 5 [4:152091267-192343199]
+Study     markers:                1,460
+
+Burnin  iteration 1:           2 seconds
+Burnin  iteration 2:           1 second
+Burnin  iteration 3:           1 second
+
+Estimated ne:                  604474
+Estimated err:                 6.1e-03
+
+Phasing iteration 1:           1 second
+Phasing iteration 2:           1 second
+Phasing iteration 3:           1 second
+Phasing iteration 4:           1 second
+Phasing iteration 5:           1 second
+Phasing iteration 6:           1 second
+Phasing iteration 7:           1 second
+Phasing iteration 8:           1 second
+Phasing iteration 9:           1 second
+Phasing iteration 10:          1 second
+Phasing iteration 11:          1 second
+Phasing iteration 12:          1 second
+
+Window 6 [4:190293276-230353772]
+Study     markers:                1,100
+
+Burnin  iteration 1:           1 second
+Burnin  iteration 2:           1 second
+Burnin  iteration 3:           1 second
+
+Estimated ne:                  517008
+Estimated err:                 6.2e-03
+
+Phasing iteration 1:           1 second
+Phasing iteration 2:           1 second
+Phasing iteration 3:           1 second
+Phasing iteration 4:           1 second
+Phasing iteration 5:           1 second
+Phasing iteration 6:           1 second
+Phasing iteration 7:           1 second
+Phasing iteration 8:           1 second
+Phasing iteration 9:           1 second
+Phasing iteration 10:          1 second
+Phasing iteration 11:          1 second
+Phasing iteration 12:          1 second
+
+Window 7 [4:228298195-250478222]
+Study     markers:                  917
+
+Burnin  iteration 1:           1 second
+Burnin  iteration 2:           1 second
+Burnin  iteration 3:           1 second
+
+Estimated ne:                  807098
+Estimated err:                 8.9e-03
+
+Phasing iteration 1:           1 second
+Phasing iteration 2:           1 second
+Phasing iteration 3:           1 second
+Phasing iteration 4:           1 second
+Phasing iteration 5:           1 second
+Phasing iteration 6:           1 second
+Phasing iteration 7:           1 second
+Phasing iteration 8:           1 second
+Phasing iteration 9:           1 second
+Phasing iteration 10:          1 second
+Phasing iteration 11:          1 second
+Phasing iteration 12:          1 second
+
+Cumulative Statistics:
+
+Study     markers:                5,629
+
+Haplotype phasing time:        1 minute 8 seconds
+Total time:                    1 minute 23 seconds
+
+End time: 08:48 PM EDT on 22 Mar 2025
+beagle.22Jul22.46e.jar finished
+[W::vcf_parse] Contig '4' is not defined in the header. (Quick workaround: index the file with tabix.)
+Checking the headers and starting positions of 10 files
+Concatenating /scratch/mjb51923/Ab10_Global_Survey/out/AlignGBS_HiFiAb10Corrected_v2/GWAS_Mo17_Bchr.chr.landrace.filt_chr1.imputed.filt.vcf.gz	0.002065 seconds
+Concatenating /scratch/mjb51923/Ab10_Global_Survey/out/AlignGBS_HiFiAb10Corrected_v2/GWAS_Mo17_Bchr.chr.landrace.filt_chr10.imputed.filt.vcf.gz	0.001894 seconds
+Concatenating /scratch/mjb51923/Ab10_Global_Survey/out/AlignGBS_HiFiAb10Corrected_v2/GWAS_Mo17_Bchr.chr.landrace.filt_chr2.imputed.filt.vcf.gz	0.001835 seconds
+Concatenating /scratch/mjb51923/Ab10_Global_Survey/out/AlignGBS_HiFiAb10Corrected_v2/GWAS_Mo17_Bchr.chr.landrace.filt_chr3.imputed.filt.vcf.gz	0.002092 seconds
+Concatenating /scratch/mjb51923/Ab10_Global_Survey/out/AlignGBS_HiFiAb10Corrected_v2/GWAS_Mo17_Bchr.chr.landrace.filt_chr4.imputed.filt.vcf.gz	0.001721 seconds
+Concatenating /scratch/mjb51923/Ab10_Global_Survey/out/AlignGBS_HiFiAb10Corrected_v2/GWAS_Mo17_Bchr.chr.landrace.filt_chr5.imputed.filt.vcf.gz	0.002322 seconds
+Concatenating /scratch/mjb51923/Ab10_Global_Survey/out/AlignGBS_HiFiAb10Corrected_v2/GWAS_Mo17_Bchr.chr.landrace.filt_chr6.imputed.filt.vcf.gz	0.002043 seconds
+Concatenating /scratch/mjb51923/Ab10_Global_Survey/out/AlignGBS_HiFiAb10Corrected_v2/GWAS_Mo17_Bchr.chr.landrace.filt_chr7.imputed.filt.vcf.gz	0.002118 seconds
+Concatenating /scratch/mjb51923/Ab10_Global_Survey/out/AlignGBS_HiFiAb10Corrected_v2/GWAS_Mo17_Bchr.chr.landrace.filt_chr8.imputed.filt.vcf.gz	0.002308 seconds
+Concatenating /scratch/mjb51923/Ab10_Global_Survey/out/AlignGBS_HiFiAb10Corrected_v2/GWAS_Mo17_Bchr.chr.landrace.filt_chr9.imputed.filt.vcf.gz	0.002095 seconds

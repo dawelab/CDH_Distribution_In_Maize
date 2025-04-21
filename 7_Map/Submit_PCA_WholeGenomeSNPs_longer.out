@@ -1,0 +1,38 @@
+
+   *****       ***   vcfR   ***       *****
+   This is vcfR 1.15.0 
+     browseVignettes('vcfR') # Documentation
+     citation('vcfR') # Citation
+   *****       *****      *****       *****
+
+Scanning file to determine attributes.
+File attributes:
+  meta lines: 26
+  header_line: 27
+  variant count: 46246
+  column count: 4455
+Meta line 26 read in.
+All meta lines processed.
+gt matrix initialized.
+Character matrix gt created.
+  Character matrix gt rows: 46246
+  Character matrix gt cols: 4455
+  skip: 0
+  nrows: 46246
+  row_num: 0
+Processed variant 1000Processed variant 2000Processed variant 3000Processed variant 4000Processed variant 5000Processed variant 6000Processed variant 7000Processed variant 8000Processed variant 9000Processed variant 10000Processed variant 11000Processed variant 12000Processed variant 13000Processed variant 14000Processed variant 15000Processed variant 16000Processed variant 17000Processed variant 18000Processed variant 19000Processed variant 20000Processed variant 21000Processed variant 22000Processed variant 23000Processed variant 24000Processed variant 25000Processed variant 26000Processed variant 27000Processed variant 28000Processed variant 29000Processed variant 30000Processed variant 31000Processed variant 32000Processed variant 33000Processed variant 34000Processed variant 35000Processed variant 36000Processed variant 37000Processed variant 38000Processed variant 39000Processed variant 40000Processed variant 41000Processed variant 42000Processed variant 43000Processed variant 44000Processed variant 45000Processed variant 46000Processed variant: 46246
+All variants processed
+[1] "#####Extracting genotypes"
+[1] "#####Converting genotypes to additive coding"
+[1] "#####Transposing data"
+[1] "#####Creating distance matrix"
+Warning message:
+In dist(for_PCA) : NAs introduced by coercion
+[1] "#####Performing PCA"
+[1] "#####Making scree plot"
+null device 
+          1 
+[1] "#####Converting PCA output to a data frame"
+Error in c("PC1", "PC2", "PC3", "PC4", "PC5", "PC6", "PC7", "PC8", "PC9",  : 
+  argument 11 is empty
+Execution halted

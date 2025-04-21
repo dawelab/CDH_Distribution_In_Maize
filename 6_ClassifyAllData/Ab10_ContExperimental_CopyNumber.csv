@@ -1,0 +1,473 @@
+Name,Mean,Copy,Data_Source,Accession,Group,Maize_Type,Ab10_Status,B_Chrom_Status,Latitude,Longitude,Altitude,DTA_BLUP,DTS_BLUP,PH_BLUP,PresTiller_BLUP,KMeans_Ab10,RF_Ab10Type,KMeans_K10L2,KMeans_BChrom,Model,CDH
+Ab10-I-Jal_het.1.DC2,0.0186496523459766,1,Dawe_Lab_2,NA,NA,Landrace,Ab10-I,No,NA,NA,NA,NA,NA,NA,NA,NA,Ambiguous,NA,NA,NA,Ab10
+Ab10-I-Jal_het.2.DC2,0.0188766950663012,1,Dawe_Lab_2,NA,NA,Landrace,Ab10-I,No,NA,NA,NA,NA,NA,NA,NA,NA,Ambiguous,NA,NA,NA,Ab10
+Ab10-I-Jal_het.3.DC2,0.0197672516474042,1,Dawe_Lab_2,NA,NA,Landrace,Ab10-I,No,NA,NA,NA,NA,NA,NA,NA,NA,Ambiguous,NA,NA,NA,Ab10
+Ab10-I-Jal_het.4.DC2,0.0193361728295546,1,Dawe_Lab_2,NA,NA,Landrace,Ab10-I,No,NA,NA,NA,NA,NA,NA,NA,NA,Ambiguous,NA,NA,NA,Ab10
+Ab10-I-Jal_het.5.DC2,0.0180871529017153,1,Dawe_Lab_2,NA,NA,Landrace,Ab10-I,No,NA,NA,NA,NA,NA,NA,NA,NA,Ambiguous,NA,NA,NA,Ab10
+Ab10-I-MMR_het.1.DC2,0.0223376559484989,1,Dawe_Lab_2,NA,NA,Landrace,Ab10-I,No,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,Ab10
+Ab10-I-MMR_het.2.DC2,0.0216483593666615,1,Dawe_Lab_2,NA,NA,Landrace,Ab10-I,No,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,Ab10
+Ab10-I-MMR_het.3.DC2,0.0218363940278869,1,Dawe_Lab_2,NA,NA,Landrace,Ab10-I,No,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,Ab10
+Ab10-I-MMR_het.4.DC2,0.0228356260006929,1,Dawe_Lab_2,NA,NA,Landrace,Ab10-I,No,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,Ab10
+Ab10-I-MMR_het.5.DC2,0.0203391130481614,1,Dawe_Lab_2,NA,NA,Landrace,Ab10-I,No,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,Ab10
+Ab10-II-MMR_het.1.DC2,0.0189350312687105,1,Dawe_Lab_2,NA,NA,Landrace,Ab10-II,No,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,Ab10
+Ab10-II-MMR_het.2.DC2,0.0186212262322401,1,Dawe_Lab_2,NA,NA,Landrace,Ab10-II,No,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,Ab10
+Ab10-II-MMR_het.3.DC2,0.0184395129721144,1,Dawe_Lab_2,NA,NA,Landrace,Ab10-II,No,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,Ab10
+Ab10-II-MMR_het.4.DC2,0.0188785507069073,1,Dawe_Lab_2,NA,NA,Landrace,Ab10-II,No,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,Ab10
+Ab10-II-MMR_het.5.DC2,0.0186533302197319,1,Dawe_Lab_2,NA,NA,Landrace,Ab10-II,No,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,Ab10
+Ab10-II-Sal_het.1.DC2,0.0201297709761197,1,Dawe_Lab_2,NA,NA,Landrace,Ab10-II,No,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,Ab10
+Ab10-II-Sal_het.2.DC2,0.0194045095589805,1,Dawe_Lab_2,NA,NA,Landrace,Ab10-II,No,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,Ab10
+Ab10-II-Sal_het.3.DC2,0.0203267387432724,1,Dawe_Lab_2,NA,NA,Landrace,Ab10-II,No,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,Ab10
+Ab10-II-Sal_het.4.DC2,0.020429660123021,1,Dawe_Lab_2,NA,NA,Landrace,Ab10-II,No,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,Ab10
+Ab10-II-Sal_het.5.DC2,0.0203724605492732,1,Dawe_Lab_2,NA,NA,Landrace,Ab10-II,No,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,Ab10
+Ab10-II-Tel_het.1.DC2,0.02167643206018,1,Dawe_Lab_2,NA,NA,Landrace,Ab10-II,No,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,Ab10
+Ab10-II-Tel_het.2.DC2,0.0204926054604864,1,Dawe_Lab_2,NA,NA,Landrace,Ab10-II,No,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,Ab10
+Ab10-II-Tel_het.3.DC2,0.0204127380564076,1,Dawe_Lab_2,NA,NA,Landrace,Ab10-II,No,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,Ab10
+Ab10-II-Tel_het.4.DC2,0.0188536653466333,1,Dawe_Lab_2,NA,NA,Landrace,Ab10-II,No,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,Ab10
+Ab10-II-Tel_het.5.DC2,0.018971212549363,1,Dawe_Lab_2,NA,NA,Landrace,Ab10-II,No,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,Ab10
+Ab10-III-Cag_het.1.DC2,0.0212711019165094,1,Dawe_Lab_2,NA,NA,Landrace,Ab10-III,No,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,Ab10
+Ab10-III-Cag_het.2.DC2,0.0229160937827131,1,Dawe_Lab_2,NA,NA,Landrace,Ab10-III,No,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,Ab10
+Ab10-III-Cag_het.3.DC2,0.0220093100632083,1,Dawe_Lab_2,NA,NA,Landrace,Ab10-III,No,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,Ab10
+Ab10-III-Cag_het.4.DC2,0.0218014674933899,1,Dawe_Lab_2,NA,NA,Landrace,Ab10-III,No,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,Ab10
+Ab10-III-Cag_het.5.DC2,0.0217303649871358,1,Dawe_Lab_2,NA,NA,Landrace,Ab10-III,No,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,Ab10
+Ab10-III-Gva_het.1.DC2,0.0217158172044799,1,Dawe_Lab_2,NA,NA,Landrace,Ab10-III,No,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,Ab10
+Ab10-III-Gva_het.2.DC2,0.0224427225985605,1,Dawe_Lab_2,NA,NA,Landrace,Ab10-III,No,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,Ab10
+Ab10-III-Gva_het.3.DC2,0.0209599838383058,1,Dawe_Lab_2,NA,NA,Landrace,Ab10-III,No,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,Ab10
+Ab10-III-Gva_het.4.DC2,0.0217177640932278,1,Dawe_Lab_2,NA,NA,Landrace,Ab10-III,No,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,Ab10
+Ab10-III-Gva_het.5.DC2,0.0230948926334171,1,Dawe_Lab_2,NA,NA,Landrace,Ab10-III,No,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,Ab10
+Ab10-III-Hui_het.1.DC2,0.0192661160255406,1,Dawe_Lab_2,NA,NA,Landrace,Ab10-III,No,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,Ab10
+Ab10-III-Hui_het.2.DC2,0.0201976734218494,1,Dawe_Lab_2,NA,NA,Landrace,Ab10-III,No,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,Ab10
+Ab10-III-Hui_het.3.DC2,0.0196122302507396,1,Dawe_Lab_2,NA,NA,Landrace,Ab10-III,No,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,Ab10
+Ab10-III-Hui_het.4.DC2,0.0179326465076738,1,Dawe_Lab_2,NA,NA,Landrace,Ab10-III,No,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,Ab10
+Ab10-III-Hui_het.5.DC2,0.0208450110860813,1,Dawe_Lab_2,NA,NA,Landrace,Ab10-III,No,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,Ab10
+Ab10-III-Oax_het.1.DC2,0.0201263582558751,1,Dawe_Lab_2,NA,NA,Landrace,Ab10-III,No,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,Ab10
+Ab10-III-Oax_het.2.DC2,0.0215807328771178,1,Dawe_Lab_2,NA,NA,Landrace,Ab10-III,No,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,Ab10
+Ab10-III-Oax_het.3.DC2,0.0201330687234151,1,Dawe_Lab_2,NA,NA,Landrace,Ab10-III,No,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,Ab10
+Ab10-III-Oax_het.4.DC2,0.0205428734226243,1,Dawe_Lab_2,NA,NA,Landrace,Ab10-III,No,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,Ab10
+Ab10-III-Oax_het.5.DC2,0.021002992032138,1,Dawe_Lab_2,NA,NA,Landrace,Ab10-III,No,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,Ab10
+B542C_L289_B-Chrom.1.DC2,0.00612258450858882,0,Dawe_Lab_2,NA,NA,Inbred,N10,Yes,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,Ab10
+B542C_L289_B-Chrom.2.DC2,0.00693390276655705,0,Dawe_Lab_2,NA,NA,Landrace,N10,Yes,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,Ab10
+B542C_L289_B-Chrom.3.DC2,0.00664076781287591,0,Dawe_Lab_2,NA,NA,Landrace,N10,Yes,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,Ab10
+B542C_L289_B-Chrom.4.DC2,0.00661740600342098,0,Dawe_Lab_2,NA,NA,Landrace,N10,Yes,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,Ab10
+B542C_L289.1.DC2,0.00604779897501631,0,Dawe_Lab_2,NA,NA,Landrace,N10,No,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,Ab10
+B542C_L289.2.DC2,0.00672961596441801,0,Dawe_Lab_2,NA,NA,Landrace,N10,No,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,Ab10
+B542C_L289.3.DC2,0.00655985058814566,0,Dawe_Lab_2,NA,NA,Landrace,N10,No,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,Ab10
+FFMM_Ab10-I_hom.1.DC2,0.0460993715704837,2,Dawe_Lab_2,NA,NA,Inbred,Ab10-I,No,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,Ab10
+FFMM_Ab10-I_hom.2.DC2,0.0411536865724213,2,Dawe_Lab_2,NA,NA,Inbred,Ab10-I,No,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,Ab10
+FFMM_Ab10-I_hom.3.DC2,0.0420126337544436,2,Dawe_Lab_2,NA,NA,Inbred,Ab10-I,No,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,Ab10
+FFMM_B-Chrom.1.DC2,0.00664821013752951,0,Dawe_Lab_2,NA,NA,Inbred,N10,Yes,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,Ab10
+FFMM_B-Chrom.2.DC2,0.00673592807825708,0,Dawe_Lab_2,NA,NA,Inbred,N10,Yes,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,Ab10
+FFMM_B-Chrom.3.DC2,0.0065917990716555,0,Dawe_Lab_2,NA,NA,Inbred,N10,Yes,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,Ab10
+FFMM_B-Chrom.4.DC2,0.0065665576425577,0,Dawe_Lab_2,NA,NA,Inbred,N10,Yes,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,Ab10
+FFMM.1.DC2,0.0071031618724933,0,Dawe_Lab_2,NA,NA,Inbred,N10,No,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,Ab10
+FFMM.2.DC2,0.00634650944313243,0,Dawe_Lab_2,NA,NA,Inbred,N10,No,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,Ab10
+FFMM.3.DC2,0.00616421561307539,0,Dawe_Lab_2,NA,NA,Inbred,N10,No,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,Ab10
+NSL-2833_B-Chrom.1.DC2,0.00506020819856792,0,Dawe_Lab_2,NA,NA,Landrace,N10,Yes,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,Ab10
+NSL-2833_B-Chrom.2.DC2,0.00607507475517726,0,Dawe_Lab_2,NA,NA,Landrace,N10,Yes,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,Ab10
+NSL-2833_B-Chrom.3.DC2,0.0051945310251385,0,Dawe_Lab_2,NA,NA,Landrace,N10,Yes,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,Ab10
+NSL-2843_B-Chrom.1.DC2,0.00679928671062345,0,Dawe_Lab_2,NA,NA,Landrace,N10,Yes,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,Ab10
+PI-217409.1.DC2,0.00571304867016519,0,Dawe_Lab_2,NA,NA,Landrace,N10,No,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,Ab10
+PI-217409.2.DC2,0.00532350428130438,0,Dawe_Lab_2,NA,NA,Landrace,N10,No,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,Ab10
+PI-217409.3.DC2,0.00515076368926377,0,Dawe_Lab_2,NA,NA,Landrace,N10,No,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,Ab10
+PI-444954.1.DC2,0.00475903691468792,0,Dawe_Lab_2,NA,NA,Landrace,N10,No,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,Ab10
+PI-444954.2.DC2,0.00521660609660475,0,Dawe_Lab_2,NA,NA,Landrace,N10,No,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,Ab10
+PI-444954.3.DC2,0.00537524118181308,0,Dawe_Lab_2,NA,NA,Landrace,N10,No,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,Ab10
+PI-490921_B-Chrom.1.DC2,0.00505713358984794,0,Dawe_Lab_2,NA,NA,Landrace,N10,Yes,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,Ab10
+PI-490921_B-Chrom.2.DC2,0.00487132040373438,0,Dawe_Lab_2,NA,NA,Landrace,N10,Yes,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,Ab10
+PI-490921_B-Chrom.3.DC2,0.00587517237725208,0,Dawe_Lab_2,NA,NA,Landrace,N10,Yes,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,Ab10
+W23_N10.1.DC2,0.00427661700222598,0,Dawe_Lab_2,NA,NA,Inbred,N10,No,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,Ab10
+W23_N10.2.DC2,0.00528681798493504,0,Dawe_Lab_2,NA,NA,Inbred,N10,No,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,Ab10
+W23_N10.3.DC2,0.00474963934971337,0,Dawe_Lab_2,NA,NA,Inbred,N10,No,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,Ab10
+12S001301.RN,0.0180566695861022,Experimental,Romero-Navarro_etal_2017,NA,NA,Landrace,Unknown,Unknown,NA,NA,NA,NA,NA,NA,NA,Ab10,Ambiguous,NA,Yes,High,Ab10
+12S001301.SW,0.0221373327691925,Experimental,Swarts_etal_2017,Ames_22643:Hopi,US - Puebloan (West),Landrace,Unknown,Unknown,35.7833,-110.5035,1727,NA,NA,NA,NA,Ab10,Ambiguous,NA,Yes,High,Ab10
+12S003301.SW,0.0204008942687766,Experimental,Swarts_etal_2017,NSL_68330:Hopi,US - Puebloan (West),Landrace,Unknown,Unknown,35.7833,-110.5035,1727,NA,NA,NA,NA,Ab10,Ambiguous,NA,No,Neither,Ab10
+12S004501.SW,0.0382699661759207,Experimental,Swarts_etal_2017,NSL_68332:Hopi,US - Puebloan (West),Landrace,Unknown,Unknown,35.7833,-110.5035,1727,NA,NA,NA,NA,Ab10,Ab10-I,NA,No,Neither,Ab10
+12S004801.SW,0.0215400167309025,Experimental,Swarts_etal_2017,NSL_68332:Hopi,US - Puebloan (West),Landrace,Unknown,Unknown,35.7833,-110.5035,1727,NA,NA,NA,NA,Ab10,Ab10-I,NA,No,Neither,Ab10
+12S009801.SW,0.0216498575499601,Experimental,Swarts_etal_2017,PI_218131:Cochiti,US - Puebloan (East),Landrace,Unknown,Unknown,35.608,-106.347,1606,NA,NA,NA,NA,Ab10,Ambiguous,NA,No,Neither,Ab10
+12S019401.SW,0.0214118659292965,Experimental,Swarts_etal_2017,PI_218156:Santo_Domingo,US - Puebloan (East),Landrace,Unknown,Unknown,35.3052,-106.2148,1581,NA,NA,NA,NA,Ab10,Ambiguous,NA,No,Neither,Ab10
+12S019801.SW,0.0390238267065321,Experimental,Swarts_etal_2017,PI_218156:Santo_Domingo,US - Puebloan (East),Landrace,Unknown,Unknown,35.3052,-106.2148,1581,NA,NA,NA,NA,Ab10,Ab10-I,NA,No,Neither,Ab10
+12S020001.SW,0.0209794684604676,Experimental,Swarts_etal_2017,PI_218156:Santo_Domingo,US - Puebloan (East),Landrace,Unknown,Unknown,35.3052,-106.2148,1581,NA,NA,NA,NA,Ab10,Ambiguous,NA,No,Neither,Ab10
+12S020401.SW,0.0211823485255353,Experimental,Swarts_etal_2017,PI_218156:Santo_Domingo,US - Puebloan (East),Landrace,Unknown,Unknown,35.3052,-106.2148,1581,NA,NA,NA,NA,Ab10,Ambiguous,NA,No,Neither,Ab10
+12S022301.SW,0.0204288773656982,Experimental,Swarts_etal_2017,PI_218159:Zia,US - Puebloan (East),Landrace,Unknown,Unknown,35.3013,-106.4324,1668,NA,NA,NA,NA,Ab10,Ambiguous,NA,No,Neither,Ab10
+12S022401.SW,0.0214609253004286,Experimental,Swarts_etal_2017,PI_218159:Zia,US - Puebloan (East),Landrace,Unknown,Unknown,35.3013,-106.4324,1668,NA,NA,NA,NA,Ab10,Ambiguous,NA,No,Neither,Ab10
+12S022701.SW,0.0206173029524446,Experimental,Swarts_etal_2017,PI_218159:Zia,US - Puebloan (East),Landrace,Unknown,Unknown,35.3013,-106.4324,1668,NA,NA,NA,NA,Ab10,Ambiguous,NA,No,Neither,Ab10
+12S023401.SW,0.0216072574443937,Experimental,Swarts_etal_2017,PI_218159:Zia,US - Puebloan (East),Landrace,Unknown,Unknown,35.3013,-106.4324,1668,NA,NA,NA,NA,Ab10,Ambiguous,NA,No,Neither,Ab10
+12S025401.SW,0.0211947080839465,Experimental,Swarts_etal_2017,PI_218167:Acoma,US - Puebloan (East),Landrace,Unknown,Unknown,34.8964,-107.5817,2002,NA,NA,NA,NA,Ab10,Ambiguous,NA,Yes,Low,Ab10
+12S026701.SW,0.0423605725729693,Experimental,Swarts_etal_2017,PI_218168:Acoma,US - Puebloan (East),Landrace,Unknown,Unknown,34.8964,-107.5817,2002,NA,NA,NA,NA,Ab10,Ab10-I,NA,Yes,Low,Ab10
+12S027201.SW,0.021493106311648,Experimental,Swarts_etal_2017,PI_218168:Acoma,US - Puebloan (East),Landrace,Unknown,Unknown,34.8964,-107.5817,2002,NA,NA,NA,NA,Ab10,Ambiguous,NA,Yes,High,Ab10
+12S033601.SW,0.0396723652439757,Experimental,Swarts_etal_2017,PI_317678:Havasupai,US - Puebloan (West),Landrace,Unknown,Unknown,36.1324,-112.4138,963,NA,NA,NA,NA,Ab10,Ambiguous,NA,No,Neither,Ab10
+12S034301.SW,0.0214998446719203,Experimental,Swarts_etal_2017,PI_317678:Havasupai,US - Puebloan (West),Landrace,Unknown,Unknown,36.1324,-112.4138,963,NA,NA,NA,NA,Ab10,Ambiguous,NA,No,Neither,Ab10
+12S034401.SW,0.0388569759660365,Experimental,Swarts_etal_2017,PI_317678:Havasupai,US - Puebloan (West),Landrace,Unknown,Unknown,36.1324,-112.4138,963,NA,NA,NA,NA,Ab10,Ambiguous,NA,No,Neither,Ab10
+12S034601.SW,0.0198702259542902,Experimental,Swarts_etal_2017,PI_317678:Havasupai,US - Puebloan (West),Landrace,Unknown,Unknown,36.1324,-112.4138,963,NA,NA,NA,NA,Ab10,Ambiguous,NA,No,Neither,Ab10
+12S037001.SW,0.0212539604534893,Experimental,Swarts_etal_2017,PI_420248:Hopi,US - Puebloan (West),Landrace,Unknown,Unknown,35.7833,-110.5035,1727,NA,NA,NA,NA,Ab10,Ambiguous,NA,No,Neither,Ab10
+12S037301.SW,0.021665113633228,Experimental,Swarts_etal_2017,PI_420248:Hopi,US - Puebloan (West),Landrace,Unknown,Unknown,35.7833,-110.5035,1727,NA,NA,NA,NA,Ab10,Ambiguous,NA,No,Neither,Ab10
+12S037401.SW,0.0218211064160425,Experimental,Swarts_etal_2017,PI_420248:Hopi,US - Puebloan (West),Landrace,Unknown,Unknown,35.7833,-110.5035,1727,NA,NA,NA,NA,Ab10,Ambiguous,NA,No,Neither,Ab10
+12S037501.SW,0.0369431667324724,Experimental,Swarts_etal_2017,PI_420248:Hopi,US - Puebloan (West),Landrace,Unknown,Unknown,35.7833,-110.5035,1727,NA,NA,NA,NA,Ab10,Ambiguous,NA,No,Neither,Ab10
+13S002401.SW,0.0227774401070949,Experimental,Swarts_etal_2017,ZM02-178:Acomita_Blue,US - Puebloan (East),Landrace,Unknown,Unknown,35,-108,2012,NA,NA,NA,NA,Ab10,Ambiguous,NA,Yes,High,Ab10
+13S002402.SW,0.0242933334641996,Experimental,Swarts_etal_2017,ZM02-178:Acomita_Blue,US - Puebloan (East),Landrace,Unknown,Unknown,35,-108,2012,NA,NA,NA,NA,Ab10,Ambiguous,NA,Yes,Low,Ab10
+13S002406.SW,0.0246164297509511,Experimental,Swarts_etal_2017,ZM02-178:Acomita_Blue,US - Puebloan (East),Landrace,Unknown,Unknown,35,-108,2012,NA,NA,NA,NA,Ab10,Ambiguous,NA,Yes,Low,Ab10
+13S002704.SW,0.0220024795239824,Experimental,Swarts_etal_2017,ZM02-130:Velarde_Azul_y_Blanco,US - Puebloan (East),Landrace,Unknown,Unknown,36,-106,1676,NA,NA,NA,NA,Ab10,Ambiguous,NA,No,Neither,Ab10
+13S003901.SW,0.0207673505316474,Experimental,Swarts_etal_2017,ZM03-004:PresidioTX,US - Texas Low,Landrace,Unknown,Unknown,29.55521,-104.3683,787,NA,NA,NA,NA,Ab10,Ambiguous,NA,No,Neither,Ab10
+13S003904.SW,0.0199250383504006,Experimental,Swarts_etal_2017,ZM03-004:PresidioTX,US - Texas Low,Landrace,Unknown,Unknown,29.55521,-104.3683,787,NA,NA,NA,NA,Ab10,Ambiguous,NA,No,Neither,Ab10
+13S003905.SW,0.0377882458896826,Experimental,Swarts_etal_2017,ZM03-004:PresidioTX,US - Texas Low,Landrace,Unknown,Unknown,29.55521,-104.3683,787,NA,NA,NA,NA,Ab10,Ambiguous,NA,No,Neither,Ab10
+13S005405.SW,0.0218323788688107,Experimental,Swarts_etal_2017,ZM02-114:Santo_Domingo_Posole,US - Puebloan (East),Landrace,Unknown,Unknown,35.3052,-106.2148,1581,67.46486,69.39098,256.3585,-0.0108,Ab10,Ab10-III,NA,No,Neither,Ab10
+13S006401.SW,0.0217256437190779,Experimental,Swarts_etal_2017,ZM02-146:Hopi_Kokoma,US - Puebloan (West),Landrace,Unknown,Unknown,36,-110,1737,NA,NA,NA,NA,Ab10,Ambiguous,NA,No,Neither,Ab10
+13S006403.SW,0.0221741082477876,Experimental,Swarts_etal_2017,ZM02-146:Hopi_Kokoma,US - Puebloan (West),Landrace,Unknown,Unknown,36,-110,1737,68.67737,67.29283,203.2673,0.0661,Ab10,Ambiguous,NA,No,Neither,Ab10
+13S007208.SW,0.0216762454910065,Experimental,Swarts_etal_2017,ZM01-009:Gila_Pima_Aal_Hun,US - Desert SW,Landrace,Unknown,Unknown,33.04,-112.02,396,NA,NA,NA,NA,Ab10,Ambiguous,NA,No,Neither,Ab10
+13S008304.SW,0.0207376131180988,Experimental,Swarts_etal_2017,ZM02-171:San_Felipe_Red/Chinmark,US - Puebloan (East),Landrace,Unknown,Unknown,35.434,-106.446,1585,NA,NA,NA,NA,Ab10,Ambiguous,NA,No,Neither,Ab10
+13S008306.SW,0.0201563628431861,Experimental,Swarts_etal_2017,ZM02-171:San_Felipe_Red/Chinmark,US - Puebloan (East),Landrace,Unknown,Unknown,35.434,-106.446,1585,NA,NA,NA,NA,Ab10,Ambiguous,NA,No,Neither,Ab10
+13S008409.SW,0.021768135304593,Experimental,Swarts_etal_2017,ZM02-131:Santo_Domingo_Rainbow,US - Puebloan (East),Landrace,Unknown,Unknown,35.515,-106.365,1585,NA,NA,NA,NA,Ab10,Ab10-I,NA,No,Neither,Ab10
+13S008503.SW,0.0198675162228788,Experimental,Swarts_etal_2017,ZM02-021:San_Felipe_Pueblo_Blue,US - Puebloan (East),Landrace,Unknown,Unknown,35.43392,-106.4467,1564,67.92634,68.46907,224.5278,-0.0621,Ab10,Ambiguous,NA,No,Neither,Ab10
+13S008507.SW,0.0196173543113354,Experimental,Swarts_etal_2017,ZM02-021:San_Felipe_Pueblo_Blue,US - Puebloan (East),Landrace,Unknown,Unknown,35.43392,-106.4467,1564,NA,NA,NA,NA,Ab10,Ambiguous,NA,No,Neither,Ab10
+13S009809.SW,0.0208583921223145,Experimental,Swarts_etal_2017,ZM15-003:Mountain_Pima_Maiz_Azul,N. Mexico Mid,Landrace,Unknown,Unknown,28.39368,-108.6627,1500,NA,NA,NA,NA,Ab10,Ambiguous,NA,No,Neither,Ab10
+13S022611.SW,0.0352715533341492,Experimental,Swarts_etal_2017,ZM02-114:Santo_Domingo_Posole,US - Puebloan (East),Landrace,Unknown,Unknown,35.3052,-106.2148,1581,71.23225,73.95807,267.2626,-0.2352552,Ab10,Ambiguous,NA,No,Neither,Ab10
+13S024101.SW,0.0222126890981548,Experimental,Swarts_etal_2017,ZM02-178:Acomita_Blue,US - Puebloan (East),Landrace,Unknown,Unknown,35,-108,2012,66.67762,69.40563,230.6408,0.0529,Ab10,Ab10-I,NA,Yes,High,Ab10
+13S024307.SW,0.0206051452208477,Experimental,Swarts_etal_2017,ZM02-021:San_Felipe_Pueblo_Blue,US - Puebloan (East),Landrace,Unknown,Unknown,35.43392,-106.4467,1564,NA,NA,NA,NA,Ab10,Ambiguous,NA,No,Neither,Ab10
+13S026002.SW,0.0202304742614784,Experimental,Swarts_etal_2017,ZM03-004:PresidioTX,US - Texas Low,Landrace,Unknown,Unknown,29.55521,-104.3683,787,69.91151,71.96994,243.3246,-0.1375759,Ab10,Ambiguous,NA,No,Neither,Ab10
+13S026004.SW,0.0354463812239718,Experimental,Swarts_etal_2017,ZM03-004:PresidioTX,US - Texas Low,Landrace,Unknown,Unknown,29.55521,-104.3683,787,70.27458,70.11932,259.3613,-0.1877335,Ab10,Ambiguous,NA,No,Neither,Ab10
+13S027802.SW,0.021086270580802,Experimental,Swarts_etal_2017,ZM02-151:Navajo_White,US - Athabaskan,Landrace,Unknown,Unknown,36.08,-110.67,1850,NA,NA,NA,NA,Ab10,Ambiguous,NA,No,Neither,Ab10
+13S028802.SW,0.0271347217709963,Experimental,Swarts_etal_2017,ZM02-149:Hopi_Mix,US - Puebloan (West),Landrace,Unknown,Unknown,35.92,-110.58,1829,NA,NA,NA,NA,Ab10,Ambiguous,NA,No,Neither,Ab10
+13S034507.SW,0.020854830908986,Experimental,Swarts_etal_2017,ZM21-015:High_Chihuahua,N. Mexico High,Landrace,Unknown,Unknown,27.16,-107.58,2100,NA,NA,NA,NA,Ab10,Ambiguous,NA,No,Neither,Ab10
+13S036307.SW,0.0205835193530059,Experimental,Swarts_etal_2017,ZM14-006:Tarahumara_Gordo,N. Mexico High,Landrace,Unknown,Unknown,27.7,-107.42,2400,NA,NA,NA,NA,Ab10,Ambiguous,NA,Yes,High,Ab10
+13S039114.SW,0.0240863211293153,Experimental,Swarts_etal_2017,ZM17-026:Tarahumara_Rosacame,N. Mexico High,Landrace,Unknown,Unknown,27.917,-107.6,2200,68.55776,71.14688,274.4751,0.00162,Ab10,Ambiguous,NA,No,Neither,Ab10
+13S040501.SW,0.0252736137241216,Experimental,Swarts_etal_2017,ZM04-021:Mohave,US - Lower CO River,Landrace,Unknown,Unknown,33.75,-114.5,91,NA,NA,NA,NA,Ab10,Ambiguous,NA,No,Neither,Ab10
+13S042404.SW,0.0197085279092775,Experimental,Swarts_etal_2017,ZM02-021:San_Felipe_Pueblo_Blue,US - Puebloan (East),Landrace,Unknown,Unknown,35.43392,-106.4467,1564,69.87522,71.29519,264.1949,0.00095,Ab10,Ambiguous,NA,No,Neither,Ab10
+13S043111.SW,0.0202388800885649,Experimental,Swarts_etal_2017,ZM01-017:Tohono_Oodham_60-Day,US - Desert SW,Landrace,Unknown,Unknown,32.2217,-110.9264,701,NA,NA,NA,NA,Ab10,Ambiguous,NA,Yes,Low,Ab10
+13S043207.SW,0.0355392213541043,Experimental,Swarts_etal_2017,ZM02-171:San_Felipe_Red/Chinmark,US - Puebloan (East),Landrace,Unknown,Unknown,35.434,-106.446,1585,NA,NA,NA,NA,Ab10,Ab10-I,NA,No,Neither,Ab10
+13S045302.SW,0.0199539638729726,Experimental,Swarts_etal_2017,ZM02-148:Hopi_White_Hominy,US - Puebloan (West),Landrace,Unknown,Unknown,35.65,-110.49,1615,NA,NA,NA,NA,Ab10,Ambiguous,NA,No,Neither,Ab10
+13S047701.SW,0.022258957977095,Experimental,Swarts_etal_2017,ZM02-060:Hopi_White,US - Puebloan (West),Landrace,Unknown,Unknown,35.7833,-110.5035,1727,NA,NA,NA,NA,Ab10,Ab10-I,NA,No,Neither,Ab10
+13S047702.SW,0.0220779641131946,Experimental,Swarts_etal_2017,ZM02-060:Hopi_White,US - Puebloan (West),Landrace,Unknown,Unknown,35.7833,-110.5035,1727,NA,NA,NA,NA,Ab10,Ambiguous,NA,No,Neither,Ab10
+13S047706.SW,0.0219633864683874,Experimental,Swarts_etal_2017,ZM02-060:Hopi_White,US - Puebloan (West),Landrace,Unknown,Unknown,35.7833,-110.5035,1727,65.73818,66.20622,210.7007,-0.000111,Ab10,Ambiguous,NA,No,Neither,Ab10
+13S048206.SW,0.0203885734115204,Experimental,Swarts_etal_2017,ZM02-186:Hopi_Blue,US - Puebloan (West),Landrace,Unknown,Unknown,35.92,-110.58,1829,NA,NA,NA,NA,Ab10,Ambiguous,NA,Yes,Low,Ab10
+13S053005.SW,0.0328671644938257,Experimental,Swarts_etal_2017,ZM14-006:Tarahumara_Gordo,N. Mexico High,Landrace,Unknown,Unknown,27.7,-107.42,2400,NA,NA,NA,NA,Ab10,Ambiguous,NA,Yes,Low,Ab10
+CIM11362_01.SW,0.0216161566024735,Experimental,Swarts_etal_2017,CIM11362,Mexicana − Chalco,Teosinte - Mexicana,Unknown,Unknown,19.275,-99.1,2200,NA,NA,NA,NA,Ab10,Ab10-II,NA,No,Neither,Ab10
+CIM11362_02.SW,0.0214265362864031,Experimental,Swarts_etal_2017,CIM11362,Mexicana − Chalco,Teosinte - Mexicana,Unknown,Unknown,19.275,-99.1,2200,NA,NA,NA,NA,Ab10,Ab10-II,NA,No,Neither,Ab10
+DMA-2008-1_01.SW,0.0196849305993547,Experimental,Swarts_etal_2017,DMA-2008-1,Parviglumis − Balsas Mid,Teosinte - Parviglumis,Unknown,Unknown,18.67222222,-98.83138889,1400,NA,NA,NA,NA,Ab10,Ab10-II,NA,No,Neither,Ab10
+DMA-2008-1_02.SW,0.0385396729645221,Experimental,Swarts_etal_2017,DMA-2008-1,Parviglumis − Balsas Mid,Teosinte - Parviglumis,Unknown,Unknown,18.67222222,-98.83138889,1400,NA,NA,NA,NA,Ab10,Ab10-II,NA,No,Neither,Ab10
+DMA-2008-1_03.SW,0.0197501101761779,Experimental,Swarts_etal_2017,DMA-2008-1,Parviglumis − Balsas Mid,Teosinte - Parviglumis,Unknown,Unknown,18.67222222,-98.83138889,1400,NA,NA,NA,NA,Ab10,Ab10-II,NA,No,Neither,Ab10
+JSG_Y_RMM-457_02.SW,0.0234928996103022,Experimental,Swarts_etal_2017,JSG_Y_RMM-457,Parviglumis − Balsas Low,Teosinte - Parviglumis,Unknown,Unknown,18.82,-100.9155556,654,NA,NA,NA,NA,Ab10,Ambiguous,NA,No,Neither,Ab10
+JSG-JMHC-637_04.SW,0.0210724870655485,Experimental,Swarts_etal_2017,JSG-JMHC-637,Mexicana − Chalco,Teosinte - Mexicana,Unknown,Unknown,19.155,-98.77472222,2470,NA,NA,NA,NA,Ab10,Ab10-II,NA,No,Neither,Ab10
+JSG-LCL-JGRF-586_03.SW,0.0207252844270171,Experimental,Swarts_etal_2017,JSG-LCL-JGRF-586,Mexicana − C. Plateau,Teosinte - Mexicana,Unknown,Unknown,20.14027778,-101.0733333,2023,NA,NA,NA,NA,Ab10,Ambiguous,NA,No,Neither,Ab10
+JSG-RMM-LCL-483_03.SW,0.0244019727615346,Experimental,Swarts_etal_2017,JSG-RMM-LCL-483,Parviglumis − Oaxaca,Teosinte - Parviglumis,Unknown,Unknown,16.32388889,-97.0325,1272,NA,NA,NA,NA,Ab10,Ambiguous,NA,No,Neither,Ab10
+JSG-RMM-LCL-511_01.SW,0.0201092345609299,Experimental,Swarts_etal_2017,JSG-RMM-LCL-511,Parviglumis − Balsas Mid,Teosinte - Parviglumis,Unknown,Unknown,18.38777778,-100.1275,1110,NA,NA,NA,NA,Ab10,Ab10-II,NA,No,Neither,Ab10
+JSG-RMM-LCL-536_01.SW,0.0215148091898272,Experimental,Swarts_etal_2017,JSG-RMM-LCL-536,Mexicana − C. Plateau,Teosinte - Mexicana,Unknown,Unknown,19.68555556,-100.6327778,2102,NA,NA,NA,NA,Ab10,Ambiguous,NA,No,Neither,Ab10
+JSG-RMM-LCL-536_04.SW,0.0215290915088036,Experimental,Swarts_etal_2017,JSG-RMM-LCL-536,Mexicana − C. Plateau,Teosinte - Mexicana,Unknown,Unknown,19.68555556,-100.6327778,2102,NA,NA,NA,NA,Ab10,Ambiguous,NA,No,Neither,Ab10
+JSG-SRV-EAM-708_02.SW,0.023626559466508,Experimental,Swarts_etal_2017,JSG-SRV-EAM-708,Mexicana − N. Mexico,Teosinte - Mexicana,Unknown,Unknown,24.02388889,-104.2997222,1860,NA,NA,NA,NA,Ab10,Ambiguous,NA,No,Neither,Ab10
+NSL68244.1.RY,0.0400465287111403,Experimental,Romay_etal_2013,NSL68244.1,NA,Inbred,Unknown,Unknown,NA,NA,NA,NA,NA,NA,NA,Ab10,Ambiguous,NA,No,Neither,Ab10
+PI639505.1.RY,0.021373013037591,Experimental,Romay_etal_2013,PI639505.1,NA,Inbred,Unknown,Unknown,NA,NA,NA,NA,NA,NA,NA,Ab10,Ambiguous,NA,No,Neither,Ab10
+RIMMA0396.1.SW,0.0225936161990736,Experimental,Swarts_etal_2017,SA_Low:Caqueteno,S. America Low,Landrace,Unknown,Unknown,2.583333333,-75.3,1100,NA,NA,NA,NA,Ab10,Ab10-III,NA,No,Neither,Ab10
+RIMMA0404.1.SW,0.0344294283202231,Experimental,Swarts_etal_2017,SA_Low:Puya_Grande,S. America Low,Landrace,Unknown,Unknown,7.3,-72.51666667,1500,NA,NA,NA,NA,Ab10,Ambiguous,NA,No,Neither,Ab10
+RIMMA0433.1.SW,0.0248560639592609,Experimental,Swarts_etal_2017,Mex_Low:Nal_Tel_ATB,C. Mexico Low,Landrace,Unknown,Unknown,14.71666667,-89.5,457,NA,NA,NA,NA,Ab10,Ambiguous,NA,No,Neither,Ab10
+RIMMA0614.1.SW,0.0220628025363533,Experimental,Swarts_etal_2017,Mex_High:Mountain_Yellow,C. Mexico High,Landrace,Unknown,Unknown,19.95,-103.7666667,2060,NA,NA,NA,NA,Ab10,Ambiguous,NA,No,Neither,Ab10
+RIMMA0680.1.SW,0.0376839904336715,Experimental,Swarts_etal_2017,Mex_High:Tabloncillo,C. Mexico High,Landrace,Unknown,Unknown,20.36666667,-102.1666667,1890,NA,NA,NA,NA,Ab10,Ambiguous,NA,No,Neither,Ab10
+RIMMA0687.1.SW,0.0218232149100633,Experimental,Swarts_etal_2017,Mex_High:Conico_Norteno,C. Mexico High,Landrace,Unknown,Unknown,20.38333333,-100,1921,NA,NA,NA,NA,Ab10,Ambiguous,NA,Yes,Low,Ab10
+RIMMA0701.1.SW,0.0240805043154461,Experimental,Swarts_etal_2017,Mex_Low:Olotillo,C. Mexico Low,Landrace,Unknown,Unknown,16.6,-92.71666667,686,NA,NA,NA,NA,Ab10,Ambiguous,NA,No,Neither,Ab10
+RIMMA0709.1.SW,0.0213075468475746,Experimental,Swarts_etal_2017,Mex_Low:Tehua,C. Mexico Low,Landrace,Unknown,Unknown,16.5,-92.5,747,NA,NA,NA,NA,Ab10,Ambiguous,NA,No,Neither,Ab10
+RIMMA0729.1.SW,0.0205074336758823,Experimental,Swarts_etal_2017,Mex_Low:Tepecintle,C. Mexico Low,Landrace,Unknown,Unknown,15.4,-89.66666667,122,NA,NA,NA,NA,Ab10,Ambiguous,NA,No,Neither,Ab10
+RIMMA0731.1.SW,0.0219879106506613,Experimental,Swarts_etal_2017,Mex_Low:Bolita,C. Mexico Low,Landrace,Unknown,Unknown,16.78333333,-96.66666667,1520,NA,NA,NA,NA,Ab10,Ab10-III,NA,No,Neither,Ab10
+SEEDGWAS1087.RN,0.0220343349959171,Experimental,Romero-Navarro_etal_2017,CIMMYTMA-BANK-000428,NA,Landrace,Unknown,Unknown,22.031961,-100.21527,1057,NA,NA,NA,NA,Ab10,Ambiguous,NA,No,Neither,Ab10
+SEEDGWAS1117.RN,0.0212808861843376,Experimental,Romero-Navarro_etal_2017,CIMMYTMA-BANK-011004,NA,Landrace,Unknown,Unknown,NA,NA,NA,NA,NA,NA,NA,Ab10,Ab10-I,NA,No,Neither,Ab10
+SEEDGWAS1130.RN,0.0224133710245242,Experimental,Romero-Navarro_etal_2017,CIMMYTMA-BANK-014100,NA,Landrace,Unknown,Unknown,16.08333333,-93.76666667,40,NA,NA,NA,NA,Ab10,Ambiguous,NA,No,Neither,Ab10
+SEEDGWAS1169.RN,0.0155791464647638,Experimental,Romero-Navarro_etal_2017,CIMMYTMA-BANK-000136,NA,Landrace,Unknown,Unknown,15.75,-96.46666667,150,NA,NA,NA,NA,Ab10,Ambiguous,NA,No,Neither,Ab10
+SEEDGWAS1186.RN,0.0157169246891805,Experimental,Romero-Navarro_etal_2017,CIMMYTMA-BANK-000536,NA,Landrace,Unknown,Unknown,NA,NA,NA,NA,NA,NA,NA,Ab10,Ambiguous,NA,No,Neither,Ab10
+SEEDGWAS1187.RN,0.0212228154933204,Experimental,Romero-Navarro_etal_2017,CIMMYTMA-BANK-000587,NA,Landrace,Unknown,Unknown,22.024349,-105.22623,15,NA,NA,NA,NA,Ab10,Ab10-I,NA,No,Neither,Ab10
+SEEDGWAS1206.RN,0.0155866782513221,Experimental,Romero-Navarro_etal_2017,CIMMYTMA-BANK-001069,NA,Landrace,Unknown,Unknown,14.9483,-89.55933,276,NA,NA,NA,NA,Ab10,Ambiguous,NA,No,Neither,Ab10
+SEEDGWAS1209.RN,0.0214526479853472,Experimental,Romero-Navarro_etal_2017,CIMMYTMA-BANK-001078,NA,Landrace,Unknown,Unknown,14.713922,-90.637606,1839,NA,NA,NA,NA,Ab10,Ambiguous,NA,No,Neither,Ab10
+SEEDGWAS1235.RN,0.0199919339765398,Experimental,Romero-Navarro_etal_2017,CIMMYTMA-BANK-001286,NA,Landrace,Unknown,Unknown,NA,NA,NA,NA,NA,NA,NA,Ab10,Ambiguous,NA,No,Neither,Ab10
+SEEDGWAS1236.RN,0.021039313279766,Experimental,Romero-Navarro_etal_2017,CIMMYTMA-BANK-001293,NA,Landrace,Unknown,Unknown,16.389094,-61.475936,22,NA,NA,NA,NA,Ab10,Ambiguous,NA,No,Neither,Ab10
+SEEDGWAS1265.RN,0.0152970658393854,Experimental,Romero-Navarro_etal_2017,CIMMYTMA-BANK-002163,NA,Landrace,Unknown,Unknown,16.61666667,-93.1,440,NA,NA,NA,NA,Ab10,Ambiguous,NA,No,Neither,Ab10
+SEEDGWAS1267.RN,0.0148304936583149,Experimental,Romero-Navarro_etal_2017,CIMMYTMA-BANK-002319,NA,Landrace,Unknown,Unknown,26.888903,-99.614777,110,NA,NA,NA,NA,Ab10,Ambiguous,NA,No,Neither,Ab10
+SEEDGWAS1268.RN,0.021001365882807,Experimental,Romero-Navarro_etal_2017,CIMMYTMA-BANK-002342,NA,Landrace,Unknown,Unknown,18.85,-96.9,731,NA,NA,NA,NA,Ab10,Ambiguous,NA,No,Neither,Ab10
+SEEDGWAS1277.RN,0.0220241587841618,Experimental,Romero-Navarro_etal_2017,CIMMYTMA-BANK-002425,NA,Landrace,Unknown,Unknown,20.3,-76.95,23,NA,NA,NA,NA,Ab10,Ambiguous,NA,No,Neither,Ab10
+SEEDGWAS1278.RN,0.0385734975919216,Experimental,Romero-Navarro_etal_2017,CIMMYTMA-BANK-002428,NA,Landrace,Unknown,Unknown,21.2,-76.61666667,11,NA,NA,NA,NA,Ab10,Ambiguous,NA,No,Neither,Ab10
+SEEDGWAS1301.RN,0.021060882718156,Experimental,Romero-Navarro_etal_2017,CIMMYTMA-BANK-003083,NA,Landrace,Unknown,Unknown,NA,NA,NA,NA,NA,NA,NA,Ab10,Ambiguous,NA,No,Neither,Ab10
+SEEDGWAS1327.RN,0.0209515724583232,Experimental,Romero-Navarro_etal_2017,CIMMYTMA-BANK-003473,NA,Landrace,Unknown,Unknown,10.031467,-85.463114,238,NA,NA,NA,NA,Ab10,Ambiguous,NA,No,Neither,Ab10
+SEEDGWAS1361.RN,0.018000349463041,Experimental,Romero-Navarro_etal_2017,CIMMYTMA-BANK-003764,NA,Landrace,Unknown,Unknown,8.133333333,-81.18333333,105,NA,NA,NA,NA,Ab10,Ambiguous,NA,No,Neither,Ab10
+SEEDGWAS137.RN,0.0240244085816642,Experimental,Romero-Navarro_etal_2017,CIMMYTMA-BANK-002460,NA,Landrace,Unknown,Unknown,18.563505,-74.267982,154,NA,NA,NA,NA,Ab10,Ambiguous,NA,No,Neither,Ab10
+SEEDGWAS1370.RN,0.0154748151770876,Experimental,Romero-Navarro_etal_2017,CIMMYTMA-BANK-003839,NA,Landrace,Unknown,Unknown,8.566825,-80.172251,452,NA,NA,NA,NA,Ab10,Ambiguous,NA,No,Neither,Ab10
+SEEDGWAS1371.RN,0.0192763423027396,Experimental,Romero-Navarro_etal_2017,CIMMYTMA-BANK-003840,NA,Landrace,Unknown,Unknown,8.40745,-80.258465,29,NA,NA,NA,NA,Ab10,Ambiguous,NA,No,Neither,Ab10
+SEEDGWAS1388.RN,0.0160087872071382,Experimental,Romero-Navarro_etal_2017,CIMMYTMA-BANK-003938,NA,Landrace,Unknown,Unknown,19.18333333,-70.5,196,NA,NA,NA,NA,Ab10,Ambiguous,NA,No,Neither,Ab10
+SEEDGWAS139.RN,0.0195357423523108,Experimental,Romero-Navarro_etal_2017,CIMMYTMA-BANK-002539,NA,Landrace,Unknown,Unknown,21.544818,-98.905924,182,NA,NA,NA,NA,Ab10,Ambiguous,NA,No,Neither,Ab10
+SEEDGWAS1393.RN,0.0214710577784598,Experimental,Romero-Navarro_etal_2017,CIMMYTMA-BANK-003979,NA,Landrace,Unknown,Unknown,13.176096,-61.249598,103,NA,NA,NA,NA,Ab10,Ambiguous,NA,No,Neither,Ab10
+SEEDGWAS1417.RN,0.0163149890714636,Experimental,Romero-Navarro_etal_2017,CIMMYTMA-BANK-004893,NA,Landrace,Unknown,Unknown,-20.756582,-48.92991,529,NA,NA,NA,NA,Ab10,Ambiguous,NA,No,Neither,Ab10
+SEEDGWAS1422.RN,0.020666050359457,Experimental,Romero-Navarro_etal_2017,CIMMYTMA-BANK-004993,NA,Landrace,Unknown,Unknown,-22.437175,-50.202062,687,NA,NA,NA,NA,Ab10,Ambiguous,NA,No,Neither,Ab10
+SEEDGWAS1425.RN,0.0205665619064406,Experimental,Romero-Navarro_etal_2017,CIMMYTMA-BANK-005058,NA,Landrace,Unknown,Unknown,NA,NA,NA,NA,NA,NA,NA,Ab10,Ambiguous,NA,No,Neither,Ab10
+SEEDGWAS1434.RN,0.0230148765087799,Experimental,Romero-Navarro_etal_2017,CIMMYTMA-BANK-005186,NA,Landrace,Unknown,Unknown,14.78333333,-89.55,423,NA,NA,NA,NA,Ab10,Ambiguous,NA,No,Neither,Ab10
+SEEDGWAS1439.RN,0.0178524904332311,Experimental,Romero-Navarro_etal_2017,CIMMYTMA-BANK-005247,NA,Landrace,Unknown,Unknown,14.28333333,-90.76666667,284,NA,NA,NA,NA,Ab10,Ambiguous,NA,No,Neither,Ab10
+SEEDGWAS1466.RN,0.0206088992939405,Experimental,Romero-Navarro_etal_2017,CIMMYTMA-BANK-005950,NA,Landrace,Unknown,Unknown,16.539657,-98.136052,221,NA,NA,NA,NA,Ab10,Ambiguous,NA,No,Neither,Ab10
+SEEDGWAS1506.RN,0.0219086916934361,Experimental,Romero-Navarro_etal_2017,CIMMYTMA-BANK-008424,NA,Landrace,Unknown,Unknown,14.885899,-89.513671,271,NA,NA,NA,NA,Ab10,Ambiguous,NA,No,Neither,Ab10
+SEEDGWAS1518.RN,0.0185068838274782,Experimental,Romero-Navarro_etal_2017,CIMMYTMA-BANK-009821,NA,Landrace,Unknown,Unknown,7.827287,-72.453725,401,NA,NA,NA,NA,Ab10,Ambiguous,NA,No,Neither,Ab10
+SEEDGWAS1519.RN,0.0216795191234001,Experimental,Romero-Navarro_etal_2017,CIMMYTMA-BANK-009831,NA,Landrace,Unknown,Unknown,9.366825,-65.330006,65,NA,NA,NA,NA,Ab10,Ambiguous,NA,No,Neither,Ab10
+SEEDGWAS1526.RN,0.0363050082091496,Experimental,Romero-Navarro_etal_2017,CIMMYTMA-BANK-009857,NA,Landrace,Unknown,Unknown,NA,NA,NA,NA,NA,NA,NA,Ab10,Ambiguous,NA,No,Neither,Ab10
+SEEDGWAS1538.RN,0.0194577604539701,Experimental,Romero-Navarro_etal_2017,CIMMYTMA-BANK-009989,NA,Landrace,Unknown,Unknown,NA,NA,NA,NA,NA,NA,NA,Ab10,Ambiguous,NA,No,Neither,Ab10
+SEEDGWAS1545.RN,0.015692233611939,Experimental,Romero-Navarro_etal_2017,CIMMYTMA-BANK-012255,NA,Landrace,Unknown,Unknown,8.267071,-70.556081,153,NA,NA,NA,NA,Ab10,Ambiguous,NA,No,Neither,Ab10
+SEEDGWAS1569.RN,0.0212406274540228,Experimental,Romero-Navarro_etal_2017,CIMMYTMA-BANK-012265,NA,Landrace,Unknown,Unknown,NA,NA,NA,NA,NA,NA,NA,Ab10,Ambiguous,NA,No,Neither,Ab10
+SEEDGWAS1623.RN,0.0215163637440728,Experimental,Romero-Navarro_etal_2017,CIMMYTMA-BANK-015029,NA,Landrace,Unknown,Unknown,NA,NA,NA,NA,NA,NA,NA,Ab10,Ambiguous,NA,No,Neither,Ab10
+SEEDGWAS1626.RN,0.0218677394136304,Experimental,Romero-Navarro_etal_2017,CIMMYTMA-BANK-015042,NA,Landrace,Unknown,Unknown,NA,NA,NA,NA,NA,NA,NA,Ab10,Ambiguous,NA,No,Neither,Ab10
+SEEDGWAS1638.RN,0.021563428825002,Experimental,Romero-Navarro_etal_2017,CIMMYTMA-BANK-015609,NA,Landrace,Unknown,Unknown,16.580327,-94.601906,79,NA,NA,NA,NA,Ab10,Ambiguous,NA,No,Neither,Ab10
+SEEDGWAS164.RN,0.0239768255312836,Experimental,Romero-Navarro_etal_2017,CIMMYTMA-BANK-003245,NA,Landrace,Unknown,Unknown,20.471501,-97.343051,206,NA,NA,NA,NA,Ab10,Ambiguous,NA,No,Neither,Ab10
+SEEDGWAS1693.RN,0.0179909303898279,Experimental,Romero-Navarro_etal_2017,CIMMYTMA-BANK-020965,NA,Landrace,Unknown,Unknown,16.25,-93.26666667,572,NA,NA,NA,NA,Ab10,Ambiguous,NA,No,Neither,Ab10
+SEEDGWAS1696.RN,0.0196852295274085,Experimental,Romero-Navarro_etal_2017,CIMMYTMA-BANK-020763,NA,Landrace,Unknown,Unknown,-25.859064,-54.341249,275,NA,NA,NA,NA,Ab10,Ambiguous,NA,No,Neither,Ab10
+SEEDGWAS1697.RN,0.0209583512551694,Experimental,Romero-Navarro_etal_2017,CIMMYTMA-BANK-020788,NA,Landrace,Unknown,Unknown,-24.96666667,-58.56666667,85,NA,NA,NA,NA,Ab10,Ambiguous,NA,No,Neither,Ab10
+SEEDGWAS1698.RN,0.0208267069537224,Experimental,Romero-Navarro_etal_2017,CIMMYTMA-BANK-020801,NA,Landrace,Unknown,Unknown,-26.16666667,-59.31666667,85,NA,NA,NA,NA,Ab10,Ambiguous,NA,No,Neither,Ab10
+SEEDGWAS1722.RN,0.0218624269445974,Experimental,Romero-Navarro_etal_2017,CIMMYTMA-BANK-022341,NA,Landrace,Unknown,Unknown,16.48333333,-94.35,68,NA,NA,NA,NA,Ab10,Ambiguous,NA,No,Neither,Ab10
+SEEDGWAS1760.RN,0.0217839050084052,Experimental,Romero-Navarro_etal_2017,CIMMYTMA-BANK-000397,NA,Landrace,Unknown,Unknown,27.1283333,-105.3313889,1505,NA,NA,NA,NA,Ab10,Ambiguous,NA,No,Neither,Ab10
+SEEDGWAS1761.RN,0.0190744652814518,Experimental,Romero-Navarro_etal_2017,CIMMYTMA-BANK-000399,NA,Landrace,Unknown,Unknown,27.130649,-104.890933,1379,NA,NA,NA,NA,Ab10,Ambiguous,NA,No,Neither,Ab10
+SEEDGWAS1794.RN,0.0211736112103584,Experimental,Romero-Navarro_etal_2017,CIMMYTMA-BANK-005185,NA,Landrace,Unknown,Unknown,14.616667,-89.583333,986,NA,NA,NA,NA,Ab10,Ambiguous,NA,No,Neither,Ab10
+SEEDGWAS1827.RN,0.0200643038334445,Experimental,Romero-Navarro_etal_2017,CIMMYTMA-BANK-016867,NA,Landrace,Unknown,Unknown,-10.7,-38.18333333,257,NA,NA,NA,NA,Ab10,Ambiguous,NA,No,Neither,Ab10
+SEEDGWAS183.RN,0.0275512884498485,Experimental,Romero-Navarro_etal_2017,CIMMYTMA-BANK-003402,NA,Landrace,Unknown,Unknown,10.050159,-84.733838,131,NA,NA,NA,NA,Ab10,Ambiguous,NA,No,Neither,Ab10
+SEEDGWAS1838.RN,0.0189789732583271,Experimental,Romero-Navarro_etal_2017,CIMMYTMA-BANK-019323,NA,Landrace,Unknown,Unknown,16.11666667,-92.05,1536,NA,NA,NA,NA,Ab10,Ab10-III,NA,No,Neither,Ab10
+SEEDGWAS187.RN,0.0247580065846739,Experimental,Romero-Navarro_etal_2017,CIMMYTMA-BANK-003475,NA,Landrace,Unknown,Unknown,10.065598,-85.473735,170,NA,NA,NA,NA,Ab10,Ambiguous,NA,No,Neither,Ab10
+SEEDGWAS195.RN,0.0283553436179344,Experimental,Romero-Navarro_etal_2017,CIMMYTMA-BANK-003581,NA,Landrace,Unknown,Unknown,10.11666667,-85.45,142,NA,NA,NA,NA,Ab10,Ambiguous,NA,No,Neither,Ab10
+SEEDGWAS1976.RN,0.0168340567860928,Experimental,Romero-Navarro_etal_2017,CIMMYTMA-BANK-004854,NA,Landrace,Unknown,Unknown,-22.044979,-48.174103,566,NA,NA,NA,NA,Ab10,Ambiguous,NA,No,Neither,Ab10
+SEEDGWAS198.RN,0.0183604618038103,Experimental,Romero-Navarro_etal_2017,CIMMYTMA-BANK-003691,NA,Landrace,Unknown,Unknown,14.55,-86.7,858,NA,NA,NA,NA,Ab10,Ambiguous,NA,No,Neither,Ab10
+SEEDGWAS1993.RN,0.0157826683381539,Experimental,Romero-Navarro_etal_2017,CIMMYTMA-BANK-004991,NA,Landrace,Unknown,Unknown,-23.035437,-46.819967,816,NA,NA,NA,NA,Ab10,Ambiguous,NA,No,Neither,Ab10
+SEEDGWAS1996.RN,0.0209341188871736,Experimental,Romero-Navarro_etal_2017,CIMMYTMA-BANK-005016,NA,Landrace,Unknown,Unknown,-21.895979,-50.749016,495,NA,NA,NA,NA,Ab10,Ambiguous,NA,No,Neither,Ab10
+SEEDGWAS2022.RN,0.0186026560044892,Experimental,Romero-Navarro_etal_2017,CIMMYTMA-BANK-005802,NA,Landrace,Unknown,Unknown,-27.93324,-53.946282,436,NA,NA,NA,NA,Ab10,Ambiguous,NA,No,Neither,Ab10
+SEEDGWAS2044.RN,0.0178504488868815,Experimental,Romero-Navarro_etal_2017,CIMMYTMA-BANK-006687,NA,Landrace,Unknown,Unknown,-20.756582,-48.92991,529,NA,NA,NA,NA,Ab10,Ambiguous,NA,No,Neither,Ab10
+SEEDGWAS2048.RN,0.017792993005852,Experimental,Romero-Navarro_etal_2017,CIMMYTMA-BANK-007312,NA,Landrace,Unknown,Unknown,28.93333333,-109.1833333,488,NA,NA,NA,NA,Ab10,Ambiguous,NA,No,Neither,Ab10
+SEEDGWAS2058.RN,0.0186353207118915,Experimental,Romero-Navarro_etal_2017,CIMMYTMA-BANK-007820,NA,Landrace,Unknown,Unknown,-21.16666667,-47.8,546,NA,NA,NA,NA,Ab10,Ambiguous,NA,No,Neither,Ab10
+SEEDGWAS2068.RN,0.0160738241268792,Experimental,Romero-Navarro_etal_2017,CIMMYTMA-BANK-009054,NA,Landrace,Unknown,Unknown,NA,NA,NA,NA,NA,NA,NA,Ab10,Ambiguous,NA,No,Neither,Ab10
+SEEDGWAS2082.RN,0.0189310586106023,Experimental,Romero-Navarro_etal_2017,CIMMYTMA-BANK-000418,NA,Landrace,Unknown,Unknown,NA,NA,NA,NA,NA,NA,NA,Ab10,Ambiguous,NA,No,Neither,Ab10
+SEEDGWAS2131.RN,0.0194849186594624,Experimental,Romero-Navarro_etal_2017,CIMMYTMA-BANK-010712,NA,Landrace,Unknown,Unknown,NA,NA,NA,NA,NA,NA,NA,Ab10,Ambiguous,NA,No,Neither,Ab10
+SEEDGWAS2141.RN,0.017020072711651,Experimental,Romero-Navarro_etal_2017,CIMMYTMA-BANK-010734,NA,Landrace,Unknown,Unknown,NA,NA,NA,NA,NA,NA,NA,Ab10,Ambiguous,NA,No,Neither,Ab10
+SEEDGWAS2159.RN,0.0300273257469647,Experimental,Romero-Navarro_etal_2017,CIMMYTMA-BANK-013301,NA,Landrace,Unknown,Unknown,-7.983333333,-38.3,420,NA,NA,NA,NA,Ab10,Ambiguous,NA,No,Neither,Ab10
+SEEDGWAS2165.RN,0.0187192041651782,Experimental,Romero-Navarro_etal_2017,CIMMYTMA-BANK-013410,NA,Landrace,Unknown,Unknown,-13.58333333,-42.91666667,650,NA,NA,NA,NA,Ab10,Ambiguous,NA,No,Neither,Ab10
+SEEDGWAS2214.RN,0.0173883390396176,Experimental,Romero-Navarro_etal_2017,CIMMYTMA-BANK-018850,NA,Landrace,Unknown,Unknown,-10.150584,-67.721113,211,NA,NA,NA,NA,Ab10,Ambiguous,NA,No,Neither,Ab10
+SEEDGWAS222.RN,0.016204565944703,Experimental,Romero-Navarro_etal_2017,CIMMYTMA-BANK-003949,NA,Landrace,Unknown,Unknown,19.743912,-70.874286,177,NA,NA,NA,NA,Ab10,Ambiguous,NA,No,Neither,Ab10
+SEEDGWAS2220.RN,0.0197615907647341,Experimental,Romero-Navarro_etal_2017,CIMMYTMA-BANK-018897,NA,Landrace,Unknown,Unknown,-13.38333333,-44.71666667,714,NA,NA,NA,NA,Ab10,Ambiguous,NA,No,Neither,Ab10
+SEEDGWAS2225.RN,0.0185126727364862,Experimental,Romero-Navarro_etal_2017,CIMMYTMA-BANK-018921,NA,Landrace,Unknown,Unknown,-16.86666667,-42.06666667,319,NA,NA,NA,NA,Ab10,Ambiguous,NA,No,Neither,Ab10
+SEEDGWAS2233.RN,0.0216964224851678,Experimental,Romero-Navarro_etal_2017,CIMMYTMA-BANK-018982,NA,Landrace,Unknown,Unknown,-23.08333333,-55.21666667,471,NA,NA,NA,NA,Ab10,Ambiguous,NA,No,Neither,Ab10
+SEEDGWAS2250.RN,0.0176303881129692,Experimental,Romero-Navarro_etal_2017,CIMMYTMA-BANK-022577,NA,Landrace,Unknown,Unknown,22.83333333,-99.31666667,335,NA,NA,NA,NA,Ab10,Ambiguous,NA,Yes,Low,Ab10
+SEEDGWAS2261.RN,0.0144164360077346,Experimental,Romero-Navarro_etal_2017,CIMMYTMA-BANK-022332,NA,Landrace,Unknown,Unknown,21.250533,-104.880645,883,NA,NA,NA,NA,Ab10,Ambiguous,NA,Yes,Low,Ab10
+SEEDGWAS2276.RN,0.0164320244846718,Experimental,Romero-Navarro_etal_2017,CIMMYTMA-BANK-024993,NA,Landrace,Unknown,Unknown,1.83,-61.13,51,NA,NA,NA,NA,Ab10,Ambiguous,NA,No,Neither,Ab10
+SEEDGWAS2287.RN,0.0157291902301467,Experimental,Romero-Navarro_etal_2017,CIMMYTMA-BANK-025101,NA,Landrace,Unknown,Unknown,NA,NA,NA,NA,NA,NA,NA,Ab10,Ambiguous,NA,No,Neither,Ab10
+SEEDGWAS2293.RN,0.0201883384162658,Experimental,Romero-Navarro_etal_2017,CIMMYTMA-BANK-025164,NA,Landrace,Unknown,Unknown,NA,NA,NA,NA,NA,NA,NA,Ab10,Ambiguous,NA,No,Neither,Ab10
+SEEDGWAS2310.RN,0.0151597068003821,Experimental,Romero-Navarro_etal_2017,CIMMYTMA-BANK-000153,NA,Landrace,Unknown,Unknown,NA,NA,NA,NA,NA,NA,NA,Ab10,Ambiguous,NA,No,Neither,Ab10
+SEEDGWAS2361.RN,0.0203680166622031,Experimental,Romero-Navarro_etal_2017,CIMMYTMA-BANK-001660,NA,Landrace,Unknown,Unknown,20.143022,-103.723087,2301,NA,NA,NA,NA,Ab10,Ambiguous,NA,No,Neither,Ab10
+SEEDGWAS237.RN,0.0205998414818695,Experimental,Romero-Navarro_etal_2017,CIMMYTMA-BANK-004326,NA,Landrace,Unknown,Unknown,NA,NA,NA,NA,NA,NA,NA,Ab10,Ab10-III,NA,No,Neither,Ab10
+SEEDGWAS2370.RN,0.0240278470214593,Experimental,Romero-Navarro_etal_2017,CIMMYTMA-BANK-001995,NA,Landrace,Unknown,Unknown,18.878577,-99.083132,1277,NA,NA,NA,NA,Ab10,Ambiguous,NA,No,Neither,Ab10
+SEEDGWAS238.RN,0.0220121063662546,Experimental,Romero-Navarro_etal_2017,CIMMYTMA-BANK-004336,NA,Landrace,Unknown,Unknown,NA,NA,NA,NA,NA,NA,NA,Ab10,Ambiguous,NA,No,Neither,Ab10
+SEEDGWAS239.RN,0.0249242899494836,Experimental,Romero-Navarro_etal_2017,CIMMYTMA-BANK-004339,NA,Landrace,Unknown,Unknown,NA,NA,NA,NA,NA,NA,NA,Ab10,Ab10-III,NA,No,Neither,Ab10
+SEEDGWAS2402.RN,0.01439180236028,Experimental,Romero-Navarro_etal_2017,CIMMYTMA-BANK-003043,NA,Landrace,Unknown,Unknown,NA,NA,NA,NA,NA,NA,NA,Ab10,Ambiguous,NA,No,Neither,Ab10
+SEEDGWAS2426.RN,0.0188675352283719,Experimental,Romero-Navarro_etal_2017,CIMMYTMA-BANK-005598,NA,Landrace,Unknown,Unknown,19.58333333,-102.4666667,1327,NA,NA,NA,NA,Ab10,Ambiguous,NA,No,Neither,Ab10
+SEEDGWAS2459.RN,0.0347940342900932,Experimental,Romero-Navarro_etal_2017,CIMMYTMA-BANK-006357,NA,Landrace,Unknown,Unknown,NA,NA,NA,NA,NA,NA,NA,Ab10,Ambiguous,NA,No,Neither,Ab10
+SEEDGWAS2478.RN,0.0146103111238339,Experimental,Romero-Navarro_etal_2017,CIMMYTMA-BANK-008020,NA,Landrace,Unknown,Unknown,NA,NA,NA,NA,NA,NA,NA,Ab10,Ambiguous,NA,No,Neither,Ab10
+SEEDGWAS2479.RN,0.0215925556706888,Experimental,Romero-Navarro_etal_2017,CIMMYTMA-BANK-008073,NA,Landrace,Unknown,Unknown,19.290057,-100.441427,1303,NA,NA,NA,NA,Ab10,Ambiguous,NA,No,Neither,Ab10
+SEEDGWAS2486.RN,0.0186865373295027,Experimental,Romero-Navarro_etal_2017,CIMMYTMA-BANK-009168,NA,Landrace,Unknown,Unknown,NA,NA,NA,NA,NA,NA,NA,Ab10,Ambiguous,NA,No,Neither,Ab10
+SEEDGWAS2520.RN,0.0192467889545874,Experimental,Romero-Navarro_etal_2017,CIMMYTMA-BANK-013309,NA,Landrace,Unknown,Unknown,NA,NA,NA,NA,NA,NA,NA,Ab10,Ambiguous,NA,No,Neither,Ab10
+SEEDGWAS2523.RN,0.0191696893555106,Experimental,Romero-Navarro_etal_2017,CIMMYTMA-BANK-013359,NA,Landrace,Unknown,Unknown,NA,NA,NA,NA,NA,NA,NA,Ab10,Ambiguous,NA,No,Neither,Ab10
+SEEDGWAS2557.RN,0.0181204111294,Experimental,Romero-Navarro_etal_2017,CIMMYTMA-BANK-016669,NA,Landrace,Unknown,Unknown,NA,NA,NA,NA,NA,NA,NA,Ab10,Ambiguous,NA,No,Neither,Ab10
+SEEDGWAS257.RN,0.0213038673406247,Experimental,Romero-Navarro_etal_2017,CIMMYTMA-BANK-004862,NA,Landrace,Unknown,Unknown,-22.01666667,-47.9,826,NA,NA,NA,NA,Ab10,Ambiguous,NA,No,Neither,Ab10
+SEEDGWAS2572.RN,0.0149543900814225,Experimental,Romero-Navarro_etal_2017,CIMMYTMA-BANK-017149,NA,Landrace,Unknown,Unknown,24.465353,-104.099147,2005,NA,NA,NA,NA,Ab10,Ambiguous,NA,No,Neither,Ab10
+SEEDGWAS2579.RN,0.0210447735244857,Experimental,Romero-Navarro_etal_2017,CIMMYTMA-BANK-017492,NA,Landrace,Unknown,Unknown,20.78333333,-102.95,1676,NA,NA,NA,NA,Ab10,Ambiguous,NA,No,Neither,Ab10
+SEEDGWAS259.RN,0.0207982828266328,Experimental,Romero-Navarro_etal_2017,CIMMYTMA-BANK-004874,NA,Landrace,Unknown,Unknown,-22.4,-49.41666667,520,NA,NA,NA,NA,Ab10,Ab10-III,NA,No,Neither,Ab10
+SEEDGWAS2643.RN,0.0157185624731294,Experimental,Romero-Navarro_etal_2017,CIMMYTMA-BANK-023053,NA,Landrace,Unknown,Unknown,NA,NA,NA,NA,NA,NA,NA,Ab10,Ambiguous,NA,No,Neither,Ab10
+SEEDGWAS2649.RN,0.018756345934802,Experimental,Romero-Navarro_etal_2017,CIMMYTMA-BANK-023080,NA,Landrace,Unknown,Unknown,NA,NA,NA,NA,NA,NA,NA,Ab10,Ambiguous,NA,No,Neither,Ab10
+SEEDGWAS2652.RN,0.018503340780991,Experimental,Romero-Navarro_etal_2017,CIMMYTMA-BANK-023086,NA,Landrace,Unknown,Unknown,NA,NA,NA,NA,NA,NA,NA,Ab10,Ambiguous,NA,No,Neither,Ab10
+SEEDGWAS2667.RN,0.0170131123914401,Experimental,Romero-Navarro_etal_2017,CIMMYTMA-BANK-025222,NA,Landrace,Unknown,Unknown,NA,NA,NA,NA,NA,NA,NA,Ab10,Ambiguous,NA,No,Neither,Ab10
+SEEDGWAS2682.RN,0.0161609630565712,Experimental,Romero-Navarro_etal_2017,CIMMYTMA-BANK-000610,NA,Landrace,Unknown,Unknown,19.735479,-103.462153,1511,NA,NA,NA,NA,Ab10,Ambiguous,NA,No,Neither,Ab10
+SEEDGWAS2700.RN,0.0193080668621825,Experimental,Romero-Navarro_etal_2017,CIMMYTMA-BANK-001433,NA,Landrace,Unknown,Unknown,19.06,-97.96,2339,NA,NA,NA,NA,Ab10,Ambiguous,NA,Yes,High,Ab10
+SEEDGWAS2715.RN,0.0188090675917993,Experimental,Romero-Navarro_etal_2017,CIMMYTMA-BANK-001598,NA,Landrace,Unknown,Unknown,19.05,-98,2319,NA,NA,NA,NA,Ab10,Ambiguous,NA,No,Neither,Ab10
+SEEDGWAS2720.RN,0.0182393931083665,Experimental,Romero-Navarro_etal_2017,CIMMYTMA-BANK-001642,NA,Landrace,Unknown,Unknown,NA,NA,NA,NA,NA,NA,NA,Ab10,Ambiguous,NA,No,Neither,Ab10
+SEEDGWAS2723.RN,0.019605915575937,Experimental,Romero-Navarro_etal_2017,CIMMYTMA-BANK-001732,NA,Landrace,Unknown,Unknown,19.93333333,-103.7333333,2161,NA,NA,NA,NA,Ab10,Ambiguous,NA,Yes,Low,Ab10
+SEEDGWAS2731.RN,0.0183082130284268,Experimental,Romero-Navarro_etal_2017,CIMMYTMA-BANK-001929,NA,Landrace,Unknown,Unknown,NA,NA,NA,NA,NA,NA,NA,Ab10,Ambiguous,NA,No,Neither,Ab10
+SEEDGWAS2744.RN,0.0189809711065976,Experimental,Romero-Navarro_etal_2017,CIMMYTMA-BANK-003200,NA,Landrace,Unknown,Unknown,NA,NA,NA,NA,NA,NA,NA,Ab10,Ambiguous,NA,No,Neither,Ab10
+SEEDGWAS2746.RN,0.019338785106953,Experimental,Romero-Navarro_etal_2017,CIMMYTMA-BANK-005331,NA,Landrace,Unknown,Unknown,19.634386,-102.503967,1298,NA,NA,NA,NA,Ab10,Ambiguous,NA,No,Neither,Ab10
+SEEDGWAS2748.RN,0.0189692995537269,Experimental,Romero-Navarro_etal_2017,CIMMYTMA-BANK-005565,NA,Landrace,Unknown,Unknown,19.691693,-101.082409,2004,NA,NA,NA,NA,Ab10,Ambiguous,NA,No,Neither,Ab10
+SEEDGWAS2772.RN,0.0155961389786579,Experimental,Romero-Navarro_etal_2017,CIMMYTMA-BANK-006067,NA,Landrace,Unknown,Unknown,17.592724,-96.549449,2063,NA,NA,NA,NA,Ab10,Ambiguous,NA,No,Neither,Ab10
+SEEDGWAS2776.RN,0.0176378743500819,Experimental,Romero-Navarro_etal_2017,CIMMYTMA-BANK-006080,NA,Landrace,Unknown,Unknown,17.190837,-97.867153,2338,NA,NA,NA,NA,Ab10,Ambiguous,NA,No,Neither,Ab10
+SEEDGWAS2779.RN,0.016740627663485,Experimental,Romero-Navarro_etal_2017,CIMMYTMA-BANK-006089,NA,Landrace,Unknown,Unknown,17.76666667,-96.78333333,1860,NA,NA,NA,NA,Ab10,Ambiguous,NA,No,Neither,Ab10
+SEEDGWAS2806.RN,0.0185341488314224,Experimental,Romero-Navarro_etal_2017,CIMMYTMA-BANK-007567,NA,Landrace,Unknown,Unknown,19.01666667,-98.4,2144,NA,NA,NA,NA,Ab10,Ambiguous,NA,No,Neither,Ab10
+SEEDGWAS2812.RN,0.0205208344131073,Experimental,Romero-Navarro_etal_2017,CIMMYTMA-BANK-007588,NA,Landrace,Unknown,Unknown,19.03333333,-98.03333333,2317,NA,NA,NA,NA,Ab10,Ambiguous,NA,No,Neither,Ab10
+SEEDGWAS2814.RN,0.0174669670901816,Experimental,Romero-Navarro_etal_2017,CIMMYTMA-BANK-007600,NA,Landrace,Unknown,Unknown,19.1,-98.3,2170,NA,NA,NA,NA,Ab10,Ambiguous,NA,No,Neither,Ab10
+SEEDGWAS2815.RN,0.0175061466796226,Experimental,Romero-Navarro_etal_2017,CIMMYTMA-BANK-007606,NA,Landrace,Unknown,Unknown,18.91666667,-97.86666667,2078,NA,NA,NA,NA,Ab10,Ambiguous,NA,No,Neither,Ab10
+SEEDGWAS2823.RN,0.0353789740904848,Experimental,Romero-Navarro_etal_2017,CIMMYTMA-BANK-007673,NA,Landrace,Unknown,Unknown,19.33333333,-98.48333333,2355,NA,NA,NA,NA,Ab10,Ambiguous,NA,No,Neither,Ab10
+SEEDGWAS2832.RN,0.0168118609043814,Experimental,Romero-Navarro_etal_2017,CIMMYTMA-BANK-007728,NA,Landrace,Unknown,Unknown,18.95,-98.01666667,2134,NA,NA,NA,NA,Ab10,Ambiguous,NA,No,Neither,Ab10
+SEEDGWAS2868.RN,0.0147141223649539,Experimental,Romero-Navarro_etal_2017,CIMMYTMA-BANK-008493,NA,Landrace,Unknown,Unknown,19.58333333,-99.03333333,2244,NA,NA,NA,NA,Ab10,Ambiguous,NA,No,Neither,Ab10
+SEEDGWAS2893.RN,0.034117719753084,Experimental,Romero-Navarro_etal_2017,CIMMYTMA-BANK-010232,NA,Landrace,Unknown,Unknown,19.350685,-97.445161,2410,NA,NA,NA,NA,Ab10,Ambiguous,NA,No,Neither,Ab10
+SEEDGWAS291.RN,0.018728283344598,Experimental,Romero-Navarro_etal_2017,CIMMYTMA-BANK-005425,NA,Landrace,Unknown,Unknown,NA,NA,NA,NA,NA,NA,NA,Ab10,Ambiguous,NA,No,Neither,Ab10
+SEEDGWAS2910.RN,0.0177009980880729,Experimental,Romero-Navarro_etal_2017,CIMMYTMA-BANK-011868,NA,Landrace,Unknown,Unknown,19.35,-98.1,2454,NA,NA,NA,NA,Ab10,Ambiguous,NA,No,Neither,Ab10
+SEEDGWAS2913.RN,0.0206575784379528,Experimental,Romero-Navarro_etal_2017,CIMMYTMA-BANK-011951,NA,Landrace,Unknown,Unknown,22.63333333,-102.9666667,2028,NA,NA,NA,NA,Ab10,Ambiguous,NA,No,Neither,Ab10
+SEEDGWAS292.RN,0.0220934804108092,Experimental,Romero-Navarro_etal_2017,CIMMYTMA-BANK-005428,NA,Landrace,Unknown,Unknown,NA,NA,NA,NA,NA,NA,NA,Ab10,Ambiguous,NA,No,Neither,Ab10
+SEEDGWAS2937.RN,0.0199747113869764,Experimental,Romero-Navarro_etal_2017,CIMMYTMA-BANK-014486,NA,Landrace,Unknown,Unknown,19.835255,-99.217527,2259,NA,NA,NA,NA,Ab10,Ambiguous,NA,No,Neither,Ab10
+SEEDGWAS2944.RN,0.021225950876308,Experimental,Romero-Navarro_etal_2017,CIMMYTMA-BANK-014531,NA,Landrace,Unknown,Unknown,19.83333333,-99.2,2264,NA,NA,NA,NA,Ab10,Ambiguous,NA,No,Neither,Ab10
+SEEDGWAS2949.RN,0.0192475363736645,Experimental,Romero-Navarro_etal_2017,CIMMYTMA-BANK-014581,NA,Landrace,Unknown,Unknown,23.13333333,-101.1166667,2043,NA,NA,NA,NA,Ab10,Ambiguous,NA,Yes,Low,Ab10
+SEEDGWAS2961.RN,0.0158728093264996,Experimental,Romero-Navarro_etal_2017,CIMMYTMA-BANK-015828,NA,Landrace,Unknown,Unknown,20.474247,-99.927547,1894,NA,NA,NA,NA,Ab10,Ambiguous,NA,No,Neither,Ab10
+SEEDGWAS297.RN,0.0213688948349963,Experimental,Romero-Navarro_etal_2017,CIMMYTMA-BANK-005463,NA,Landrace,Unknown,Unknown,-28.515684,-49.005651,2,NA,NA,NA,NA,Ab10,Ab10-III,NA,No,Neither,Ab10
+SEEDGWAS2970.RN,0.0189865919289205,Experimental,Romero-Navarro_etal_2017,CIMMYTMA-BANK-017437,NA,Landrace,Unknown,Unknown,17.66666667,-97.48333333,2188,NA,NA,NA,NA,Ab10,Ambiguous,NA,Yes,High,Ab10
+SEEDGWAS306.RN,0.0230592135838064,Experimental,Romero-Navarro_etal_2017,CIMMYTMA-BANK-005538,NA,Landrace,Unknown,Unknown,-20.48333333,-49.31666667,518,NA,NA,NA,NA,Ab10,Ambiguous,NA,No,Neither,Ab10
+SEEDGWAS3068.RN,0.0180109405961937,Experimental,Romero-Navarro_etal_2017,CIMMYTMA-BANK-024172,NA,Landrace,Unknown,Unknown,17.284759,-91.811051,366,NA,NA,NA,NA,Ab10,Ambiguous,NA,No,Neither,Ab10
+SEEDGWAS307.RN,0.0209223558379644,Experimental,Romero-Navarro_etal_2017,CIMMYTMA-BANK-005545,NA,Landrace,Unknown,Unknown,-22.437301,-46.852271,660,NA,NA,NA,NA,Ab10,Ab10-III,NA,No,Neither,Ab10
+SEEDGWAS3078.RN,0.018392824683242,Experimental,Romero-Navarro_etal_2017,CIMMYTMA-BANK-021091,NA,Landrace,Unknown,Unknown,19.578317,-98.583348,2608,NA,NA,NA,NA,Ab10,Ambiguous,NA,Yes,Low,Ab10
+SEEDGWAS3089.RN,0.0206400314955532,Experimental,Romero-Navarro_etal_2017,CIMMYTMA-BANK-021176,NA,Landrace,Unknown,Unknown,20.784944,-98.734909,1520,NA,NA,NA,NA,Ab10,Ambiguous,NA,No,Neither,Ab10
+SEEDGWAS3096.RN,0.0171564761542166,Experimental,Romero-Navarro_etal_2017,CIMMYTMA-BANK-022202,NA,Landrace,Unknown,Unknown,19.13333333,-98.2,2245,NA,NA,NA,NA,Ab10,Ambiguous,NA,No,Neither,Ab10
+SEEDGWAS3111.RN,0.0209299858354585,Experimental,Romero-Navarro_etal_2017,CIMMYTMA-BANK-024122,NA,Landrace,Unknown,Unknown,19.93,-103.7,2228,NA,NA,NA,NA,Ab10,Ambiguous,NA,No,Neither,Ab10
+SEEDGWAS3114.RN,0.0163128610600444,Experimental,Romero-Navarro_etal_2017,CIMMYTMA-BANK-024141,NA,Landrace,Unknown,Unknown,19.988464,-103.515374,1353,NA,NA,NA,NA,Ab10,Ambiguous,NA,No,Neither,Ab10
+SEEDGWAS3123.RN,0.0167727226060377,Experimental,Romero-Navarro_etal_2017,CIMMYTMA-BANK-024162,NA,Landrace,Unknown,Unknown,22.233853,-102.212362,1973,NA,NA,NA,NA,Ab10,Ambiguous,NA,Yes,Low,Ab10
+SEEDGWAS3126.RN,0.0294938299345825,Experimental,Romero-Navarro_etal_2017,CIMMYTMA-BANK-024581,NA,Landrace,Unknown,Unknown,19.677872,-99.166836,2257,NA,NA,NA,NA,Ab10,Ambiguous,NA,No,Neither,Ab10
+SEEDGWAS313.RN,0.0190883360783146,Experimental,Romero-Navarro_etal_2017,CIMMYTMA-BANK-005659,NA,Landrace,Unknown,Unknown,NA,NA,NA,NA,NA,NA,NA,Ab10,Ambiguous,NA,No,Neither,Ab10
+SEEDGWAS3165.RN,0.0198336081943277,Experimental,Romero-Navarro_etal_2017,CIMMYTMA-BANK-000225,NA,Landrace,Unknown,Unknown,17.580798,-101.267595,109,NA,NA,NA,NA,Ab10,Ab10-I,NA,No,Neither,Ab10
+SEEDGWAS3168.RN,0.0354930088254954,Experimental,Romero-Navarro_etal_2017,CIMMYTMA-BANK-000320,NA,Landrace,Unknown,Unknown,19.27416667,-102.9836111,681,NA,NA,NA,NA,Ab10,Ab10-I,NA,No,Neither,Ab10
+SEEDGWAS3205.RN,0.0191301455251888,Experimental,Romero-Navarro_etal_2017,CIMMYTMA-BANK-004460,NA,Landrace,Unknown,Unknown,-29.846457,-50.855959,117,NA,NA,NA,NA,Ab10,Ambiguous,NA,No,Neither,Ab10
+SEEDGWAS3225.RN,0.0186452624347053,Experimental,Romero-Navarro_etal_2017,CIMMYTMA-BANK-005951,NA,Landrace,Unknown,Unknown,16.539657,-98.136052,221,NA,NA,NA,NA,Ab10,Ambiguous,NA,No,Neither,Ab10
+SEEDGWAS3294.RN,0.0202103999468138,Experimental,Romero-Navarro_etal_2017,CIMMYTMA-BANK-016814,NA,Landrace,Unknown,Unknown,-24.232884,-55.890666,245,NA,NA,NA,NA,Ab10,Ambiguous,NA,No,Neither,Ab10
+SEEDGWAS3320.RN,0.021402087656696,Experimental,Romero-Navarro_etal_2017,CIMMYTMA-BANK-022023,NA,Landrace,Unknown,Unknown,-24.523124,-54.824574,356,NA,NA,NA,NA,Ab10,Ab10-III,NA,No,Neither,Ab10
+SEEDGWAS3331.RN,0.0156259708459646,Experimental,Romero-Navarro_etal_2017,CIMMYTMA-BANK-022015,NA,Landrace,Unknown,Unknown,-23.886305,-56.467604,151,NA,NA,NA,NA,Ab10,Ambiguous,NA,No,Neither,Ab10
+SEEDGWAS3381.RN,0.0210815528126791,Experimental,Romero-Navarro_etal_2017,CIMMYTMA-BANK-000300,NA,Landrace,Unknown,Unknown,20.15,-103.05,1567,NA,NA,NA,NA,Ab10,Ambiguous,NA,No,Neither,Ab10
+SEEDGWAS3447.RN,0.0189663426964043,Experimental,Romero-Navarro_etal_2017,CIMMYTMA-BANK-005472,NA,Landrace,Unknown,Unknown,22.05427,-99.816363,1078,NA,NA,NA,NA,Ab10,Ambiguous,NA,No,Neither,Ab10
+SEEDGWAS348.RN,0.019739837558146,Experimental,Romero-Navarro_etal_2017,CIMMYTMA-BANK-007789,NA,Landrace,Unknown,Unknown,-20.63333333,-47.28333333,735,NA,NA,NA,NA,Ab10,Ab10-III,NA,No,Neither,Ab10
+SEEDGWAS3536.RN,0.0172774124601887,Experimental,Romero-Navarro_etal_2017,CIMMYTMA-BANK-009694,NA,Landrace,Unknown,Unknown,NA,NA,NA,NA,NA,NA,NA,Ab10,Ambiguous,NA,No,Neither,Ab10
+SEEDGWAS3605.RN,0.0176648427528804,Experimental,Romero-Navarro_etal_2017,CIMMYTMA-BANK-012020,NA,Landrace,Unknown,Unknown,NA,NA,NA,NA,NA,NA,NA,Ab10,Ambiguous,NA,No,Neither,Ab10
+SEEDGWAS3628.RN,0.0203172163612757,Experimental,Romero-Navarro_etal_2017,CIMMYTMA-BANK-015719,NA,Landrace,Unknown,Unknown,21.253292,-100.913794,2004,NA,NA,NA,NA,Ab10,Ambiguous,NA,No,Neither,Ab10
+SEEDGWAS3641.RN,0.0176307328457622,Experimental,Romero-Navarro_etal_2017,CIMMYTMA-BANK-020618,NA,Landrace,Unknown,Unknown,24.50251,-104.760042,1946,NA,NA,NA,NA,Ab10,Ambiguous,NA,Yes,Low,Ab10
+SEEDGWAS3652.RN,0.0162772105906657,Experimental,Romero-Navarro_etal_2017,CIMMYTMA-BANK-020845,NA,Landrace,Unknown,Unknown,-29.424059,-66.796452,445,NA,NA,NA,NA,Ab10,Ambiguous,NA,No,Neither,Ab10
+SEEDGWAS3668.RN,0.0206731343679338,Experimental,Romero-Navarro_etal_2017,CIMMYTMA-BANK-023865,NA,Landrace,Unknown,Unknown,NA,NA,NA,NA,NA,NA,NA,Ab10,Ambiguous,NA,No,Neither,Ab10
+SEEDGWAS3670.RN,0.0203442327730908,Experimental,Romero-Navarro_etal_2017,CIMMYTMA-BANK-023889,NA,Landrace,Unknown,Unknown,NA,NA,NA,NA,NA,NA,NA,Ab10,Ambiguous,NA,No,Neither,Ab10
+SEEDGWAS3701.RN,0.019251076693757,Experimental,Romero-Navarro_etal_2017,CIMMYTMA-BANK-006851,NA,Landrace,Unknown,Unknown,26.03333333,-106.95,2586,NA,NA,NA,NA,Ab10,Ambiguous,NA,Yes,High,Ab10
+SEEDGWAS3717.RN,0.0204427224596361,Experimental,Romero-Navarro_etal_2017,CIMMYTMA-BANK-008175,NA,Landrace,Unknown,Unknown,19.81666667,-99.11666667,2259,NA,NA,NA,NA,Ab10,Ambiguous,NA,No,Neither,Ab10
+SEEDGWAS3733.RN,0.0152878922837268,Experimental,Romero-Navarro_etal_2017,CIMMYTMA-BANK-010605,NA,Landrace,Unknown,Unknown,23.739833,-103.832054,2179,NA,NA,NA,NA,Ab10,Ambiguous,NA,No,Neither,Ab10
+SEEDGWAS3757.RN,0.0196005840566747,Experimental,Romero-Navarro_etal_2017,CIMMYTMA-BANK-017119,NA,Landrace,Unknown,Unknown,19.479844,-97.500186,2331,NA,NA,NA,NA,Ab10,Ambiguous,NA,No,Neither,Ab10
+SEEDGWAS3780.RN,0.0227839064469334,Experimental,Romero-Navarro_etal_2017,CIMMYTMA-BANK-022867,NA,Landrace,Unknown,Unknown,24.516667,-104.716667,1936,NA,NA,NA,NA,Ab10,Ambiguous,NA,Yes,Low,Ab10
+SEEDGWAS3787.RN,0.0170247790931163,Experimental,Romero-Navarro_etal_2017,CIMMYTMA-BANK-024018,NA,Landrace,Unknown,Unknown,24.470342,-104.120767,2030,NA,NA,NA,NA,Ab10,Ambiguous,NA,No,Neither,Ab10
+SEEDGWAS3801.RN,0.0182603333419929,Experimental,Romero-Navarro_etal_2017,CIMMYTMA-BANK-000373,NA,Landrace,Unknown,Unknown,NA,NA,NA,NA,NA,NA,NA,Ab10,Ambiguous,NA,Yes,High,Ab10
+SEEDGWAS383.RN,0.0211839672579592,Experimental,Romero-Navarro_etal_2017,CIMMYTMA-BANK-009905,NA,Landrace,Unknown,Unknown,NA,NA,NA,NA,NA,NA,NA,Ab10,Ambiguous,NA,No,Neither,Ab10
+SEEDGWAS3841.RN,0.0197008089702632,Experimental,Romero-Navarro_etal_2017,CIMMYTMA-BANK-004157,NA,Landrace,Unknown,Unknown,-25.916667,-57.15,158,NA,NA,NA,NA,Ab10,Ambiguous,NA,No,Neither,Ab10
+SEEDGWAS3874.RN,0.0148535165680867,Experimental,Romero-Navarro_etal_2017,CIMMYTMA-BANK-005836,NA,Landrace,Unknown,Unknown,25.629185,-100.082949,387,NA,NA,NA,NA,Ab10,Ambiguous,NA,No,Neither,Ab10
+SEEDGWAS388.RN,0.0182444300458953,Experimental,Romero-Navarro_etal_2017,CIMMYTMA-BANK-009944,NA,Landrace,Unknown,Unknown,NA,NA,NA,NA,NA,NA,NA,Ab10,Ambiguous,NA,No,Neither,Ab10
+SEEDGWAS3886.RN,0.022083670081772,Experimental,Romero-Navarro_etal_2017,CIMMYTMA-BANK-007038,NA,Landrace,Unknown,Unknown,21.376419,-104.819531,966,NA,NA,NA,NA,Ab10,Ambiguous,NA,Yes,Low,Ab10
+SEEDGWAS389.RN,0.0189134320127921,Experimental,Romero-Navarro_etal_2017,CIMMYTMA-BANK-009945,NA,Landrace,Unknown,Unknown,NA,NA,NA,NA,NA,NA,NA,Ab10,Ambiguous,NA,No,Neither,Ab10
+SEEDGWAS3915.RN,0.0318809539170634,Experimental,Romero-Navarro_etal_2017,CIMMYTMA-BANK-007206,NA,Landrace,Unknown,Unknown,26.71666667,-108.3333333,254,NA,NA,NA,NA,Ab10,Ambiguous,NA,No,Neither,Ab10
+SEEDGWAS394.RN,0.0411764443725047,Experimental,Romero-Navarro_etal_2017,CIMMYTMA-BANK-009972,NA,Landrace,Unknown,Unknown,NA,NA,NA,NA,NA,NA,NA,Ab10,Ambiguous,NA,No,Neither,Ab10
+SEEDGWAS3962.RN,0.0177016601360155,Experimental,Romero-Navarro_etal_2017,CIMMYTMA-BANK-009156,NA,Landrace,Unknown,Unknown,21.225329,-105.01608,374,NA,NA,NA,NA,Ab10,Ambiguous,NA,No,Neither,Ab10
+SEEDGWAS3986.RN,0.0216460017288271,Experimental,Romero-Navarro_etal_2017,CIMMYTMA-BANK-013417,NA,Landrace,Unknown,Unknown,-10.51666667,-39.01666667,490,NA,NA,NA,NA,Ab10,Ambiguous,NA,No,Neither,Ab10
+SEEDGWAS399.RN,0.0191716413999066,Experimental,Romero-Navarro_etal_2017,CIMMYTMA-BANK-010056,NA,Landrace,Unknown,Unknown,9.184895,-65.811144,157,NA,NA,NA,NA,Ab10,Ab10-III,NA,No,Neither,Ab10
+SEEDGWAS3995.RN,0.0145678703048629,Experimental,Romero-Navarro_etal_2017,CIMMYTMA-BANK-014890,NA,Landrace,Unknown,Unknown,-31.76666667,-52.33333333,9,NA,NA,NA,NA,Ab10,Ambiguous,NA,No,Neither,Ab10
+SEEDGWAS4029.RN,0.0147658842331108,Experimental,Romero-Navarro_etal_2017,CIMMYTMA-BANK-022334,NA,Landrace,Unknown,Unknown,20.8,-104.4,800,NA,NA,NA,NA,Ab10,Ambiguous,NA,No,Neither,Ab10
+SEEDGWAS4045.RN,0.0190285203710952,Experimental,Romero-Navarro_etal_2017,CIMMYTMA-BANK-000424,NA,Landrace,Unknown,Unknown,21.7722222,-99.9072222,903,NA,NA,NA,NA,Ab10,Ambiguous,NA,No,Neither,Ab10
+SEEDGWAS415.RN,0.0201055492091382,Experimental,Romero-Navarro_etal_2017,CIMMYTMA-BANK-010999,NA,Landrace,Unknown,Unknown,NA,NA,NA,NA,NA,NA,NA,Ab10,Ambiguous,NA,No,Neither,Ab10
+SEEDGWAS4154.RN,0.0170218547669173,Experimental,Romero-Navarro_etal_2017,CIMMYTMA-BANK-014052,NA,Landrace,Unknown,Unknown,19.93333333,-103.7333333,2161,NA,NA,NA,NA,Ab10,Ambiguous,NA,No,Neither,Ab10
+SEEDGWAS4194.RN,0.0306675689990943,Experimental,Romero-Navarro_etal_2017,CIMMYTMA-BANK-023073,NA,Landrace,Unknown,Unknown,NA,NA,NA,NA,NA,NA,NA,Ab10,Ambiguous,NA,No,Neither,Ab10
+SEEDGWAS4215.RN,0.0153926263060098,Experimental,Romero-Navarro_etal_2017,CIMMYTMA-BANK-000605,NA,Landrace,Unknown,Unknown,NA,NA,NA,NA,NA,NA,NA,Ab10,Ambiguous,NA,Yes,Low,Ab10
+SEEDGWAS4224.RN,0.0342048011905407,Experimental,Romero-Navarro_etal_2017,CIMMYTMA-BANK-006802,NA,Landrace,Unknown,Unknown,28.611505,-105.97864,1425,NA,NA,NA,NA,Ab10,Ambiguous,NA,Yes,Low,Ab10
+SEEDGWAS4231.RN,0.0191646838825409,Experimental,Romero-Navarro_etal_2017,CIMMYTMA-BANK-007950,NA,Landrace,Unknown,Unknown,28.2,-108.3833333,1948,NA,NA,NA,NA,Ab10,Ambiguous,NA,Yes,Low,Ab10
+SEEDGWAS425.RN,0.0176497167216381,Experimental,Romero-Navarro_etal_2017,CIMMYTMA-BANK-012219,NA,Landrace,Unknown,Unknown,-14.16083,-67.157499,176,NA,NA,NA,NA,Ab10,Ab10-III,NA,No,Neither,Ab10
+SEEDGWAS427.RN,0.0179061729157325,Experimental,Romero-Navarro_etal_2017,CIMMYTMA-BANK-012293,NA,Landrace,Unknown,Unknown,7.491857,-65.175889,27,NA,NA,NA,NA,Ab10,Ambiguous,NA,No,Neither,Ab10
+SEEDGWAS4296.RN,0.0208918741652542,Experimental,Romero-Navarro_etal_2017,CIMMYTMA-BANK-000548,NA,Landrace,Unknown,Unknown,20.7,-99.8,2039,NA,NA,NA,NA,Ab10,Ambiguous,NA,Yes,High,Ab10
+SEEDGWAS4300.RN,0.0128948356695562,Experimental,Romero-Navarro_etal_2017,CIMMYTMA-BANK-000584,NA,Landrace,Unknown,Unknown,21.18333333,-102.85,1794,NA,NA,NA,NA,Ab10,Ambiguous,NA,No,Neither,Ab10
+SEEDGWAS4307.RN,0.020715679770222,Experimental,Romero-Navarro_etal_2017,CIMMYTMA-BANK-000664,NA,Landrace,Unknown,Unknown,NA,NA,NA,NA,NA,NA,NA,Ab10,Ambiguous,NA,No,Neither,Ab10
+SEEDGWAS4312.RN,0.0246832740958318,Experimental,Romero-Navarro_etal_2017,CIMMYTMA-BANK-000853,NA,Landrace,Unknown,Unknown,NA,NA,NA,NA,NA,NA,NA,Ab10,Ambiguous,NA,No,Neither,Ab10
+SEEDGWAS4319.RN,0.0189323286877912,Experimental,Romero-Navarro_etal_2017,CIMMYTMA-BANK-001399,NA,Landrace,Unknown,Unknown,19.71666667,-99.93333333,2562,NA,NA,NA,NA,Ab10,Ambiguous,NA,No,Neither,Ab10
+SEEDGWAS4325.RN,0.0212168320969162,Experimental,Romero-Navarro_etal_2017,CIMMYTMA-BANK-001464,NA,Landrace,Unknown,Unknown,19.91666667,-102,2011,NA,NA,NA,NA,Ab10,Ambiguous,NA,Yes,High,Ab10
+SEEDGWAS433.RN,0.0198895775311922,Experimental,Romero-Navarro_etal_2017,CIMMYTMA-BANK-014063,NA,Landrace,Unknown,Unknown,18.584597,-74.273742,582,NA,NA,NA,NA,Ab10,Ambiguous,NA,No,Neither,Ab10
+SEEDGWAS4333.RN,0.0184214883902858,Experimental,Romero-Navarro_etal_2017,CIMMYTMA-BANK-001503,NA,Landrace,Unknown,Unknown,22.199415,-102.310212,1930,NA,NA,NA,NA,Ab10,Ambiguous,NA,No,Neither,Ab10
+SEEDGWAS4354.RN,0.0191124272438174,Experimental,Romero-Navarro_etal_2017,CIMMYTMA-BANK-001656,NA,Landrace,Unknown,Unknown,20.382772,-100.275105,2274,NA,NA,NA,NA,Ab10,Ambiguous,NA,No,Neither,Ab10
+SEEDGWAS4355.RN,0.015406134757836,Experimental,Romero-Navarro_etal_2017,CIMMYTMA-BANK-001660,NA,Landrace,Unknown,Unknown,20.143022,-103.723087,2301,NA,NA,NA,NA,Ab10,Ambiguous,NA,No,Neither,Ab10
+SEEDGWAS4377.RN,0.0174618140818111,Experimental,Romero-Navarro_etal_2017,CIMMYTMA-BANK-002132,NA,Landrace,Unknown,Unknown,19.274552,-103.796358,467,NA,NA,NA,NA,Ab10,Ambiguous,NA,No,Neither,Ab10
+SEEDGWAS4391.RN,0.0158136173977328,Experimental,Romero-Navarro_etal_2017,CIMMYTMA-BANK-005598,NA,Landrace,Unknown,Unknown,19.58333333,-102.4666667,1327,NA,NA,NA,NA,Ab10,Ambiguous,NA,No,Neither,Ab10
+SEEDGWAS4402.RN,0.0316299824686661,Experimental,Romero-Navarro_etal_2017,CIMMYTMA-BANK-005917,NA,Landrace,Unknown,Unknown,17.848135,-96.879163,1967,NA,NA,NA,NA,Ab10,Ambiguous,NA,No,Neither,Ab10
+SEEDGWAS4420.RN,0.0225433304816025,Experimental,Romero-Navarro_etal_2017,CIMMYTMA-BANK-006113,NA,Landrace,Unknown,Unknown,17.312798,-97.816908,1896,NA,NA,NA,NA,Ab10,Ambiguous,NA,No,Neither,Ab10
+SEEDGWAS4443.RN,0.01833627542372,Experimental,Romero-Navarro_etal_2017,CIMMYTMA-BANK-006951,NA,Landrace,Unknown,Unknown,22.11666667,-103.25,1701,NA,NA,NA,NA,Ab10,Ambiguous,NA,No,Neither,Ab10
+SEEDGWAS4445.RN,0.015838810158936,Experimental,Romero-Navarro_etal_2017,CIMMYTMA-BANK-006981,NA,Landrace,Unknown,Unknown,22.637382,-103.685704,1890,NA,NA,NA,NA,Ab10,Ambiguous,NA,No,Neither,Ab10
+SEEDGWAS4446.RN,0.0154627570493888,Experimental,Romero-Navarro_etal_2017,CIMMYTMA-BANK-006987,NA,Landrace,Unknown,Unknown,22.637382,-103.685704,1890,NA,NA,NA,NA,Ab10,Ambiguous,NA,Yes,Low,Ab10
+SEEDGWAS4447.RN,0.0192476344908443,Experimental,Romero-Navarro_etal_2017,CIMMYTMA-BANK-006988,NA,Landrace,Unknown,Unknown,22.3,-103.55,2190,NA,NA,NA,NA,Ab10,Ambiguous,NA,No,Neither,Ab10
+SEEDGWAS4461.RN,0.0194619558787354,Experimental,Romero-Navarro_etal_2017,CIMMYTMA-BANK-007562,NA,Landrace,Unknown,Unknown,19.244746,-98.499901,2404,NA,NA,NA,NA,Ab10,Ambiguous,NA,No,Neither,Ab10
+SEEDGWAS4469.RN,0.0172467859521326,Experimental,Romero-Navarro_etal_2017,CIMMYTMA-BANK-007656,NA,Landrace,Unknown,Unknown,NA,NA,NA,NA,NA,NA,NA,Ab10,Ambiguous,NA,No,Neither,Ab10
+SEEDGWAS4472.RN,0.0190208256293634,Experimental,Romero-Navarro_etal_2017,CIMMYTMA-BANK-007671,NA,Landrace,Unknown,Unknown,19.16666667,-98.35,2229,NA,NA,NA,NA,Ab10,Ambiguous,NA,No,Neither,Ab10
+SEEDGWAS4473.RN,0.031090371005118,Experimental,Romero-Navarro_etal_2017,CIMMYTMA-BANK-007673,NA,Landrace,Unknown,Unknown,19.33333333,-98.48333333,2355,NA,NA,NA,NA,Ab10,Ambiguous,NA,No,Neither,Ab10
+SEEDGWAS449.RN,0.0349365164864366,Experimental,Romero-Navarro_etal_2017,CIMMYTMA-BANK-016755,NA,Landrace,Unknown,Unknown,-23.267981,-57.309104,132,NA,NA,NA,NA,Ab10,Ambiguous,NA,No,Neither,Ab10
+SEEDGWAS4502.RN,0.0170454869810888,Experimental,Romero-Navarro_etal_2017,CIMMYTMA-BANK-008093,NA,Landrace,Unknown,Unknown,19.82,-101.9,2329,NA,NA,NA,NA,Ab10,Ambiguous,NA,No,Neither,Ab10
+SEEDGWAS4508.RN,0.0190605656202954,Experimental,Romero-Navarro_etal_2017,CIMMYTMA-BANK-008448,NA,Landrace,Unknown,Unknown,20.13333333,-98.75,2449,NA,NA,NA,NA,Ab10,Ambiguous,NA,No,Neither,Ab10
+SEEDGWAS4514.RN,0.0231531013078666,Experimental,Romero-Navarro_etal_2017,CIMMYTMA-BANK-008465,NA,Landrace,Unknown,Unknown,19.521431,-98.857468,2273,NA,NA,NA,NA,Ab10,Ambiguous,NA,No,Neither,Ab10
+SEEDGWAS4517.RN,0.0219949246816897,Experimental,Romero-Navarro_etal_2017,CIMMYTMA-BANK-008482,NA,Landrace,Unknown,Unknown,19.71666667,-98.73333333,2371,NA,NA,NA,NA,Ab10,Ab10-II,NA,No,Neither,Ab10
+SEEDGWAS4529.RN,0.0172750125626525,Experimental,Romero-Navarro_etal_2017,CIMMYTMA-BANK-008552,NA,Landrace,Unknown,Unknown,19.56,-99.76,2549,NA,NA,NA,NA,Ab10,Ambiguous,NA,Yes,Low,Ab10
+SEEDGWAS4548.RN,0.0156509775771628,Experimental,Romero-Navarro_etal_2017,CIMMYTMA-BANK-010232,NA,Landrace,Unknown,Unknown,19.350685,-97.445161,2410,NA,NA,NA,NA,Ab10,Ambiguous,NA,No,Neither,Ab10
+SEEDGWAS4567.RN,0.0204411554856706,Experimental,Romero-Navarro_etal_2017,CIMMYTMA-BANK-011264,NA,Landrace,Unknown,Unknown,19.83333333,-98.98333333,2271,NA,NA,NA,NA,Ab10,Ambiguous,NA,No,Neither,Ab10
+SEEDGWAS4579.RN,0.0193791116355696,Experimental,Romero-Navarro_etal_2017,CIMMYTMA-BANK-011868,NA,Landrace,Unknown,Unknown,19.35,-98.1,2454,NA,NA,NA,NA,Ab10,Ambiguous,NA,No,Neither,Ab10
+SEEDGWAS4580.RN,0.0199310284946743,Experimental,Romero-Navarro_etal_2017,CIMMYTMA-BANK-011873,NA,Landrace,Unknown,Unknown,19.35,-98.16666667,2297,NA,NA,NA,NA,Ab10,Ambiguous,NA,Yes,Low,Ab10
+SEEDGWAS4594.RN,0.0190544876205817,Experimental,Romero-Navarro_etal_2017,CIMMYTMA-BANK-013918,NA,Landrace,Unknown,Unknown,21.36666667,-101.9166667,1873,NA,NA,NA,NA,Ab10,Ambiguous,NA,No,Neither,Ab10
+SEEDGWAS4599.RN,0.0187929087996337,Experimental,Romero-Navarro_etal_2017,CIMMYTMA-BANK-013996,NA,Landrace,Unknown,Unknown,19.76666667,-97.25,1888,NA,NA,NA,NA,Ab10,Ambiguous,NA,No,Neither,Ab10
+SEEDGWAS4617.RN,0.0181016717771134,Experimental,Romero-Navarro_etal_2017,CIMMYTMA-BANK-014486,NA,Landrace,Unknown,Unknown,19.835255,-99.217527,2259,NA,NA,NA,NA,Ab10,Ambiguous,NA,No,Neither,Ab10
+SEEDGWAS4639.RN,0.0200305967393449,Experimental,Romero-Navarro_etal_2017,CIMMYTMA-BANK-015770,NA,Landrace,Unknown,Unknown,19.71666667,-99.93333333,2562,NA,NA,NA,NA,Ab10,Ambiguous,NA,No,Neither,Ab10
+SEEDGWAS4646.RN,0.0191913768726849,Experimental,Romero-Navarro_etal_2017,CIMMYTMA-BANK-015863,NA,Landrace,Unknown,Unknown,19.31666667,-97.91666667,2492,NA,NA,NA,NA,Ab10,Ambiguous,NA,No,Neither,Ab10
+SEEDGWAS4664.RN,0.0227926534256102,Experimental,Romero-Navarro_etal_2017,CIMMYTMA-BANK-022863,NA,Landrace,Unknown,Unknown,19.046412,-98.805501,2360,NA,NA,NA,NA,Ab10,Ambiguous,NA,No,Neither,Ab10
+SEEDGWAS4665.RN,0.0226197831349946,Experimental,Romero-Navarro_etal_2017,CIMMYTMA-BANK-022936,NA,Landrace,Unknown,Unknown,19.678005,-99.266942,2328,NA,NA,NA,NA,Ab10,Ambiguous,NA,No,Neither,Ab10
+SEEDGWAS467.RN,0.0181264520415042,Experimental,Romero-Navarro_etal_2017,CIMMYTMA-BANK-019348,NA,Landrace,Unknown,Unknown,16.332904,-92.564373,700,NA,NA,NA,NA,Ab10,Ambiguous,NA,No,Neither,Ab10
+SEEDGWAS4675.RN,0.0227951370297697,Experimental,Romero-Navarro_etal_2017,CIMMYTMA-BANK-015943,NA,Landrace,Unknown,Unknown,24.51666667,-104.7666667,1951,NA,NA,NA,NA,Ab10,Ambiguous,NA,No,Neither,Ab10
+SEEDGWAS4684.RN,0.0231707473744164,Experimental,Romero-Navarro_etal_2017,CIMMYTMA-BANK-017076,NA,Landrace,Unknown,Unknown,19.15,-97.63333333,2372,NA,NA,NA,NA,Ab10,Ambiguous,NA,No,Neither,Ab10
+SEEDGWAS475.RN,0.0196115322766168,Experimental,Romero-Navarro_etal_2017,CIMMYTMA-BANK-027305,NA,Landrace,Unknown,Unknown,NA,NA,NA,NA,NA,NA,NA,Ab10,Ambiguous,NA,No,Neither,Ab10
+SEEDGWAS4754.RN,0.017067647637163,Experimental,Romero-Navarro_etal_2017,CIMMYTMA-BANK-019138,NA,Landrace,Unknown,Unknown,20.81666667,-102.6666667,2017,NA,NA,NA,NA,Ab10,Ambiguous,NA,No,Neither,Ab10
+SEEDGWAS4767.RN,0.0187451604292196,Experimental,Romero-Navarro_etal_2017,CIMMYTMA-BANK-019429,NA,Landrace,Unknown,Unknown,22.95,-102.6666667,2156,NA,NA,NA,NA,Ab10,Ambiguous,NA,No,Neither,Ab10
+SEEDGWAS4795.RN,0.0200642828855882,Experimental,Romero-Navarro_etal_2017,CIMMYTMA-BANK-020684,NA,Landrace,Unknown,Unknown,21.410256,-101.89888,1884,NA,NA,NA,NA,Ab10,Ambiguous,NA,No,Neither,Ab10
+SEEDGWAS4811.RN,0.0184207972497712,Experimental,Romero-Navarro_etal_2017,CIMMYTMA-BANK-021072,NA,Landrace,Unknown,Unknown,20.784944,-98.734909,1520,NA,NA,NA,NA,Ab10,Ambiguous,NA,No,Neither,Ab10
+SEEDGWAS4815.RN,0.0194519692341377,Experimental,Romero-Navarro_etal_2017,CIMMYTMA-BANK-021091,NA,Landrace,Unknown,Unknown,19.578317,-98.583348,2608,NA,NA,NA,NA,Ab10,Ambiguous,NA,No,Neither,Ab10
+SEEDGWAS4821.RN,0.0204871714659208,Experimental,Romero-Navarro_etal_2017,CIMMYTMA-BANK-021171,NA,Landrace,Unknown,Unknown,19.535565,-97.431546,2449,NA,NA,NA,NA,Ab10,Ambiguous,NA,Yes,Low,Ab10
+SEEDGWAS4823.RN,0.0138635316238287,Experimental,Romero-Navarro_etal_2017,CIMMYTMA-BANK-021176,NA,Landrace,Unknown,Unknown,20.784944,-98.734909,1520,NA,NA,NA,NA,Ab10,Ambiguous,NA,No,Neither,Ab10
+SEEDGWAS4835.RN,0.0174606615395985,Experimental,Romero-Navarro_etal_2017,CIMMYTMA-BANK-022202,NA,Landrace,Unknown,Unknown,19.13333333,-98.2,2245,NA,NA,NA,NA,Ab10,Ambiguous,NA,No,Neither,Ab10
+SEEDGWAS4857.RN,0.0182929066817591,Experimental,Romero-Navarro_etal_2017,CIMMYTMA-BANK-024137,NA,Landrace,Unknown,Unknown,19.800829,-103.478064,1521,NA,NA,NA,NA,Ab10,Ambiguous,NA,No,Neither,Ab10
+SEEDGWAS4859.RN,0.0185842073171407,Experimental,Romero-Navarro_etal_2017,CIMMYTMA-BANK-024141,NA,Landrace,Unknown,Unknown,19.988464,-103.515374,1353,NA,NA,NA,NA,Ab10,Ambiguous,NA,No,Neither,Ab10
+SEEDGWAS487.RN,0.0259162738961696,Experimental,Romero-Navarro_etal_2017,CIMMYTMA-BANK-020774,NA,Landrace,Unknown,Unknown,-26.78333333,-60.45,93,NA,NA,NA,NA,Ab10,Ambiguous,NA,No,Neither,Ab10
+SEEDGWAS4876.RN,0.0229897974563544,Experimental,Romero-Navarro_etal_2017,CIMMYTMA-BANK-024720,NA,Landrace,Unknown,Unknown,16.756442,-92.710791,2191,NA,NA,NA,NA,Ab10,Ambiguous,NA,No,Neither,Ab10
+SEEDGWAS4882.RN,0.0162888977869301,Experimental,Romero-Navarro_etal_2017,CIMMYTMA-BANK-027624,NA,Landrace,Unknown,Unknown,NA,NA,NA,NA,NA,NA,NA,Ab10,Ambiguous,NA,No,Neither,Ab10
+SEEDGWAS4914.RN,0.0204086795325831,Experimental,Romero-Navarro_etal_2017,CIMMYTMA-BANK-001995,NA,Landrace,Unknown,Unknown,18.878577,-99.083132,1277,NA,NA,NA,NA,Ab10,Ambiguous,NA,No,Neither,Ab10
+SEEDGWAS4924.RN,0.0186272525821381,Experimental,Romero-Navarro_etal_2017,CIMMYTMA-BANK-006066,NA,Landrace,Unknown,Unknown,17.312798,-97.816908,1896,NA,NA,NA,NA,Ab10,Ambiguous,NA,No,Neither,Ab10
+SEEDGWAS4931.RN,0.0159521361340585,Experimental,Romero-Navarro_etal_2017,CIMMYTMA-BANK-007008,NA,Landrace,Unknown,Unknown,21.639366,-102.968003,1370,NA,NA,NA,NA,Ab10,Ambiguous,NA,No,Neither,Ab10
+SEEDGWAS4942.RN,0.0198644834066355,Experimental,Romero-Navarro_etal_2017,CIMMYTMA-BANK-015738,NA,Landrace,Unknown,Unknown,20.686914,-102.471716,1984,NA,NA,NA,NA,Ab10,Ambiguous,NA,Yes,High,Ab10
+SEEDGWAS4967.RN,0.0206172785377676,Experimental,Romero-Navarro_etal_2017,CIMMYTMA-BANK-001432,NA,Landrace,Unknown,Unknown,19.16666667,-98.35,2229,NA,NA,NA,NA,Ab10,Ambiguous,NA,Yes,Low,Ab10
+SEEDGWAS4992.RN,0.0209402994606597,Experimental,Romero-Navarro_etal_2017,CIMMYTMA-BANK-006995,NA,Landrace,Unknown,Unknown,22.33333333,-102.8833333,1883,NA,NA,NA,NA,Ab10,Ambiguous,NA,Yes,High,Ab10
+SEEDGWAS4998.RN,0.0336038868230862,Experimental,Romero-Navarro_etal_2017,CIMMYTMA-BANK-007600,NA,Landrace,Unknown,Unknown,19.1,-98.3,2170,NA,NA,NA,NA,Ab10,Ambiguous,NA,No,Neither,Ab10
+SEEDGWAS4999.RN,0.0222839293053931,Experimental,Romero-Navarro_etal_2017,CIMMYTMA-BANK-007606,NA,Landrace,Unknown,Unknown,18.91666667,-97.86666667,2078,NA,NA,NA,NA,Ab10,Ambiguous,NA,No,Neither,Ab10
+SEEDGWAS5006.RN,0.0217922097705343,Experimental,Romero-Navarro_etal_2017,CIMMYTMA-BANK-007731,NA,Landrace,Unknown,Unknown,18.9,-97.96666667,2189,NA,NA,NA,NA,Ab10,Ambiguous,NA,No,Neither,Ab10
+SEEDGWAS5009.RN,0.0183981729811532,Experimental,Romero-Navarro_etal_2017,CIMMYTMA-BANK-007744,NA,Landrace,Unknown,Unknown,18.967821,-97.883367,2240,NA,NA,NA,NA,Ab10,Ambiguous,NA,No,Neither,Ab10
+SEEDGWAS5037.RN,0.020898378197107,Experimental,Romero-Navarro_etal_2017,CIMMYTMA-BANK-013969,NA,Landrace,Unknown,Unknown,18.627026,-97.407682,2007,NA,NA,NA,NA,Ab10,Ambiguous,NA,No,Neither,Ab10
+SEEDGWAS5052.RN,0.0198686614838593,Experimental,Romero-Navarro_etal_2017,CIMMYTMA-BANK-015828,NA,Landrace,Unknown,Unknown,20.474247,-99.927547,1894,NA,NA,NA,NA,Ab10,Ab10-I,NA,Yes,Low,Ab10
+SEEDGWAS5056.RN,0.016630689363201,Experimental,Romero-Navarro_etal_2017,CIMMYTMA-BANK-017298,NA,Landrace,Unknown,Unknown,17.45,-97.28333333,2079,NA,NA,NA,NA,Ab10,Ambiguous,NA,Yes,High,Ab10
+SEEDGWAS5081.RN,0.019594312131747,Experimental,Romero-Navarro_etal_2017,CIMMYTMA-BANK-019491,NA,Landrace,Unknown,Unknown,19.606107,-98.118071,2541,NA,NA,NA,NA,Ab10,Ambiguous,NA,No,Neither,Ab10
+SEEDGWAS5087.RN,0.0228825977460569,Experimental,Romero-Navarro_etal_2017,CIMMYTMA-BANK-019614,NA,Landrace,Unknown,Unknown,19.25,-98.88333333,2247,NA,NA,NA,NA,Ab10,Ambiguous,NA,No,Neither,Ab10
+SEEDGWAS5095.RN,0.0174293151678024,Experimental,Romero-Navarro_etal_2017,CIMMYTMA-BANK-021120,NA,Landrace,Unknown,Unknown,20.15,-98.43333333,2147,NA,NA,NA,NA,Ab10,Ambiguous,NA,No,Neither,Ab10
+SEEDGWAS5100.RN,0.021460455932407,Experimental,Romero-Navarro_etal_2017,CIMMYTMA-BANK-021194,NA,Landrace,Unknown,Unknown,19.41,-99.32,2570,NA,NA,NA,NA,Ab10,Ambiguous,NA,No,Neither,Ab10
+SEEDGWAS5101.RN,0.0152537982607767,Experimental,Romero-Navarro_etal_2017,CIMMYTMA-BANK-021195,NA,Landrace,Unknown,Unknown,19.607411,-98.894349,2268,NA,NA,NA,NA,Ab10,Ambiguous,NA,No,Neither,Ab10
+SEEDGWAS5143.RN,0.0158942320013036,Experimental,Romero-Navarro_etal_2017,CIMMYTMA-BANK-008176,NA,Landrace,Unknown,Unknown,19.552262,-98.928459,2245,NA,NA,NA,NA,Ab10,Ambiguous,NA,No,Neither,Ab10
+SEEDGWAS5154.RN,0.0189157001784386,Experimental,Romero-Navarro_etal_2017,CIMMYTMA-BANK-019438,NA,Landrace,Unknown,Unknown,22.139738,-101.699038,2197,NA,NA,NA,NA,Ab10,Ambiguous,NA,No,Neither,Ab10
+SEEDGWAS5196.RN,0.0160593259474669,Experimental,Romero-Navarro_etal_2017,CIMMYTMA-BANK-000946,NA,Landrace,Unknown,Unknown,9.421917,-83.658268,871,NA,NA,NA,NA,Ab10,Ambiguous,NA,No,Neither,Ab10
+SEEDGWAS521.RN,0.0211891172309259,Experimental,Romero-Navarro_etal_2017,CIMMYTMA-BANK-023564,NA,Landrace,Unknown,Unknown,-26.87,-60.45,92,NA,NA,NA,NA,Ab10,Ambiguous,NA,No,Neither,Ab10
+SEEDGWAS5232.RN,0.0153058689254574,Experimental,Romero-Navarro_etal_2017,CIMMYTMA-BANK-006550,NA,Landrace,Unknown,Unknown,-31.239218,-55.632887,203,NA,NA,NA,NA,Ab10,Ambiguous,NA,No,Neither,Ab10
+SEEDGWAS5235.RN,0.0142080837023949,Experimental,Romero-Navarro_etal_2017,CIMMYTMA-BANK-006916,NA,Landrace,Unknown,Unknown,23.480832,-104.393881,1406,NA,NA,NA,NA,Ab10,Ambiguous,NA,No,Neither,Ab10
+SEEDGWAS5252.RN,0.0206464920775541,Experimental,Romero-Navarro_etal_2017,CIMMYTMA-BANK-009704,NA,Landrace,Unknown,Unknown,NA,NA,NA,NA,NA,NA,NA,Ab10,Ambiguous,NA,No,Neither,Ab10
+SEEDGWAS5266.RN,0.0214995980575834,Experimental,Romero-Navarro_etal_2017,CIMMYTMA-BANK-011557,NA,Landrace,Unknown,Unknown,17.06,-92.72,1095,NA,NA,NA,NA,Ab10,Ambiguous,NA,No,Neither,Ab10
+SEEDGWAS5274.RN,0.0151812947323265,Experimental,Romero-Navarro_etal_2017,CIMMYTMA-BANK-012015,NA,Landrace,Unknown,Unknown,NA,NA,NA,NA,NA,NA,NA,Ab10,Ambiguous,NA,No,Neither,Ab10
+SEEDGWAS5276.RN,0.0197610098379351,Experimental,Romero-Navarro_etal_2017,CIMMYTMA-BANK-012029,NA,Landrace,Unknown,Unknown,NA,NA,NA,NA,NA,NA,NA,Ab10,Ambiguous,NA,No,Neither,Ab10
+SEEDGWAS5310.RN,0.0201767237410844,Experimental,Romero-Navarro_etal_2017,CIMMYTMA-BANK-015832,NA,Landrace,Unknown,Unknown,22.45,-100.6833333,1702,NA,NA,NA,NA,Ab10,Ambiguous,NA,No,Neither,Ab10
+SEEDGWAS5324.RN,0.0227807130982461,Experimental,Romero-Navarro_etal_2017,CIMMYTMA-BANK-017094,NA,Landrace,Unknown,Unknown,19.03333333,-100.0333333,1956,NA,NA,NA,NA,Ab10,Ambiguous,NA,No,Neither,Ab10
+SEEDGWAS5365.RN,0.0206425642172129,Experimental,Romero-Navarro_etal_2017,CIMMYTMA-BANK-023915,NA,Landrace,Unknown,Unknown,NA,NA,NA,NA,NA,NA,NA,Ab10,Ambiguous,NA,No,Neither,Ab10
+SEEDGWAS5367.RN,0.0208863420187662,Experimental,Romero-Navarro_etal_2017,CIMMYTMA-BANK-024599,NA,Landrace,Unknown,Unknown,18.78333333,-97.53333333,2254,NA,NA,NA,NA,Ab10,Ambiguous,NA,Yes,Low,Ab10
+SEEDGWAS539.RN,0.0181214494609845,Experimental,Romero-Navarro_etal_2017,CIMMYTMA-BANK-024440,NA,Landrace,Unknown,Unknown,-23.78,-61.48,175,NA,NA,NA,NA,Ab10,Ab10-III,NA,No,Neither,Ab10
+SEEDGWAS572.RN,0.0185794493967416,Experimental,Romero-Navarro_etal_2017,CIMMYTMA-BANK-027007,NA,Landrace,Unknown,Unknown,NA,NA,NA,NA,NA,NA,NA,Ab10,Ambiguous,NA,No,Neither,Ab10
+SEEDGWAS612.RN,0.0209034763050909,Experimental,Romero-Navarro_etal_2017,CIMMYTMA-BANK-003176,NA,Landrace,Unknown,Unknown,4.516666667,-75.63333333,1535,NA,NA,NA,NA,Ab10,Ambiguous,NA,No,Neither,Ab10
+SEEDGWAS620.RN,0.029522588456646,Experimental,Romero-Navarro_etal_2017,CIMMYTMA-BANK-003357,NA,Landrace,Unknown,Unknown,9.933333333,-84.08333333,1156,NA,NA,NA,NA,Ab10,Ambiguous,NA,No,Neither,Ab10
+SEEDGWAS65.RN,0.0253619909986414,Experimental,Romero-Navarro_etal_2017,CIMMYTMA-BANK-001099,NA,Landrace,Unknown,Unknown,14.95,-89.41666667,966,NA,NA,NA,NA,Ab10,Ab10-III,NA,No,Neither,Ab10
+SEEDGWAS662.RN,0.0188242245117392,Experimental,Romero-Navarro_etal_2017,CIMMYTMA-BANK-019257,NA,Landrace,Unknown,Unknown,15.37229,-92.251361,1346,NA,NA,NA,NA,Ab10,Ambiguous,NA,No,Neither,Ab10
+SEEDGWAS714.RN,0.0248671858528192,Experimental,Romero-Navarro_etal_2017,CIMMYTMA-BANK-001132,NA,Landrace,Unknown,Unknown,21.93,-79.1,91,NA,NA,NA,NA,Ab10,Ambiguous,NA,No,Neither,Ab10
+SEEDGWAS715.RN,0.0192188183112337,Experimental,Romero-Navarro_etal_2017,CIMMYTMA-BANK-001167,NA,Landrace,Unknown,Unknown,NA,NA,NA,NA,NA,NA,NA,Ab10,Ambiguous,NA,No,Neither,Ab10
+SEEDGWAS723.RN,0.019189524063416,Experimental,Romero-Navarro_etal_2017,CIMMYTMA-BANK-001247,NA,Landrace,Unknown,Unknown,NA,NA,NA,NA,NA,NA,NA,Ab10,Ab10-III,NA,No,Neither,Ab10
+SEEDGWAS733.RN,0.0170214406354619,Experimental,Romero-Navarro_etal_2017,CIMMYTMA-BANK-001330,NA,Landrace,Unknown,Unknown,NA,NA,NA,NA,NA,NA,NA,Ab10,Ambiguous,NA,No,Neither,Ab10
+SEEDGWAS768.RN,0.0216143455647329,Experimental,Romero-Navarro_etal_2017,CIMMYTMA-BANK-002479,NA,Landrace,Unknown,Unknown,19.646842,-70.013422,240,NA,NA,NA,NA,Ab10,Ambiguous,NA,No,Neither,Ab10
+SEEDGWAS793.RN,0.0461527303998382,Experimental,Romero-Navarro_etal_2017,CIMMYTMA-BANK-003426,NA,Landrace,Unknown,Unknown,11.07393,-85.626441,233,NA,NA,NA,NA,Ab10,Ambiguous,NA,No,Neither,Ab10
+SEEDGWAS801.RN,0.0202098824127835,Experimental,Romero-Navarro_etal_2017,CIMMYTMA-BANK-003615,NA,Landrace,Unknown,Unknown,13.8,-88.91,695,NA,NA,NA,NA,Ab10,Ambiguous,NA,No,Neither,Ab10
+SEEDGWAS826.RN,0.0233975788159548,Experimental,Romero-Navarro_etal_2017,CIMMYTMA-BANK-003946,NA,Landrace,Unknown,Unknown,19.663433,-69.952097,128,NA,NA,NA,NA,Ab10,Ambiguous,NA,No,Neither,Ab10
+SEEDGWAS828.RN,0.022813795517644,Experimental,Romero-Navarro_etal_2017,CIMMYTMA-BANK-003966,NA,Landrace,Unknown,Unknown,18.28333333,-70.33333333,64,NA,NA,NA,NA,Ab10,Ab10-III,NA,No,Neither,Ab10
+SEEDGWAS832.RN,0.0232552272033747,Experimental,Romero-Navarro_etal_2017,CIMMYTMA-BANK-003996,NA,Landrace,Unknown,Unknown,10.209325,-61.464321,3,NA,NA,NA,NA,Ab10,Ab10-III,NA,No,Neither,Ab10
+SEEDGWAS834.RN,0.0259406266710791,Experimental,Romero-Navarro_etal_2017,CIMMYTMA-BANK-004320,NA,Landrace,Unknown,Unknown,NA,NA,NA,NA,NA,NA,NA,Ab10,Ab10-III,NA,No,Neither,Ab10
+SEEDGWAS857.RN,0.0265834910606387,Experimental,Romero-Navarro_etal_2017,CIMMYTMA-BANK-005559,NA,Landrace,Unknown,Unknown,17.718069,-64.706515,31,NA,NA,NA,NA,Ab10,Ab10-III,NA,No,Neither,Ab10
+SEEDGWAS858.RN,0.0212279364064619,Experimental,Romero-Navarro_etal_2017,CIMMYTMA-BANK-005561,NA,Landrace,Unknown,Unknown,17.718069,-64.706515,31,NA,NA,NA,NA,Ab10,Ambiguous,NA,No,Neither,Ab10
+SEEDGWAS860.RN,0.0196850555352371,Experimental,Romero-Navarro_etal_2017,CIMMYTMA-BANK-005653,NA,Landrace,Unknown,Unknown,20.9,-76.25,150,NA,NA,NA,NA,Ab10,Ab10-III,NA,No,Neither,Ab10
+SEEDGWAS888.RN,0.0221179489335177,Experimental,Romero-Navarro_etal_2017,CIMMYTMA-BANK-008149,NA,Landrace,Unknown,Unknown,-1.634804,-77.602383,482,NA,NA,NA,NA,Ab10,Ab10-III,NA,No,Neither,Ab10
+SEEDGWAS889.RN,0.0209201814088783,Experimental,Romero-Navarro_etal_2017,CIMMYTMA-BANK-008319,NA,Landrace,Unknown,Unknown,NA,NA,NA,NA,NA,NA,NA,Ab10,Ab10-III,NA,No,Neither,Ab10
+SEEDGWAS897.RN,0.0200843062235684,Experimental,Romero-Navarro_etal_2017,CIMMYTMA-BANK-009841,NA,Landrace,Unknown,Unknown,10.515606,-63.556911,10,NA,NA,NA,NA,Ab10,Ambiguous,NA,No,Neither,Ab10
+SEEDGWAS903.RN,0.0217753433990063,Experimental,Romero-Navarro_etal_2017,CIMMYTMA-BANK-009997,NA,Landrace,Unknown,Unknown,NA,NA,NA,NA,NA,NA,NA,Ab10,Ambiguous,NA,No,Neither,Ab10
+SEEDGWAS905.RN,0.0199209925899675,Experimental,Romero-Navarro_etal_2017,CIMMYTMA-BANK-010049,NA,Landrace,Unknown,Unknown,NA,NA,NA,NA,NA,NA,NA,Ab10,Ab10-III,NA,No,Neither,Ab10
+SEEDGWAS915.RN,0.0216628711504627,Experimental,Romero-Navarro_etal_2017,CIMMYTMA-BANK-014714,NA,Landrace,Unknown,Unknown,NA,NA,NA,NA,NA,NA,NA,Ab10,Ambiguous,NA,No,Neither,Ab10
+SEEDGWAS944.RN,0.0227249437877164,Experimental,Romero-Navarro_etal_2017,CIMMYTMA-BANK-013559,NA,Landrace,Unknown,Unknown,20.96,-76.95,89,NA,NA,NA,NA,Ab10,Ab10-III,NA,No,Neither,Ab10
+SEEDGWAS948.RN,0.0167442990426449,Experimental,Romero-Navarro_etal_2017,CIMMYTMA-BANK-013572,NA,Landrace,Unknown,Unknown,20.333221,-76.894138,25,NA,NA,NA,NA,Ab10,Ambiguous,NA,No,Neither,Ab10
+SEEDGWAS949.RN,0.0210815547583963,Experimental,Romero-Navarro_etal_2017,CIMMYTMA-BANK-013580,NA,Landrace,Unknown,Unknown,21.828028,-79.993587,30,NA,NA,NA,NA,Ab10,Ab10-III,NA,No,Neither,Ab10
+SEEDGWAS963.RN,0.0356144655715187,Experimental,Romero-Navarro_etal_2017,CIMMYTMA-BANK-014601,NA,Landrace,Unknown,Unknown,6.95,-63.33333333,306,NA,NA,NA,NA,Ab10,Ambiguous,NA,No,Neither,Ab10
+SEEDGWAS999.RN,0.0206044445319394,Experimental,Romero-Navarro_etal_2017,CIMMYTMA-BANK-022788,NA,Landrace,Unknown,Unknown,10.588508,-69.418912,555,NA,NA,NA,NA,Ab10,Ambiguous,NA,No,Neither,Ab10

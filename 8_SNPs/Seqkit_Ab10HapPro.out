@@ -1,0 +1,3 @@
+/var/lib/slurmd/job34847769/slurm_script: line 25: /scratch/mjb51923/Ab10_Global_Survey/out/OrthoFinder/Zm-B73_AB10-REFERENCE-NAM-1.0_Zm00043a.1.Ab10hapGeneNames.txt: No such file or directory
+cat: '/scratch/mjb51923/Ab10_Global_Survey/out/OrthoFinder/*_Ab10Hap_protein.tmp.fasta': No such file or directory
+rm: cannot remove '/scratch/mjb51923/Ab10_Global_Survey/out/OrthoFinder/*_Ab10Hap_protein.tmp.fasta': No such file or directory

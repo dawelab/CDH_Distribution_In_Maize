@@ -1,0 +1,15 @@
+AlignGBS_HiFiAb10Corrected_v2   1       Tassel_TagTaxaDist_AllData_v5_v_B73-Ab10HIFI_B-Chrom_v2.Sub1Perc
+AlignGBS_HiFiAb10Corrected_v2   2       Tassel_TagTaxaDist_AllData_v5_v_B73-Ab10HIFI_B-Chrom_v2.Sub1Perc
+AlignGBS_HiFiAb10Corrected_v2   3       Tassel_TagTaxaDist_AllData_v5_v_B73-Ab10HIFI_B-Chrom_v2.Sub1Perc
+AlignGBS_HiFiAb10Corrected_v2   4       Tassel_TagTaxaDist_AllData_v5_v_B73-Ab10HIFI_B-Chrom_v2.Sub1Perc
+AlignGBS_HiFiAb10Corrected_v2   5       Tassel_TagTaxaDist_AllData_v5_v_B73-Ab10HIFI_B-Chrom_v2.Sub1Perc
+AlignGBS_HiFiAb10Corrected_v2   6       Tassel_TagTaxaDist_AllData_v5_v_B73-Ab10HIFI_B-Chrom_v2.Sub1Perc
+AlignGBS_HiFiAb10Corrected_v2   7       Tassel_TagTaxaDist_AllData_v5_v_B73-Ab10HIFI_B-Chrom_v2.Sub1Perc
+AlignGBS_HiFiAb10Corrected_v2   8       Tassel_TagTaxaDist_AllData_v5_v_B73-Ab10HIFI_B-Chrom_v2.Sub1Perc
+AlignGBS_HiFiAb10Corrected_v2   9       Tassel_TagTaxaDist_AllData_v5_v_B73-Ab10HIFI_B-Chrom_v2.Sub1Perc
+AlignGBS_HiFiAb10Corrected_v2   10      Tassel_TagTaxaDist_AllData_v5_v_B73-Ab10HIFI_B-Chrom_v2.Sub1Perc
+AlignGBS_HiFiAb10Corrected_v2   11      Tassel_TagTaxaDist_AllData_v5_v_B73-Ab10HIFI_B-Chrom_v2.Sub1Perc
+AlignGBS_HiFiAb10Corrected_v2   12      Tassel_TagTaxaDist_AllData_v5_v_B73-Ab10HIFI_B-Chrom_v2.Sub1Perc
+AlignGBS_HiFiAb10Corrected_v2   13      Tassel_TagTaxaDist_AllData_v5_v_B73-Ab10HIFI_B-Chrom_v2.Sub1Perc
+AlignGBS_HiFiAb10Corrected_v2   14      Tassel_TagTaxaDist_AllData_v5_v_B73-Ab10HIFI_B-Chrom_v2.Sub1Perc
+AlignGBS_HiFiAb10Corrected_v2   15      Tassel_TagTaxaDist_AllData_v5_v_B73-Ab10HIFI_B-Chrom_v2.Sub1Perc

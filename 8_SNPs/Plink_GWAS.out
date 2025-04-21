@@ -1,0 +1,149 @@
+PLINK v1.90b6.21 64-bit (19 Oct 2020)          www.cog-genomics.org/plink/1.9/
+(C) 2005-2020 Shaun Purcell, Christopher Chang   GNU General Public License v3
+Logging to /scratch/mjb51923/Ab10_Global_Survey/out/AlignGBS_HiFiAb10Corrected_v2/SGEOnly_Mo17.chr.filtTE.log.
+Options in effect:
+  --double-id
+  --make-bed
+  --out /scratch/mjb51923/Ab10_Global_Survey/out/AlignGBS_HiFiAb10Corrected_v2/SGEOnly_Mo17.chr.filtTE
+  --recode
+  --vcf /scratch/mjb51923/Ab10_Global_Survey/out/AlignGBS_HiFiAb10Corrected_v2/SGEOnly_Mo17.chr.filtTE.vcf.gz
+
+257581 MB RAM detected; reserving 128790 MB for main workspace.
+Error: Missing header line in .vcf file.
+PLINK v1.90b6.21 64-bit (19 Oct 2020)          www.cog-genomics.org/plink/1.9/
+(C) 2005-2020 Shaun Purcell, Christopher Chang   GNU General Public License v3
+Logging to plink.log.
+Options in effect:
+  --file /scratch/mjb51923/Ab10_Global_Survey/out/AlignGBS_HiFiAb10Corrected_v2/SGEOnly_Mo17.chr.filtTE
+  --missing
+
+257581 MB RAM detected; reserving 128790 MB for main workspace.
+Error: Failed to open
+/scratch/mjb51923/Ab10_Global_Survey/out/AlignGBS_HiFiAb10Corrected_v2/SGEOnly_Mo17.chr.filtTE.map.
+PLINK v1.90b6.21 64-bit (19 Oct 2020)          www.cog-genomics.org/plink/1.9/
+(C) 2005-2020 Shaun Purcell, Christopher Chang   GNU General Public License v3
+Logging to /scratch/mjb51923/Ab10_Global_Survey/out/AlignGBS_HiFiAb10Corrected_v2/SGEOnly_Mo17.chr.filtTE.log.
+Options in effect:
+  --file /scratch/mjb51923/Ab10_Global_Survey/out/AlignGBS_HiFiAb10Corrected_v2/SGEOnly_Mo17.chr.filtTE
+  --geno 0.25
+  --make-bed
+  --mind 0.90
+  --out /scratch/mjb51923/Ab10_Global_Survey/out/AlignGBS_HiFiAb10Corrected_v2/SGEOnly_Mo17.chr.filtTE
+
+257581 MB RAM detected; reserving 128790 MB for main workspace.
+Error: Failed to open
+/scratch/mjb51923/Ab10_Global_Survey/out/AlignGBS_HiFiAb10Corrected_v2/SGEOnly_Mo17.chr.filtTE.map.
+PLINK v1.90b6.21 64-bit (19 Oct 2020)          www.cog-genomics.org/plink/1.9/
+(C) 2005-2020 Shaun Purcell, Christopher Chang   GNU General Public License v3
+Logging to MAF_check.log.
+Options in effect:
+  --bfile /scratch/mjb51923/Ab10_Global_Survey/out/AlignGBS_HiFiAb10Corrected_v2/SGEOnly_Mo17.chr.filtTE
+  --freq
+  --out MAF_check
+
+257581 MB RAM detected; reserving 128790 MB for main workspace.
+Error: Failed to open
+/scratch/mjb51923/Ab10_Global_Survey/out/AlignGBS_HiFiAb10Corrected_v2/SGEOnly_Mo17.chr.filtTE.bed.
+PLINK v1.90b6.21 64-bit (19 Oct 2020)          www.cog-genomics.org/plink/1.9/
+(C) 2005-2020 Shaun Purcell, Christopher Chang   GNU General Public License v3
+Logging to /scratch/mjb51923/Ab10_Global_Survey/out/AlignGBS_HiFiAb10Corrected_v2/SGEOnly_Mo17.chr.filtTE.log.
+Options in effect:
+  --bfile /scratch/mjb51923/Ab10_Global_Survey/out/AlignGBS_HiFiAb10Corrected_v2/SGEOnly_Mo17.chr.filtTE
+  --indep-pairwise 100000 50 0.5
+  --make-bed
+  --out /scratch/mjb51923/Ab10_Global_Survey/out/AlignGBS_HiFiAb10Corrected_v2/SGEOnly_Mo17.chr.filtTE
+
+257581 MB RAM detected; reserving 128790 MB for main workspace.
+Error: Failed to open
+/scratch/mjb51923/Ab10_Global_Survey/out/AlignGBS_HiFiAb10Corrected_v2/SGEOnly_Mo17.chr.filtTE.bed.
+PLINK v1.90b6.21 64-bit (19 Oct 2020)          www.cog-genomics.org/plink/1.9/
+(C) 2005-2020 Shaun Purcell, Christopher Chang   GNU General Public License v3
+Logging to /scratch/mjb51923/Ab10_Global_Survey/out/AlignGBS_HiFiAb10Corrected_v2/SGEOnly_Mo17.chr.filtTE.log.
+Options in effect:
+  --bfile /scratch/mjb51923/Ab10_Global_Survey/out/AlignGBS_HiFiAb10Corrected_v2/SGEOnly_Mo17.chr.filtTE
+  --exclude /scratch/mjb51923/Ab10_Global_Survey/out/AlignGBS_HiFiAb10Corrected_v2/SGEOnly_Mo17.chr.filtTE.prune.out
+  --make-bed
+  --out /scratch/mjb51923/Ab10_Global_Survey/out/AlignGBS_HiFiAb10Corrected_v2/SGEOnly_Mo17.chr.filtTE
+
+257581 MB RAM detected; reserving 128790 MB for main workspace.
+Error: Failed to open
+/scratch/mjb51923/Ab10_Global_Survey/out/AlignGBS_HiFiAb10Corrected_v2/SGEOnly_Mo17.chr.filtTE.bed.
+PLINK v1.90b6.21 64-bit (19 Oct 2020)          www.cog-genomics.org/plink/1.9/
+(C) 2005-2020 Shaun Purcell, Christopher Chang   GNU General Public License v3
+Logging to plink.log.
+Options in effect:
+  --allow-extra-chr
+  --bfile /scratch/mjb51923/Ab10_Global_Survey/out/AlignGBS_HiFiAb10Corrected_v2/SGEOnly_Mo17.chr.filtTE
+  --pca 10 header tabs var-wts
+
+257581 MB RAM detected; reserving 128790 MB for main workspace.
+Error: Failed to open
+/scratch/mjb51923/Ab10_Global_Survey/out/AlignGBS_HiFiAb10Corrected_v2/SGEOnly_Mo17.chr.filtTE.bed.
+PLINK v1.90b6.21 64-bit (19 Oct 2020)          www.cog-genomics.org/plink/1.9/
+(C) 2005-2020 Shaun Purcell, Christopher Chang   GNU General Public License v3
+Logging to Ab10_results_PCA_TE.log.
+Options in effect:
+  --1
+  --allow-no-sex
+  --beta
+  --bfile /scratch/mjb51923/Ab10_Global_Survey/out/AlignGBS_HiFiAb10Corrected_v2/SGEOnly_Mo17.chr.filtTE
+  --covar /scratch/mjb51923/Ab10_Global_Survey/out/AlignGBS_HiFiAb10Corrected_v2/plink.eigenvec
+  --logistic
+  --out Ab10_results_PCA_TE
+  --pheno /scratch/mjb51923/Ab10_Global_Survey/out/AlignGBS_HiFiAb10Corrected_v2/Ab10Call_ForPLINK.txt
+
+Note: --beta flag deprecated.  Use e.g. "--logistic beta".
+257581 MB RAM detected; reserving 128790 MB for main workspace.
+Error: Failed to open
+/scratch/mjb51923/Ab10_Global_Survey/out/AlignGBS_HiFiAb10Corrected_v2/SGEOnly_Mo17.chr.filtTE.bed.
+PLINK v1.90b6.21 64-bit (19 Oct 2020)          www.cog-genomics.org/plink/1.9/
+(C) 2005-2020 Shaun Purcell, Christopher Chang   GNU General Public License v3
+Logging to K10L2_results_PCA_TE.log.
+Options in effect:
+  --1
+  --allow-no-sex
+  --beta
+  --bfile /scratch/mjb51923/Ab10_Global_Survey/out/AlignGBS_HiFiAb10Corrected_v2/SGEOnly_Mo17.chr.filtTE
+  --covar /scratch/mjb51923/Ab10_Global_Survey/out/AlignGBS_HiFiAb10Corrected_v2/plink.eigenvec
+  --logistic
+  --out K10L2_results_PCA_TE
+  --pheno /scratch/mjb51923/Ab10_Global_Survey/out/AlignGBS_HiFiAb10Corrected_v2/K10L2Call_ForPLINK.txt
+
+Note: --beta flag deprecated.  Use e.g. "--logistic beta".
+257581 MB RAM detected; reserving 128790 MB for main workspace.
+Error: Failed to open
+/scratch/mjb51923/Ab10_Global_Survey/out/AlignGBS_HiFiAb10Corrected_v2/SGEOnly_Mo17.chr.filtTE.bed.
+PLINK v1.90b6.21 64-bit (19 Oct 2020)          www.cog-genomics.org/plink/1.9/
+(C) 2005-2020 Shaun Purcell, Christopher Chang   GNU General Public License v3
+Logging to BChrom_results_PCA_TE.log.
+Options in effect:
+  --1
+  --allow-no-sex
+  --beta
+  --bfile /scratch/mjb51923/Ab10_Global_Survey/out/AlignGBS_HiFiAb10Corrected_v2/SGEOnly_Mo17.chr.filtTE
+  --covar /scratch/mjb51923/Ab10_Global_Survey/out/AlignGBS_HiFiAb10Corrected_v2/plink.eigenvec
+  --logistic
+  --out BChrom_results_PCA_TE
+  --pheno /scratch/mjb51923/Ab10_Global_Survey/out/AlignGBS_HiFiAb10Corrected_v2/BChromCall_ForPLINK.txt
+
+Note: --beta flag deprecated.  Use e.g. "--logistic beta".
+257581 MB RAM detected; reserving 128790 MB for main workspace.
+Error: Failed to open
+/scratch/mjb51923/Ab10_Global_Survey/out/AlignGBS_HiFiAb10Corrected_v2/SGEOnly_Mo17.chr.filtTE.bed.
+PLINK v1.90b6.21 64-bit (19 Oct 2020)          www.cog-genomics.org/plink/1.9/
+(C) 2005-2020 Shaun Purcell, Christopher Chang   GNU General Public License v3
+Logging to CopyBChrom_results_PCA_TE.log.
+Options in effect:
+  --allow-no-sex
+  --beta
+  --bfile /scratch/mjb51923/Ab10_Global_Survey/out/AlignGBS_HiFiAb10Corrected_v2/SGEOnly_Mo17.chr.filtTE
+  --covar /scratch/mjb51923/Ab10_Global_Survey/out/AlignGBS_HiFiAb10Corrected_v2/plink.eigenvec
+  --keep /scratch/mjb51923/Ab10_Global_Survey/Ab10-Global-Survey/8_SNPs/BChrom_Positive_Only.txt
+  --linear
+  --out CopyBChrom_results_PCA_TE
+  --pheno /scratch/mjb51923/Ab10_Global_Survey/out/AlignGBS_HiFiAb10Corrected_v2/CopyBChromCall_ForPLINK.txt
+
+Note: --beta flag deprecated.  Use e.g. "--logistic beta".
+257581 MB RAM detected; reserving 128790 MB for main workspace.
+Error: Failed to open
+/scratch/mjb51923/Ab10_Global_Survey/out/AlignGBS_HiFiAb10Corrected_v2/SGEOnly_Mo17.chr.filtTE.bed.

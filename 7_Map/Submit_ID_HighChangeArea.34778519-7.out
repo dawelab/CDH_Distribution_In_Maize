@@ -1,0 +1,20 @@
+working on file
+BChrom_MaxEntStand4
+BChrom
+Current_Full
+Loading required package: sp
+
+Attaching package: ‘spatialEco’
+
+The following object is masked from ‘package:raster’:
+
+    shift
+
+[1] "This is the mean:"
+[1] -0.2376669
+[1] "This is the sd:"
+[1] 0.2162012
+Error in if (getOption("scipen") <= min(digits)) { : 
+  missing value where TRUE/FALSE needed
+Calls: area ... gsub -> is.factor -> as.character -> as.character.POSIXt
+Execution halted

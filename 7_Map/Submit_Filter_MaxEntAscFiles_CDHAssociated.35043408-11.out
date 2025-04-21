@@ -1,0 +1,9 @@
+working on file
+K10L2_MaxEntStand7_SSP585
+
+SSP585
+Loading required package: sp
+Linking to GEOS 3.11.1, GDAL 3.6.2, PROJ 9.1.1; sf_use_s2() is TRUE
+Error in if (model != "Current_Full" & model != "Current_SSP") { : 
+  missing value where TRUE/FALSE needed
+Execution halted

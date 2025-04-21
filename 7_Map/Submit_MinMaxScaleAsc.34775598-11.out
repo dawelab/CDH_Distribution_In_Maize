@@ -1,0 +1,16 @@
+working on file
+BChrom_MaxEntStand4_SSP585
+BChrom
+SSP585
+Loading required package: sp
+
+Attaching package: ‘spatialEco’
+
+The following object is masked from ‘package:raster’:
+
+    shift
+
+Error in .startAsciiWriting(x, filename, ...) : 
+  /scratch/mjb51923/Ab10_Global_Survey/out/WorldClim2/BChrom_MaxEntStand4_SSP585/BChrom_projection_avg.suitable.minmax.asc exists. Use 'overwrite=TRUE'
+Calls: calc ... writeStart -> writeStart -> .local -> .startAsciiWriting
+Execution halted

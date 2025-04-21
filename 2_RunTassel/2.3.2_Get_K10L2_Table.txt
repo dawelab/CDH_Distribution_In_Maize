@@ -1,0 +1,2 @@
+AlignGBS_Mo17K10L2   Tassel_TagTaxaDist_AllData_v6_v_Mo17K10L2	K10L2
+AlignGBS_K10L2Contigs	Tassel_TagTaxaDist_AllData_v7_v_K10L2Contigs	K10L2

@@ -1,0 +1,20 @@
+working on file
+K10L2_MaxEntStand4_SSP585
+K10L2
+SSP585
+Loading required package: sp
+
+Attaching package: ‘spatialEco’
+
+The following object is masked from ‘package:raster’:
+
+    shift
+
+[1] "This is the mean:"
+[1] -0.3204403
+[1] "This is the sd:"
+[1] 0.2069792
+Error in if (getOption("scipen") <= min(digits)) { : 
+  missing value where TRUE/FALSE needed
+Calls: area ... gsub -> is.factor -> as.character -> as.character.POSIXt
+Execution halted

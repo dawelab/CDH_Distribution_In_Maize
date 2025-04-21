@@ -1,0 +1,97 @@
+mkdir: cannot create directory ‘/scratch/mjb51923/Ab10_Global_Survey/out/OrthoFinder/Mo17_Ab10_proteomes’: File exists
+
+OrthoFinder version 2.5.5 Copyright (C) 2014 David Emms
+
+2025-02-20 20:01:03 : Starting OrthoFinder 2.5.5
+30 thread(s) for highly parallel tasks (BLAST searches etc.)
+3 thread(s) for OrthoFinder algorithm
+
+Checking required programs are installed
+----------------------------------------
+Test can run "mcl -h" - ok
+Test can run "fastme -i /scratch/mjb51923/Ab10_Global_Survey/out/OrthoFinder/Mo17_Ab10_proteomes/OrthoFinder/Results_Feb20/WorkingDirectory/dependencies/SimpleTest.phy -o /scratch/mjb51923/Ab10_Global_Survey/out/OrthoFinder/Mo17_Ab10_proteomes/OrthoFinder/Results_Feb20/WorkingDirectory/dependencies/SimpleTest.tre" - ok
+
+Dividing up work for BLAST for parallel processing
+--------------------------------------------------
+2025-02-20 20:01:04 : Creating diamond database 1 of 2
+2025-02-20 20:01:04 : Creating diamond database 2 of 2
+
+Running diamond all-versus-all
+------------------------------
+Using 30 thread(s)
+2025-02-20 20:01:04 : This may take some time....
+2025-02-20 20:05:54 : Done all-versus-all sequence search
+
+Running OrthoFinder algorithm
+-----------------------------
+2025-02-20 20:05:54 : Initial processing of each species
+2025-02-20 20:05:54 : Initial processing of species 0 complete
+2025-02-20 20:06:00 : Initial processing of species 1 complete
+2025-02-20 20:06:03 : Connected putative homologues
+2025-02-20 20:06:03 : Written final scores for species 0 to graph file
+2025-02-20 20:06:04 : Written final scores for species 1 to graph file
+
+WARNING: program called by OrthoFinder produced output to stderr
+
+Command: mcl /scratch/mjb51923/Ab10_Global_Survey/out/OrthoFinder/Mo17_Ab10_proteomes/OrthoFinder/Results_Feb20/WorkingDirectory/OrthoFinder_graph.txt -I 1.5 -o /scratch/mjb51923/Ab10_Global_Survey/out/OrthoFinder/Mo17_Ab10_proteomes/OrthoFinder/Results_Feb20/WorkingDirectory/clusters_OrthoFinder_I1.5.txt -te 3 -V all
+
+stdout
+------
+b''
+stderr
+------
+b'[mcl] cut <1> instances of overlap\n'
+2025-02-20 20:06:09 : Ran MCL
+
+Writing orthogroups to file
+---------------------------
+A duplicate accession was found using just first part: g5442.t1.2.66db4656
+Tried to use only the first part of the accession in order to list the sequences in each orthogroup
+more concisely but these were not unique. The full accession line will be used instead.
+
+OrthoFinder assigned 38865 genes (88.9% of total) to 5915 orthogroups. Fifty percent of all genes were in orthogroups with 9 or more genes (G50 was 9) and were contained in the largest 1170 orthogroups (O50 was 1170). There were 392 orthogroups with all species present and 244 of these consisted entirely of single-copy genes.
+
+2025-02-20 20:06:30 : Done orthogroups
+
+Analysing Orthogroups
+=====================
+
+Calculating gene distances
+--------------------------
+2025-02-20 20:06:48 : Done
+2025-02-20 20:06:49 : Done 0 of 3069
+2025-02-20 20:06:49 : Done 1000 of 3069
+2025-02-20 20:06:50 : Done 2000 of 3069
+2025-02-20 20:06:50 : Done 3000 of 3069
+
+Inferring gene and species trees
+--------------------------------
+
+Reconciling gene trees and species tree
+---------------------------------------
+2025-02-20 20:06:51 : Starting Recon and orthologues
+2025-02-20 20:06:51 : Starting OF Orthologues
+A duplicate accession was found using just first part: g5442.t1.2.66db4656
+Tried to use only the first part of the accession in order to list the sequences in each orthogroup
+more concisely but these were not unique. The full accession line will be used instead.
+
+2025-02-20 20:06:51 : Done 0 of 3069
+2025-02-20 20:06:54 : Done 1000 of 3069
+2025-02-20 20:06:56 : Done 2000 of 3069
+2025-02-20 20:06:58 : Done 3000 of 3069
+2025-02-20 20:06:59 : Done OF Orthologues
+
+Writing results files
+=====================
+2025-02-20 20:07:01 : Done orthologues
+
+Results:
+    /scratch/mjb51923/Ab10_Global_Survey/out/OrthoFinder/Mo17_Ab10_proteomes/OrthoFinder/Results_Feb20/
+
+CITATION:
+ When publishing work that uses OrthoFinder please cite:
+ Emms D.M. & Kelly S. (2019), Genome Biology 20:238
+
+ If you use the species tree in your work then please also cite:
+ Emms D.M. & Kelly S. (2017), MBE 34(12): 3267-3278
+ Emms D.M. & Kelly S. (2018), bioRxiv https://doi.org/10.1101/267914
