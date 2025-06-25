@@ -6,6 +6,7 @@ DIR=""
 
 #This section separates the bed files into individual file
 cd $DIR
+#This file is available under 2.2.1
 FILE="B73Ab10HiFiBChrom_Chunks.txt"
 awk NR==1 $FILE > Ab10.bed
 awk NR==2 $FILE > BChrom.bed
