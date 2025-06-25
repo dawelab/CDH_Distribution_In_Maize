@@ -1,19 +1,9 @@
-#!/bin/bash
-#SBATCH --job-name=Join_Sum_1Perc_v3
-#SBATCH --output Join_Sum_1Perc_v3.%A-%a.out
-#SBATCH --partition=batch
-#SBATCH --mail-type=ALL
-#SBATCH --mail-user=mjb51923@uga.edu
-#SBATCH --ntasks=1
-#SBATCH --mem=50gb
-#SBATCH --time=1:00:00
-#SBATCH --array=1-2
-
 #This defines variables
-DIR="/scratch/mjb51923/Ab10_Global_Survey/out"
+DIR=""
 
 #This pulls info from the array job
 IT=$SLURM_ARRAY_TASK_ID
+#This file is available under 2.3.2
 DIRNAME=$(awk NR==${SLURM_ARRAY_TASK_ID}'{print $1}' $DIR/Get_K10L2_Table.txt)
 TAXA=$(awk NR==${SLURM_ARRAY_TASK_ID}'{print $2}' $DIR/Get_K10L2_Table.txt)
 
