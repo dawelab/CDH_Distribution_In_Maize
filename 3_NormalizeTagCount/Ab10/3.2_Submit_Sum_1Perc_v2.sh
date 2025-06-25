@@ -6,9 +6,10 @@ dos2unix $DIR/Sum1Perc_Table.txt
 
 #This pulls info from the array job
 IT=$SLURM_ARRAY_TASK_ID
-DIRNAME=$(awk NR==${SLURM_ARRAY_TASK_ID}'{print $1}' $DIR/AlignGBS_HiFiAb10Corrected_v2/Sum1Perc_Table.txt)
-NUM=$(awk NR==${SLURM_ARRAY_TASK_ID}'{print $2}' $DIR/AlignGBS_HiFiAb10Corrected_v2/Sum1Perc_Table.txt)
-NAME=$(awk NR==${SLURM_ARRAY_TASK_ID}'{print $3}' $DIR/AlignGBS_HiFiAb10Corrected_v2/Sum1Perc_Table.txt)
+#The Sum1Perc_Table file is provided in this directory under 3.2 as well
+DIRNAME=$(awk NR==${SLURM_ARRAY_TASK_ID}'{print $1}' $DIR/Sum1Perc_Table.txt)
+NUM=$(awk NR==${SLURM_ARRAY_TASK_ID}'{print $2}' $DIR/Sum1Perc_Table.txt)
+NAME=$(awk NR==${SLURM_ARRAY_TASK_ID}'{print $3}' $DIR/Sum1Perc_Table.txt)
 
 #This writes out what file is working 
 echo "This is iteration Number"
@@ -22,4 +23,4 @@ cd $DIR/$DIRNAME/Subset_TaxaFiles
 
 module load R/4.3.1-foss-2022a
 
-Rscript --vanilla /scratch/mjb51923/Ab10_Global_Survey/scripts/Sum_1Perc.R $DIR/$DIRNAME/Subset_TaxaFiles $NAME.$NUM.txt
+Rscript --vanilla Sum_1Perc.R $DIR/$DIRNAME/Subset_TaxaFiles $NAME.$NUM.txt
