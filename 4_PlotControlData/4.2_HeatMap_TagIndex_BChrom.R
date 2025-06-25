@@ -11,16 +11,19 @@ library(ggpubr)
 library(stringr)
 
 #This sets the working directory
-setwd("/Users/user/University_of_Georgia/Dawe_Lab_Documents/Ab10_Global_Survey/R_Sessions/SGE_Distribution_Paper/Ab10-Global-Survey/4_PlotControlData")
+setwd("")
 
 ########################################This loads and preps the data 
-GROUPS <- vroom::vroom("/Users/user/University_of_Georgia/Dawe_Lab_Documents/Ab10_Global_Survey/Data/Controls_Swarts_RomeroNavarro_Romay_Groups_Env.csv")
+#This file is from 1.7
+GROUPS <- vroom::vroom("Controls_Swarts_RomeroNavarro_Romay_Groups_Env.csv")
 
-MERGE_BChrom_RPM<- vroom::vroom("/Users/user/University_of_Georgia/Dawe_Lab_Documents/Ab10_Global_Survey/R_Sessions/SGE_Distribution_Paper/Tassel_TagTaxaDist_AllData_v5_v_B73-Ab10HIFI_B-Chrom_v2.BChrom.RPM.txt")
+#This file is from 3.4
+MERGE_BChrom_RPM<- vroom::vroom("Tassel_TagTaxaDist_AllData_v5_v_B73-Ab10_BChrom.BChrom.RPM.txt")
 
 #7 columns were classed as logicals because they have all NAs, these are the ones that had 0 coverage
 
-BINS <- read_excel("~/University_of_Georgia/Dawe_Lab_Documents/Ab10_Global_Survey/Bins_NoOverlap_BChrom.table.xlsx")
+#This file is available in this repo under 4.2
+BINS <- read_excel("Bins_NoOverlap_BChrom.table.xlsx")
 
 #This drops any column that had an average coverage of 0, resulting in all values being NA
 DT <- as.data.table(MERGE_BChrom_RPM)
@@ -89,7 +92,7 @@ test <- MERGE_BChrom_RPM_FILT_CONTROLS[,c(1:4,ncol(MERGE_BChrom_RPM_FILT_CONTROL
 #This function goes over each row and divides each value by the max in that row 
 MinMax = function(xx) { sweep(xx, 1, apply(xx, 1, max), '/') }
 
-#This is being a problem and I'm not sure why 
+#This sorts the lines for plotting
 SORT_temp1 <- subset(GROUPS, Data_Source == "Dawe_Lab_1" | Data_Source == "Dawe_Lab_2")
 SORT_temp2 <- SORT_temp1[order(SORT_temp1$B_Chrom_Status),]
 SORT_temp3 <- SORT_temp2$Name
@@ -131,10 +134,9 @@ C_bed <- merge(BINS, C, by="bin")
 rownames(C_bed) <- C_bed$bin
 heat_data <- as.matrix(C_bed[,-c(1:4)])
 
-#This reorders the columns 
+#This reorders the columns for plotting
 heat_data <- heat_data[,c(1,3,2,4,6,10,11,12,13,5,7,8,9,14,15,16,17,18)]
 
-#write.table(cols, file = "column_names_dens_RPM.csv", row.names = FALSE)
 #This generates a data frame with the Ab10 Status of all the lines after sorting them 
 Name <- as.data.frame(colnames(heat_data))
 colnames(Name) <- "Name"
@@ -155,7 +157,7 @@ pos <- C_bed$start
 df_row <- as.data.frame(pos)
 df_row$feature <- " "
 
-#This assigns Ab10 regions
+#This assigns regions
 for(i in 1:nrow(df_row)) {
   VALUE <- df_row[i,1]
   #df_row[i,2] <- ifelse(VALUE >= 1 & VALUE <= 237770, 'B Short Arm', df_row[i,2])
