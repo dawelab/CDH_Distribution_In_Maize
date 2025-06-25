@@ -4,8 +4,7 @@ These scripts process the data from doi:10.1038/ng.3784 from demultiplex qualifi
 1. Filter the qualified reads from doi:10.1038/ng.3784 to only reads that are 64 bp or longer. 
 2. Run barcode faker on the length filtered data from  doi:10.1038/ng.3784 to make the data compatible with TASSEL.
    > TASSEL provides [this] (https://github.com/labroo2/rtassel_supp/blob/master/barcode_faker.R) script for demultiplexing in their [documentation] (https://bitbucket.org/tasseladmin/tassel-5-source/wiki/Tassel5GBSv2Pipeline/GBSSeqToTagDBPlugin)). I modified it to set the barcode length to 13 in order to have enough permutations of ACTG in for the large number of lines I needed to demultiplex.
-4. Modify barcode faker file names to be compatible with TASSEL and all other data sources.
-5. Generate the key file needed for TASSEL for all data sources. DC1 = Dawe Lab Controls 1, DC2 = Dawe Lab Controls 2, SW = Swarts et al 2017, RN = Romero-Navarro 2018, RY = Romay et al 2013. 
-6. This is the final key file used
-7. This appends the K10L2 contig to the Mo17 genome. 
-8. This makes a file with all the metadata for all the datasets. 1.7_Files includes all the files that this script loads in.
+3. Modify barcode faker file names to be compatible with TASSEL and all other data sources.
+4. Generate the key file needed for TASSEL for all data sources. DC1 = Dawe Lab Controls 1, DC2 = Dawe Lab Controls 2, SW = Swarts et al 2017, RN = Romero-Navarro 2018, RY = Romay et al 2013. 
+5. This is the final key file used
+6. This makes a file with all the metadata for all the datasets. 1.7_Files includes all the files that this script loads in.
