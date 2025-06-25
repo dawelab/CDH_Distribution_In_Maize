@@ -1,11 +1,11 @@
 library(dplyr)
 
 #Load the relevant files
-MAP <- read_excel("~/University_of_Georgia/Dawe_Lab_Documents/Ab10_Global_Survey/Data/Romero-Navarro_etal_2017_GBS/Mapping file - Sample ID to Germplasm ID download2.xlsx")
-GERM <- read_excel("~/University_of_Georgia/Dawe_Lab_Documents/Ab10_Global_Survey/Data/Romero-Navarro_etal_2017_GBS/Germinate_Group5_GbS_Accessions_MBEdit.xlsx")
-file_num <- read.table("~/University_of_Georgia/Dawe_Lab_Documents/Ab10_Global_Survey/Data/Romero-Navarro_etal_2017_GBS/file_num.txt", quote="\"", comment.char="")
+MAP <- read_excel("Mapping file - Sample ID to Germplasm ID download2.xlsx")
+GERM <- read_excel("Germinate_Group5_GbS_Accessions_MBEdit.xlsx")
+file_num <- read.table("file_num.txt", quote="\"", comment.char="")
 names(file_num) <- c("Permissions", "Nothing", "User", "PI", "Size", "Month", "Day", "Time", "Sample ID")
-Swarts_Groups_Env <- as.data.frame(read.csv("/Users/user/University_of_Georgia/Dawe_Lab_Documents/Ab10_Global_Survey/Data/SwartsControls_Groups_Env.csv"))
+Swarts_Groups_Env <- as.data.frame(read.csv("SwartsControls_Groups_Env.csv"))
 
 
 #There are multiple instances of general identifiers in the mapping file. 
