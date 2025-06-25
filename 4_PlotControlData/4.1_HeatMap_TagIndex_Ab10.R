@@ -11,16 +11,17 @@ library(ggpubr)
 library(stringr)
 
 #This sets the working directory
-setwd("/Users/user/University_of_Georgia/Dawe_Lab_Documents/Ab10_Global_Survey/R_Sessions/SGE_Distribution_Paper/Ab10-Global-Survey/4_PlotControlData")
+setwd("")
 
 ########################################This loads and preps the data 
-GROUPS <- vroom::vroom("/Users/user/University_of_Georgia/Dawe_Lab_Documents/Ab10_Global_Survey/Data/Controls_Swarts_RomeroNavarro_Romay_Groups_Env.csv")
+#This file comes from 1.7
+GROUPS <- vroom::vroom(Controls_Swarts_RomeroNavarro_Romay_Groups_Env.csv")
 
-MERGE_Ab10Hap_RPM <- vroom::vroom("/Users/user/University_of_Georgia/Dawe_Lab_Documents/Ab10_Global_Survey/R_Sessions/SGE_Distribution_Paper/Tassel_TagTaxaDist_AllData_v5_v_B73-Ab10HIFI_B-Chrom_v2.Ab10.RPM.txt")
+MERGE_Ab10Hap_RPM <- vroom::vroom("Tassel_TagTaxaDist_AllData_v5_v_B73-Ab10_BChrom.Ab10.RPM.txt")
 
 #7 columns were classed as logicals because they have all NAs, these are the ones that had 0 coverage
 
-BINS <- read_excel("~/University_of_Georgia/Dawe_Lab_Documents/Ab10_Global_Survey/Bins_NoOverlap.table.xlsx")
+BINS <- read_excel("Bins_NoOverlap.table.xlsx")
 
 #This drops any column that had an average coverage of 0, resulting in all values being NA
 DT <- as.data.table(MERGE_Ab10Hap_RPM)
