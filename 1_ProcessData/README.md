@@ -1,4 +1,4 @@
-These scripts process the data from doi:10.1038/ng.3784 from demultiplex qualified reads to .fastq files that TASSEL can accept. TASSEL requires fastq files be named in a specific way and the reads cannot be shorter than 64 bp. 
+These scripts process the data from doi:10.1038/ng.3784 from demultiplex qualified reads to .fastq files that TASSEL can accept. TASSEL requires fastq files be named in a specific way and the reads cannot be shorter than 64 bp. Then they produce a key and metadata file from all data sources.
 
 ## 1. Process data
 1. Filter the qualified reads from doi:10.1038/ng.3784 to only reads that are 64 bp or longer. 
