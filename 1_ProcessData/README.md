@@ -8,4 +8,4 @@ These scripts process the data from doi:10.1038/ng.3784 from demultiplex qualifi
 5. Generate the key file needed for TASSEL for all data sources. DC1 = Dawe Lab Controls 1, DC2 = Dawe Lab Controls 2, SW = Swarts et al 2017, RN = Romero-Navarro 2018, RY = Romay et al 2013. 
 6. This is the final key file used
 7. This appends the K10L2 contig to the Mo17 genome. 
-8. This makes a file with all the metadata for all the datasets. 1.7_Files includes all the files that the script loads in.
+8. This makes a file with all the metadata for all the datasets. 1.7_Files includes all the files that this script loads in.
