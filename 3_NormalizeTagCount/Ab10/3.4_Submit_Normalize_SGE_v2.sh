@@ -1,5 +1,5 @@
 #This defines variables
-DIR="/scratch/mjb51923/Ab10_Global_Survey/out"
+DIR=""
 
 #This pulls info from the array job
 IT=$SLURM_ARRAY_TASK_ID
