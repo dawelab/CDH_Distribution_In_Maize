@@ -8,8 +8,8 @@ module load BEDTools/2.29.2-GCC-8.3.0
 OUT_DIR=""
 READ_DIR="/path/to/all/gbs/reads/properlly/formatted"
 KEY="SwartsAllControlsLengthFiltRomeroNavarroRomay_Key.txt"
-REF="CI66-K10L2"
-NAME="AllData_v7"
+REF="CI66-K10L2.fasta"
+NAME="AllData_v6"
 REF_NAME="K10L2"
 
 #Demultiplex the Additional Control reads
