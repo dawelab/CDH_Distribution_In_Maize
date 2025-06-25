@@ -6,11 +6,11 @@ These scripts run the full [TASSEL pipeline](https://bitbucket.org/tasseladmin/t
 > 2. K10L2
 
 2. This subsets the big Tag by Taxa file down to the Ab10 and B chromosome.
-> 1. This identifies the Ab10 and B chromosome Tags l
-> 2. This is the table used in the array job for 2.2.3
-> 3. This extracts Ab10 and the B chromosome from each Tassel run.
+> 1. This identifies the Ab10 and B chromosome Tags in the tag by taxa file.
+> 2. This is the table used in the array job for 2.2.3.
+> 3. This extracts Ab10 and the B chromosome tags from the tag by taxa file.
 
 3. This subsets the big Tag by Taxa file down to K10L2
-> 1. This identifies K10L2 Tags for each run of TASSEL.
+> 1. This identifies K10L2 Tags in the tag by taxa file.
 > 2. This is the table used in the array job for 2.3.3
-> 3. This extracts K10L2 from each Tassel run.
+> 3. This extracts K10L2 tags from each the tag by taxa file.
