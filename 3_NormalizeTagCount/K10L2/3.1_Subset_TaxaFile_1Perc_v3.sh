@@ -1,20 +1,9 @@
-#!/usr/bin/bash
-#SBATCH --partition=batch
-#SBATCH -J Subset_TaxaFile_1Perc_v3
-#SBATCH --output Subset_TaxaFile_1Perc_v3.%A-%a.out
-#SBATCH --mem=50GB
-#SBATCH --time=24:00:00
-#SBATCH	--nodes=1
-#SBATCH	--ntasks=1
-#SBATCH --mail-user=meghan.brady@uga.edu
-#SBATCH --mail-type=BEGIN,END
-#SBATCH --array=1-2
-
 #This defines variables
-DIR="/scratch/mjb51923/Ab10_Global_Survey/out"
+DIR=""
 
 #This pulls info from the array job
 IT=$SLURM_ARRAY_TASK_ID
+#The Get_SGE_Table.txt is available in 2.3.2
 DIRNAME=$(awk NR==${SLURM_ARRAY_TASK_ID}'{print $1}' $DIR/Get_K10L2_Table.txt)
 TAXA=$(awk NR==${SLURM_ARRAY_TASK_ID}'{print $2}' $DIR/Get_K10L2_Table.txt)
 
