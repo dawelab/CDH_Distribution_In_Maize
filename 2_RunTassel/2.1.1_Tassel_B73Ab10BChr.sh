@@ -7,6 +7,7 @@ module load BEDTools/2.29.2-GCC-8.3.0
 #Define Variables
 OUT_DIR=""
 READ_DIR="/path/to/all/gbs/reads/properlly/formatted"
+#This file is available under 1.5
 KEY="SwartsAllControlsLengthFiltRomeroNavarroRomay_Key.txt"
 REF="B73_Ab10_v2_BChrom.fa"
 NAME="AllData_v5"
@@ -18,7 +19,7 @@ run_pipeline.pl -Xms200G -Xmx600G -fork1 -GBSSeqToTagDBPlugin -e ApeKI -i $READ_
 
 #Index the references
 #echo "#####Indexing the Reference"
-#bwa index -a bwtsw $REF
+bwa index -a bwtsw $REF
 
 #Convert the database created in the previous step to a fastq file that can be interpreted by an aligner 
 echo "#####Converting to Fastq File"
