@@ -1,17 +1,5 @@
-#!/usr/bin/bash
-#SBATCH --partition=batch
-#SBATCH -J GetSGE_TagByTaxaFile_v2
-#SBATCH --output /scratch/mjb51923/Ab10_Global_Survey/scripts/GetSGE_TagByTaxaFile_v2_array_%A-%a.out
-#SBATCH --mem=100GB
-#SBATCH --time=48:00:00
-#SBATCH	--nodes=1
-#SBATCH	--ntasks=1
-#SBATCH --mail-user=meghan.brady@uga.edu
-#SBATCH --mail-type=BEGIN,END
-#SBATCH --array=1-2
-
-#This defines variables
-DIR="/scratch/mjb51923/Ab10_Global_Survey/out"
+#Define variables
+DIR=""
 
 #I made this file in excel this converts it to a unix file, without this there are \r 
 dos2unix $DIR/AlignGBS_HiFiAb10Corrected_v2/Get_SGE_Table.txt
@@ -49,7 +37,7 @@ wc -l $DIR/$DIRNAME/$TAXA".txt"
 echo "##### Taxa Tag List Has This Number of Entries"
 wc -l $DIR/$DIRNAME/$TAXA"_TagsOnly.txt"
 
-#This locates the index in the list of tags from the BIG tag by taxa file. The list of indexes comes from the BIG tag by taxa file so the index can still be used. 
+#This locates the index in the list of tags from the large tag by taxa file. The list of indexes comes from the large tag by taxa file so the index can still be used. 
 #grep -n returns the index, grep -w returns only "whole word matches".
 while read line
 do
