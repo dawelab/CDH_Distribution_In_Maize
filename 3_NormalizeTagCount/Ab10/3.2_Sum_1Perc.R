@@ -5,8 +5,6 @@ print(DIRNAME)
 FILNAME = args[2]
 print(FILNAME)
 
-FILNAME<-"Tassel_TagTaxaDist_AllData_v2_v_B73-Ab10_BChrom.Sub1Perc.15.txt"
-
 library(vroom)
 library(data.table)
 
