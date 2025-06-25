@@ -7,6 +7,7 @@ module load BEDTools/2.29.2-GCC-8.3.0
 #Define Variables
 OUT_DIR=""
 READ_DIR="/path/to/all/gbs/reads/properlly/formatted"
+#This file is available under 1.5
 KEY="SwartsAllControlsLengthFiltRomeroNavarroRomay_Key.txt"
 REF="CI66-K10L2.fasta"
 NAME="AllData_v6"
