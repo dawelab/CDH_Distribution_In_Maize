@@ -1,82 +1,106 @@
-#!/usr/bin/Rscript
-args = commandArgs(trailingOnly = TRUE)
-DIRNAME <-args[1]
-print(DIRNAME)
-NAME = args[2]
-print(NAME)
-SGE = args[3]
+library("tidyverse")
+library("readxl")
 
-library(vroom)
-library(tidyverse)
-library(data.table)
+###### This Loads In Key Files
+DC_1 <- read.csv("~/University_of_Georgia/Dawe_Lab_Documents/Ab10_Global_Survey/Data/DaweLabControls1_Key.csv")
 
-setwd(DIRNAME)
+DC_2 <- read.csv("~/University_of_Georgia/Dawe_Lab_Documents/Ab10_Global_Survey/Data/DaweLabControls2_Key.csv")
 
-SGE <- vroom::vroom(paste(NAME,SGE,"txt", sep="."))
+SW <- read.csv("~/University_of_Georgia/Dawe_Lab_Documents/Ab10_Global_Survey/Data/Swarts_Key.csv")
 
-BEDNAME = gsub("Tassel_TagTaxaDist", "BWAaln", NAME)
+RN_key <- read.csv("~/University_of_Georgia/Dawe_Lab_Documents/Ab10_Global_Survey/Romero-Navarro_LengthFiltered_fakebarcodes_key.csv")
 
-BED <- vroom::vroom(paste(BEDNAME, "s.bed", sep="."))
-colnames(BED) <- c("Chr", "Start", "End", "Tag", "MAPQ", "Strand")
+Romay_list <- list.files(path="/Users/user/University_of_Georgia/Dawe_Lab_Documents/Ab10_Global_Survey/Data/Romay_etal_2013_GBS/Keys")
 
-BED$Tag <- gsub("tagSeq=", "", BED$Tag)
+setwd("/Users/user/University_of_Georgia/Dawe_Lab_Documents/Ab10_Global_Survey/Data/Romay_etal_2013_GBS/Keys")
 
-MERGE <- merge(BED, SGE, by="Tag")
+######################This section makes the key for the RomeroNavarro data 
+Flowcell <- RN_key$fake_flowcells
+Lane <- RN_key$fake_lanes
+Barcode <- RN_key$fake_barcodes
+DNAsample_temp1 <- RN_key$fastqs
+DNASample <- c()
+FullSampleName <- c()
+LibraryPrepID <- 1:length(DNAsample_temp1)
 
-###################This section of code selects only tags that appear in the control data set 
-
-#This selects columns ending in the control specific suffix
-col.num <- grep("DC", colnames(MERGE))
-#This appends the first 6 columns to that list
-col.num <- c(1:6, col.num)
-#This selects only the columns that appear in the above list of control names
-MERGE_CONTROLS <- MERGE[,sort(c(col.num))]
-#This calculates the row sum for each tag
-MERGE_CONTROLS$RowSum <- rowSums(MERGE_CONTROLS[7:ncol(MERGE_CONTROLS)])
-#This removes any column where all of the tag values are 0 in the controls
-MERGE_CONTROLS_NOZERO <- subset(MERGE_CONTROLS, RowSum != 0)
-#This stores the tags present in the control data as a variable
-TAGS_TO_KEEP <- MERGE_CONTROLS_NOZERO$Tag
-
-#This goes back to the full dataset and stores tag information as row names
-row.names(MERGE) <- MERGE$Tag
-#This goes back to the original data and pulls the index for only tags that appear in the controls 
-row.num <- which(rownames(MERGE) %in% TAGS_TO_KEEP)
-#This selects only the columns that appear in the above list of tag index
-MERGE_TAGSFilt <- MERGE[sort(c(row.num)),]
-
-#This section loads in the sum data file containing the sums of 1% of a random subset of the data 
-
-######################Something is wrong with this file. IT was way way too long. The original Sum files are the right length so the issue should be in the joining
-
-SUM_DATA <- vroom::vroom(paste(NAME, "Sub1Perc.Sum.txt", sep="."))
-
-
-SUM_DATA$Mean = apply(SUM_DATA[,2:ncol(SUM_DATA)], 1, mean)
-
-###################This section normalizes tag count by the total tags. I tested a few ways to do this and this seemed to be the fastest
-
-COLNAMES <- colnames(MERGE_TAGSFilt)
-MERGE_TAGSFilt_Norm <- MERGE_TAGSFilt[1:6]
-
-c<- 1
-normalize <- function(x) {
-  print(c)
-  NAME <- x
-  SUMROW <- which(SUM_DATA$Names == NAME)
-  SUM <- as.numeric(SUM_DATA[SUMROW, Mean])*100
-  #This takes a vector and normalizes across rows 
-  z <- which(COLNAMES == NAME)
-  SUB <- MERGE_TAGSFilt[,z:z]
-  edit <- apply(SUB, 1, function(y) (y/SUM)*1000000)
-  MERGE_TAGSFilt_Norm <<- cbind(MERGE_TAGSFilt_Norm, edit)
-  c<<-c+1
+for (i in 1:length(DNAsample_temp1)) {  
+SAMP <- DNAsample_temp1[[i]]
+CUT1 <- str_split(SAMP, "/")[[1]][7]
+CUT2 <- str_split(CUT1, "_")[[1]][2]
+CUT3 <- str_split(CUT2, ":")[[1]][1]
+DNASample[i] <- CUT2
+FullSampleName[i] <- CUT3
 }
 
-COLNAMES_Drop <- COLNAMES[7:length(COLNAMES)]
-lapply(COLNAMES_Drop, normalize)
+RN_NewKey <- cbind(Flowcell, Lane, Barcode, DNASample, LibraryPrepID, FullSampleName)
+RN_NewKey <- as.data.frame(RN_NewKey)
 
-#This assigns the colnames back to the data frame after transformation 
-colnames(MERGE_TAGSFilt_Norm) <- COLNAMES
+#This creates unique names for all Romay samples
+SAMPS <- unique(RN_NewKey$FullSampleName)
+#This selects only the column names
+RN_FinKey <- RN_NewKey[1,]
+RN_FinKey <- RN_FinKey[-c(1),]
 
-fwrite(MERGE_TAGSFilt_Norm, file=paste(NAME,SGE,RPM, "txt", sep="."), quote = FALSE, sep = "\t", row.names = FALSE, col.names = TRUE)
+#This adds a number after duplicate samples to generate fully unique names
+i=1
+for(i in 1:length(SAMPS)) {
+  x <- SAMPS[i]
+  index <- which(RN_NewKey$FullSampleName %in% x)
+  TEMP1 <- as.data.frame(RN_NewKey[index,], drop = FALSE)
+  rownames(TEMP1) <- 1:nrow(TEMP1) 
+  NEW <- paste(TEMP1$FullSampleName, rownames(TEMP1), sep=".")
+  TEMP1$FullSampleName <- NEW
+  RN_FinKey <<- rbind(RN_FinKey, TEMP1)
+}
+
+##############This section makes the key for the Romay data
+
+#Reads the whole file list into a single dataframe
+Romay_Key_temp1 <- lapply(Romay_list,read_xlsx)
+Romay_Key_temp2 <- dplyr::bind_rows(Romay_Key_temp1)
+#Several rows are identical, I am not sure why this is. This removes any completely duplicate row
+Romay_Key_temp3 <- unique(Romay_Key_temp2)
+
+#This makes all the blank formating the same
+Romay_Key_temp3$DNASample <- gsub("blank", "BLANK", Romay_Key_temp3$DNASample)
+Romay_Key_temp3$DNASample <- gsub("Blank", "BLANK", Romay_Key_temp3$DNASample)
+
+#This determiens the number of unique samepls
+length(unique(Romay_Key_temp3$DNASample))
+
+#This creates unique names for all Romay samples
+SAMPS <- unique(Romay_Key_temp3$DNASample)
+#This selects only the column names
+Romay_Key <- Romay_Key_temp3[1,]
+Romay_Key <- Romay_Key[-c(1),]
+
+#This adds a number after duplicate samples to generate fully unique names
+i=1
+for(i in 1:length(SAMPS)) {
+  x <- SAMPS[i]
+  index <- which(Romay_Key_temp3$DNASample %in% x)
+  TEMP1 <- as.data.frame(Romay_Key_temp3[index,], drop = FALSE)
+  rownames(TEMP1) <- 1:nrow(TEMP1) 
+  NEW <- paste(TEMP1$DNASample, rownames(TEMP1), sep=".")
+  TEMP1$DNASample <- NEW
+  Romay_Key <<- rbind(Romay_Key, TEMP1)
+}
+
+Romay_Key$LibraryPrepID <- Romay_Key$Flowcell
+Romay_Key$FullSampleName <- Romay_Key$DNASample
+
+#########################This section adds the data source initials to the end of each full sample name
+DC_1$FullSampleName <- paste(DC_1$FullSampleName, "DC1", sep=".")
+DC_2$FullSampleName <- paste(DC_2$FullSampleName, "DC2", sep=".")
+SW$FullSampleName <- paste(SW$FullSampleName, "SW", sep=".")
+RN_FinKey$FullSampleName <- paste(RN_FinKey$FullSampleName, "RN", sep=".")
+Romay_Key$FullSampleName <- paste(Romay_Key$FullSampleName, "RY", sep=".")
+
+##########################This section Combines the key files
+All_Key <- rbind(DC_1, DC_2, SW, RN_FinKey, Romay_Key)
+
+setwd("/Users/user/University_of_Georgia/Dawe_Lab_Documents/Ab10_Global_Survey/Data")
+
+write.table(x=All_Key, file="SwartsAllControlsLengthFiltRomeroNavarroRomay_Key.txt", row.names = FALSE, sep = "\t", quote = FALSE)
+
+
