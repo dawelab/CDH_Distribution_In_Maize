@@ -1,21 +1,11 @@
-#!/bin/bash
-#SBATCH --job-name=Join_Sum_1Perc_v2
-#SBATCH --output Join_Sum_1Perc_v2.%A-%a.out
-#SBATCH --partition=batch
-#SBATCH --mail-type=ALL
-#SBATCH --mail-user=mjb51923@uga.edu
-#SBATCH --ntasks=1
-#SBATCH --mem=50gb
-#SBATCH --time=1:00:00
-#SBATCH --array=1
-
 #This defines variables
-DIR="/scratch/mjb51923/Ab10_Global_Survey/out"
+DIR=""
 
 #This pulls info from the array job
 IT=$SLURM_ARRAY_TASK_ID
-DIRNAME=$(awk NR==${SLURM_ARRAY_TASK_ID}'{print $1}' $DIR/AlignGBS_HiFiAb10Corrected_v2/Get_SGE_Table.txt)
-TAXA=$(awk NR==${SLURM_ARRAY_TASK_ID}'{print $2}' $DIR/AlignGBS_HiFiAb10Corrected_v2/Get_SGE_Table.txt)
+#This file is available under 2.2.2
+DIRNAME=$(awk NR==${SLURM_ARRAY_TASK_ID}'{print $1}' $DIRGet_SGE_Table.txt)
+TAXA=$(awk NR==${SLURM_ARRAY_TASK_ID}'{print $2}' $DIR/Get_SGE_Table.txt)
 
 #This writes out what file is working 
 echo "This is iteration Number"
