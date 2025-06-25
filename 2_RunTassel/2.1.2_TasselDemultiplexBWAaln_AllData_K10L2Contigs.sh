@@ -1,14 +1,3 @@
-#!/bin/bash
-#SBATCH --partition=highmem_p
-#SBATCH -J TasselDemultiplexBWAaln_AllData_K10L2Contigs
-#SBATCH --output TasselDemultiplexBWAaln_AllData_K10L2Contigs.out
-#SBATCH --mem=600GB
-#SBATCH --time=48:00:00
-#SBATCH	--nodes=1
-#SBATCH	--ntasks=30
-#SBATCH --mail-user=meghan.brady@uga.edu
-#SBATCH --mail-type=END
-
 #Load modules
 module load TASSEL/5.2.44-Java-1.8.0_241
 module load BWA/0.7.17-GCCcore-11.3.0
@@ -16,12 +5,12 @@ module load SAMtools/0.1.20-GCC-11.3.0
 module load BEDTools/2.29.2-GCC-8.3.0
 
 #Define Variables
-OUT_DIR="/scratch/mjb51923/Ab10_Global_Survey/out/AlignGBS_K10L2Contigs"
-READ_DIR="/scratch/mjb51923/raw_reads/GBS/Swarts_AllControls_LengthFiltFakeBarcodedRomeroNavarro_Romay"
-KEY="/scratch/mjb51923/Ab10_Global_Survey/out/SwartsAllControlsLengthFiltRomeroNavarroRomay_Key.txt"
-REF="/scratch/mjb51923/CI66_Assembly/out/CI66_rq99.asm.bp.p_ctg.gfa.fasta"
+OUT_DIR=""
+READ_DIR="/path/to/all/gbs/reads/properlly/formatted"
+KEY="SwartsAllControlsLengthFiltRomeroNavarroRomay_Key.txt"
+REF="CI66-K10L2"
 NAME="AllData_v7"
-REF_NAME="K10L2Contigs"
+REF_NAME="K10L2"
 
 #Demultiplex the Additional Control reads
 echo "#####Demultiplexing Fastq Files"
