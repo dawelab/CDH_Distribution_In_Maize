@@ -1,17 +1,5 @@
-#!/usr/bin/bash
-#SBATCH --partition=batch
-#SBATCH -J GetSGE_TagByTaxaFile_v3
-#SBATCH --output GetSGE_TagByTaxaFile_v3_array_%A-%a.out
-#SBATCH --mem=100GB
-#SBATCH --time=48:00:00
-#SBATCH	--nodes=1
-#SBATCH	--ntasks=1
-#SBATCH --mail-user=meghan.brady@uga.edu
-#SBATCH --mail-type=BEGIN,END
-#SBATCH --array=1-2
-
 #This defines variables
-DIR="/scratch/mjb51923/Ab10_Global_Survey/out"
+DIR=""
 
 #I made this file in excel this converts it to a unix file, without this there are \r 
 dos2unix $DIR/Get_K10L2_Table.txt
