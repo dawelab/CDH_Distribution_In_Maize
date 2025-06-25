@@ -1,2 +1,2 @@
-AlignGBS   Tassel_TagTaxaDist_AllData_v5_v_B73-Ab10_BChrom Ab10
-AlignGBS   Tassel_TagTaxaDist_AllData_v5_v_B73-Ab10_BChrom BChrom
+AlignGBSAb10BChrom   Tassel_TagTaxaDist_AllData_v5_v_B73-Ab10_BChrom Ab10
+AlignGBSAb10BChrom   Tassel_TagTaxaDist_AllData_v5_v_B73-Ab10_BChrom BChrom
