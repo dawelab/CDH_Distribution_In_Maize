@@ -1,2 +1,2 @@
-AlignGBS_HiFiAb10Corrected_v2   Tassel_TagTaxaDist_AllData_v5_v_B73-Ab10HIFI_B-Chrom_v2 Ab10
-AlignGBS_HiFiAb10Corrected_v2   Tassel_TagTaxaDist_AllData_v5_v_B73-Ab10HIFI_B-Chrom_v2 BChrom
+AlignGBS   Tassel_TagTaxaDist_AllData_v5_v_B73-Ab10_BChrom Ab10
+AlignGBS   Tassel_TagTaxaDist_AllData_v5_v_B73-Ab10_BChrom BChrom
