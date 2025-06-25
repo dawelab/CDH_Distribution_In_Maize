@@ -1,7 +1,7 @@
 ## 2. Run TASSEL
 1. This runs everything for TASSEL. It ran in less than a day and took about 400GB of memory.
-> 1. This runs it using the corrected version of the HiFi B73-Ab10 version from Mingyu.
-> 2. These scripts are aligning to the K10L2 assembly. I'm testing if the unscaffolded contigs or the the K10L2 contig and the Mo17 genome work better.
+> 1. B73 Ab10 and B Chr. 
+> 2. K10L2
 
 2. This subsets the big Tag by Taxa file down to the Ab10 and B chromosome.
 > 1. This identifies the Ab10 and B chromosome Tags l
