@@ -126,4 +126,4 @@ file names to be repeated.")
 
 setwd("/scratch/mjb51923/raw_reads/GBS/Romero_Navarro_Fake_Barcoded_Test")
 
-barcode_faker(fastq_dir = "/scratch/mjb51923/raw_reads/GBS/Romero_Navarro", read_length = 100)
+barcode_faker(fastq_dir = "Romero_Navarro", read_length = 100)
