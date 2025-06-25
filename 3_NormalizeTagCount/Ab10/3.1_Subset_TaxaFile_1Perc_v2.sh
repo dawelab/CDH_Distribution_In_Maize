@@ -1,22 +1,11 @@
-#!/usr/bin/bash
-#SBATCH --partition=batch
-#SBATCH -J Subset_TaxaFile_1Perc_v2
-#SBATCH --output /scratch/mjb51923/Ab10_Global_Survey/scripts/Subset_TaxaFile_1Perc_v2.%A-%a.out
-#SBATCH --mem=50GB
-#SBATCH --time=24:00:00
-#SBATCH	--nodes=1
-#SBATCH	--ntasks=1
-#SBATCH --mail-user=meghan.brady@uga.edu
-#SBATCH --mail-type=BEGIN,END
-#SBATCH --array=1
-
 #This defines variables
-DIR="/scratch/mjb51923/Ab10_Global_Survey/out"
+DIR=""
 
 #This pulls info from the array job
 IT=$SLURM_ARRAY_TASK_ID
-DIRNAME=$(awk NR==${SLURM_ARRAY_TASK_ID}'{print $1}' $DIR/AlignGBS_HiFiAb10Corrected_v2/Get_SGE_Table.txt)
-TAXA=$(awk NR==${SLURM_ARRAY_TASK_ID}'{print $2}' $DIR/AlignGBS_HiFiAb10Corrected_v2/Get_SGE_Table.txt)
+#The Get_SGE_Table.txt is available in 2.2.2
+DIRNAME=$(awk NR==${SLURM_ARRAY_TASK_ID}'{print $1}' $DIR/Get_SGE_Table.txt)
+TAXA=$(awk NR==${SLURM_ARRAY_TASK_ID}'{print $2}' $DIR/Get_SGE_Table.txt)
 
 #This writes out what file is working 
 echo "This is iteration Number"
