@@ -21,6 +21,7 @@ MERGE_Ab10Hap_RPM <- vroom::vroom("Tassel_TagTaxaDist_AllData_v5_v_B73-Ab10_BChr
 
 #7 columns were classed as logicals because they have all NAs, these are the ones that had 0 coverage
 
+#This is available in this repo under 4.1
 BINS <- read_excel("Bins_NoOverlap.table.xlsx")
 
 #This drops any column that had an average coverage of 0, resulting in all values being NA
@@ -37,7 +38,6 @@ MERGE_Ab10Hap_RPM_FILT <- subset(MERGE_Ab10Hap_RPM_FILT_1, MAPQ >= 20)
 ###This selects only the controls
 #This identifies all the index numbers for names marked as controls
 col.num <- grep(".DC", colnames(MERGE_Ab10Hap_RPM_FILT))
-#This is 188 because 4 controls were dropped as they all had NAs. I believe this is a product of them having naming issues that prevented the correct mean from being pulled in the normalization step. 
 
 #This appends the first 6 columns to that list
 col.num <- append(col.num, values = c(1:6))
@@ -97,7 +97,7 @@ test <- MERGE_Ab10Hap_RPM_FILT_CONTROLS[,c(1:4,ncol(MERGE_Ab10Hap_RPM_FILT_CONTR
 #This function goes over each row and divides each value by the max in that row 
 MinMax = function(xx) { sweep(xx, 1, apply(xx, 1, max), '/') }
 
-#This is being a problem and I'm not sure why 
+#This arranges the lines for plotting
 SORT_temp1 <- subset(GROUPS, Data_Source == "Dawe_Lab_1" | Data_Source == "Dawe_Lab_2")
 SORT_temp2 <- SORT_temp1[order(SORT_temp1$Ab10_Status),]
 SORT_temp3 <- SORT_temp2$Name
@@ -107,7 +107,7 @@ SORT_temp4 <- c(ADD, SORT_temp3)
 #This removes the missing samples 
 SORT <- SORT_temp4[! SORT_temp4 %in% setdiff(SORT_temp4, colnames(MERGE_Ab10Hap_RPM_FILT_CONTROLS))]
 
-#This manually alters SORT
+#This manually alters SORT for plotting
 SORT <- c(SORT[1:7], SORT[c(47,48,49, 8,14,28,35,37,39,42,45)], SORT[c(9:13, 15:27, 29:34, 36,38,40:41,43:44,46,55:59,50:54)], SORT[c(74,83, 60:62,65,68,70,73,76:77,80:81,86:87,91:92)], SORT[c(63:64, 66:67, 69,71:72, 75,78:79, 82,84:85, 88:90, 93:135)])
 
 #This orders the data frame
