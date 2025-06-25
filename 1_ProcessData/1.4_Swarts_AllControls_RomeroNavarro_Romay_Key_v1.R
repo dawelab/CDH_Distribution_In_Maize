@@ -2,17 +2,18 @@ library("tidyverse")
 library("readxl")
 
 ###### This Loads In Key Files
-DC_1 <- read.csv("~/University_of_Georgia/Dawe_Lab_Documents/Ab10_Global_Survey/Data/DaweLabControls1_Key.csv")
+DC_1 <- read.csv("DaweLabControls1_Key.csv")
 
-DC_2 <- read.csv("~/University_of_Georgia/Dawe_Lab_Documents/Ab10_Global_Survey/Data/DaweLabControls2_Key.csv")
+DC_2 <- read.csv("DaweLabControls2_Key.csv")
 
-SW <- read.csv("~/University_of_Georgia/Dawe_Lab_Documents/Ab10_Global_Survey/Data/Swarts_Key.csv")
+SW <- read.csv("Swarts_Key.csv")
 
-RN_key <- read.csv("~/University_of_Georgia/Dawe_Lab_Documents/Ab10_Global_Survey/Romero-Navarro_LengthFiltered_fakebarcodes_key.csv")
+RN_key <- read.csv("Romero-Navarro_LengthFiltered_fakebarcodes_key.csv")
 
-Romay_list <- list.files(path="/Users/user/University_of_Georgia/Dawe_Lab_Documents/Ab10_Global_Survey/Data/Romay_etal_2013_GBS/Keys")
+#This is a list of key files from doi:10.1186/gb-2013-14-6-r55
+Romay_list <- list.files(path="Romay_etal_2013_GBS/Keys")
 
-setwd("/Users/user/University_of_Georgia/Dawe_Lab_Documents/Ab10_Global_Survey/Data/Romay_etal_2013_GBS/Keys")
+setwd("Romay_etal_2013_GBS/Keys")
 
 ######################This section makes the key for the RomeroNavarro data 
 Flowcell <- RN_key$fake_flowcells
@@ -99,7 +100,7 @@ Romay_Key$FullSampleName <- paste(Romay_Key$FullSampleName, "RY", sep=".")
 ##########################This section Combines the key files
 All_Key <- rbind(DC_1, DC_2, SW, RN_FinKey, Romay_Key)
 
-setwd("/Users/user/University_of_Georgia/Dawe_Lab_Documents/Ab10_Global_Survey/Data")
+setwd("")
 
 write.table(x=All_Key, file="SwartsAllControlsLengthFiltRomeroNavarroRomay_Key.txt", row.names = FALSE, sep = "\t", quote = FALSE)
 
