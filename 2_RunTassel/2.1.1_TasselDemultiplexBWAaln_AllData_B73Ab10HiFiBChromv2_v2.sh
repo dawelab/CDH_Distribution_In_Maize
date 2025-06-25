@@ -1,14 +1,3 @@
-#!/bin/bash
-#SBATCH --partition=highmem_p
-#SBATCH -J TasselDemultiplexBWAaln_AllData_B73Ab10HiFiBChromv2_v2
-#SBATCH --output TasselDemultiplexBWAaln_AllData_B73Ab10HiFiBChromv2_v2.out
-#SBATCH --mem=600GB
-#SBATCH --time=48:00:00
-#SBATCH	--nodes=1
-#SBATCH	--ntasks=30
-#SBATCH --mail-user=meghan.brady@uga.edu
-#SBATCH --mail-type=END
-
 #Load modules
 module load TASSEL/5.2.44-Java-1.8.0_241
 module load BWA/0.7.17-GCCcore-11.3.0
@@ -16,13 +5,12 @@ module load SAMtools/0.1.20-GCC-11.3.0
 module load BEDTools/2.29.2-GCC-8.3.0
 
 #Define Variables
-OUT_DIR="/scratch/mjb51923/Ab10_Global_Survey/out/AlignGBS_HiFiAb10Corrected_v2"
-READ_DIR="/scratch/mjb51923/raw_reads/GBS/Swarts_AllControls_LengthFiltFakeBarcodedRomeroNavarro_Romay"
-KEY="/scratch/mjb51923/Ab10_Global_Survey/out/SwartsAllControlsLengthFiltRomeroNavarroRomay_Key.txt"
-REF="/scratch/mjb51923/ref_genomes/Ab10_HiFi_v2_corrected_BChrom.noscaf.fa"
+OUT_DIR=""
+READ_DIR="/path/to/all/gbs/reads/properlly/formatted"
+KEY="SwartsAllControlsLengthFiltRomeroNavarroRomay_Key.txt"
+REF="B73_Ab10_v2_BChrom.fa"
 NAME="AllData_v5"
-#This v2 refers to the corrected Hifi genome
-REF_NAME="B73-Ab10HIFI_B-Chrom_v2"
+REF_NAME="B73-Ab10_BChrom"
 
 #Demultiplex the Additional Control reads
 echo "#####Demultiplexing Fastq Files"
