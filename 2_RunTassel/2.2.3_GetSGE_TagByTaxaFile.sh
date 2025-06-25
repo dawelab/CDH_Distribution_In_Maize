@@ -6,9 +6,9 @@ dos2unix $DIR/AlignGBS_HiFiAb10Corrected_v2/Get_SGE_Table.txt
 
 #This pulls info from the array job
 IT=$SLURM_ARRAY_TASK_ID
-DIRNAME=$(awk NR==${SLURM_ARRAY_TASK_ID}'{print $1}' $DIR/AlignGBS_HiFiAb10Corrected_v2/Get_SGE_Table.txt)
-TAXA=$(awk NR==${SLURM_ARRAY_TASK_ID}'{print $2}' $DIR/AlignGBS_HiFiAb10Corrected_v2/Get_SGE_Table.txt)
-SGE=$(awk NR==${SLURM_ARRAY_TASK_ID}'{print $3}' $DIR/AlignGBS_HiFiAb10Corrected_v2/Get_SGE_Table.txt)
+DIRNAME=$(awk NR==${SLURM_ARRAY_TASK_ID}'{print $1}' $DIR/Get_SGE_Table.txt)
+TAXA=$(awk NR==${SLURM_ARRAY_TASK_ID}'{print $2}' $DIR/Get_SGE_Table.txt)
+SGE=$(awk NR==${SLURM_ARRAY_TASK_ID}'{print $3}' $DIR/Get_SGE_Table.txt)
 
 
 echo "This is iteration Number:"
