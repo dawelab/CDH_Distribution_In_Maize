@@ -1,22 +1,14 @@
-#!/bin/bash
-#SBATCH --partition=batch
-#SBATCH -J Liftoff_HiFiB73Ab10
-#SBATCH --output Liftoff_HiFiB73Ab10.out
-#SBATCH --time=12:00:00
-#SBATCH --mem=100GB
-#SBATCH	--nodes=1
-#SBATCH	--ntasks=12
-#SBATCH --mail-user=meghan.brady@uga.edu
-#SBATCH --mail-type=END
-
 #Load modules 
 module load Liftoff/1.6.3
 
 #Define Variables
-DIR="/scratch/mjb51923/annotations/"
-OG_Ab10="/scratch/mjb51923/ref_genomes/Zm-B73-REFERENCE-NAM-5.0.fa"
-HIFI_Ab10="/scratch/mjb51923/ref_genomes/Ab10_HiFi_v2_corrected.fa"
-ANNOT="/scratch/mjb51923/annotations/Zm-B73-REFERENCE-NAM-5.0_Zm00001eb.1.gff3"
+DIR=""
+#This reference is from https://doi.org/10.1186/s13059-020-02029-9
+OG_Ab10="Zm-B73-REFERENCE-NAM-5.0.fa"
+#This is the reference from https://doi.org/10.1093/genetics/iyaf091. 
+HIFI_Ab10="Ab10_HiFi_v2_corrected.fa"
+#This reference is from https://doi.org/10.1186/s13059-020-02029-9
+ANNOT="Zm-B73-REFERENCE-NAM-5.0_Zm00001eb.1.gff3"
 
 #Unzip the gff
 gunzip $ANNOT.gz
