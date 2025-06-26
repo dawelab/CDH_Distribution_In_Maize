@@ -8,7 +8,7 @@ ANNOT_DIR=""
 #These files are from 2
 BED="BWAaln_AllData_v5_v_B73-Ab10HIFI_B-Chrom_v2.s"
 TAXA="Tassel_TagTaxaDist_AllData_v5_v_B73-Ab10HIFI_B-Chrom_v2"
-#This file is available in this repo under 5.4.3
+#This file is available in this repo under 5.4.2
 CHUNKS="SingleCopyCoreGene_Chunks.txt"
 
 #This checks the length of the SGE TAXA index subset list
