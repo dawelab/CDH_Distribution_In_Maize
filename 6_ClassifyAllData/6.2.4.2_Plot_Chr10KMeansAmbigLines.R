@@ -17,16 +17,21 @@ install.packages("caret")
 library(caret)
 
 ########################################This loads and preps the data 
-GROUPS <- vroom::vroom("/Users/user/University_of_Georgia/Dawe_Lab_Documents/Ab10_Global_Survey/Data/Controls_Swarts_RomeroNavarro_Romay_Groups_Env.csv")
+#This file is from 1.7
+GROUPS <- vroom::vroom("Controls_Swarts_RomeroNavarro_Romay_Groups_Env.csv")
 
-MERGE_Ab10Hap_RPM_FILT_2_FIX <- vroom::vroom("BWAaln_All_v_Ab10HIFIBChrom.Ab10.RPM.RNMean.table")
+#This file is from 3.4
+MERGE_Ab10Hap_RPM_FILT_2_FIX <- vroom::vroom("BWAaln_All_v_B73-Ab10_BChrom.Ab10.RPM.RNMean.table")
 
+#This is from 6.1.1
 DF <- vroom::vroom("Controls_Swarts_RomeroNavarro_Romay_Groups_Env_NameChanges.table")
 
 #This loads in the BINS file
-BINS <- read_excel("~/University_of_Georgia/Dawe_Lab_Documents/Ab10_Global_Survey/Bins_NoOverlap.table.xlsx")
+#This is from 4.1
+BINS <- read_excel("Bins_NoOverlap.table.xlsx")
 
-POS <- vroom::vroom("/Volumes/Transcend/Kmeans_Exp_Groups_MixedControls_All.csv")
+#This is from 6.2.3 and 4
+POS <- vroom::vroom("Kmeans_Exp_Groups_MixedControls_All.csv")
 
 #This function goes over each row and divides each value by the max in that row 
 MinMax = function(xx) { sweep(xx, 1, apply(xx, 1, max), '/') }
