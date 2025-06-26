@@ -17,16 +17,17 @@ library(ggpubr)
 library(stringr)
 library(ComplexHeatmap)
 
-setwd("/scratch/mjb51923/Ab10_Global_Survey/out/AlignGBS_HiFiAb10Corrected_v2")
+setwd("")
 
 #This loads and preps the data 
-GROUPS <- vroom::vroom("/scratch/mjb51923/Ab10_Global_Survey/out/AlignGBS_HiFiAb10Corrected_v2/BChrom_Model/Controls_Swarts_RomeroNavarro_Romay_Groups_Env.csv")
-#GROUPS <- vroom::vroom("/Users/user/University_of_Georgia/Dawe_Lab_Documents/Ab10_Global_Survey/Data/Controls_Swarts_RomeroNavarro_Romay_Groups_Env.csv")
+#This is from 1.7
+GROUPS <- vroom::vroom("Controls_Swarts_RomeroNavarro_Romay_Groups_Env.csv")
 
-MERGE_SCG_RPM <- vroom::vroom(paste("/scratch/mjb51923/Ab10_Global_Survey/out/AlignGBS_HiFiAb10Corrected_v2/SingleCopyCoreGeneChunks/Tassel_TagTaxaDist_AllData_v5_v_B73-Ab10HIFI_B-Chrom_v2_temp2_", IT, ".RPM.bed", sep = ""))
+MERGE_SCG_RPM <- vroom::vroom(paste("Tassel_TagTaxaDist_AllData_v5_v_B73-Ab10_BChrom_temp2_", IT, ".RPM.bed", sep = ""))
 
 #This loads the data set with information on which lines passed missing data filters
-PASS <- vroom::vroom("/scratch/mjb51923/Ab10_Global_Survey/out/AlignGBS_HiFiAb10Corrected_v2/SamplesPASSEDMissingDataFILTER.csv")
+#This file is available in 5.3_Plots
+PASS <- vroom::vroom("Ab10BChrom_SamplesPASSEDMissingDataFILTER.csv")
 
 #7 columns were classed as logicals because they have all NAs, these are the ones that had 0 coverage in the normalization process
 
@@ -38,7 +39,8 @@ MERGE_SCG_RPM <- as.data.frame(DT)
 print("##### Finished Data Table Step")
 
 #This loads in the edited final BINS file
-BINS <- read_excel("/scratch/mjb51923/Ab10_Global_Survey/out/AlignGBS_HiFiAb10Corrected_v2/Bins_NoOverlap_SCG_final.xlsx")
+#This file is available in this repo under 5.4.5
+BINS <- read_excel("Bins_NoOverlap_SCG_final.xlsx")
 
 print("##### Starting to add Bins")
 #This adds the true bin to the SCG 
@@ -149,4 +151,4 @@ MERGE_SCG_RPM_FILT_2_FIX <- MERGE_SCG_RPM_FILT_2_OTH
 
 print("##### Writing the File")
 #This writes out the final data frame
-fwrite(MERGE_SCG_RPM_FILT_2_FIX, file=paste("/scratch/mjb51923/Ab10_Global_Survey/out/AlignGBS_HiFiAb10Corrected_v2/SingleCopyCoreGeneChunks/BWAaln_All_v_Ab10HIFIBChrom.SCG.RPM.RNMean.", IT, ".table", sep = ""), row.names = FALSE)
+fwrite(MERGE_SCG_RPM_FILT_2_FIX, file=paste("BWAaln_All_v_Ab10HIFIBChrom.SCG.RPM.RNMean.", IT, ".table", sep = ""), row.names = FALSE)
