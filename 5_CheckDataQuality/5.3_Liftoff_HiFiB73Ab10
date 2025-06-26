@@ -3,11 +3,11 @@ module load Liftoff/1.6.3
 
 #Define Variables
 DIR=""
-#This reference is from https://doi.org/10.1186/s13059-020-02029-9
+#This reference is from doi: 10.1126/science.abg5289
 OG_Ab10="Zm-B73-REFERENCE-NAM-5.0.fa"
 #This is the reference from https://doi.org/10.1093/genetics/iyaf091. 
 HIFI_Ab10="Ab10_HiFi_v2_corrected.fa"
-#This reference is from https://doi.org/10.1186/s13059-020-02029-9
+#This reference is from doi: 10.1126/science.abg5289
 ANNOT="Zm-B73-REFERENCE-NAM-5.0_Zm00001eb.1.gff3"
 
 #Unzip the gff
