@@ -6,7 +6,7 @@
 
 
 2. These scriripts filter out samples with too much missing data. 
->1.  This script uses the random 1 percent subsets generated in 3.1 to determine percent missing data for each sample in the B73-Ab10 hifi genome. By happenstance it also ran the other two TASSEL runs. Three samples from the Mo17 genomes failed for an unknown reason. All of the B73-Ab10 samples completed as expected.
+>1.  This script uses the random 1 percent subsets generated in 3.1 to determine percent missing data for each sample. These scripts use the same R script on different data sets for the B73 Ab10 B chr reference and the K10L2 reference.
 >2.  This joins all the files only for the B73 HiFi Ab10 run of TASSEL
 >3.  This plots out the missing data and filters it. The Romay and Romero-Navarro data sets have distributions that are a bit more different from my controls than I would like.
 >4.  This script uses the random 1 percent subsets generated in 3a.1 to determine percent missing data for each sample in the K10L2 contigs.
