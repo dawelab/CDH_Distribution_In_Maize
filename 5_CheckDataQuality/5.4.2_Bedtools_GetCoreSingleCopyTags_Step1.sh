@@ -4,8 +4,10 @@ module load BEDTools/2.30.0-GCC-10.2.0
 #This defines the variables
 DIR=""
 ANNOT_DIR=""
+#These files are from 2
 BED="BWAaln_AllData_v5_v_B73-Ab10_BChrom.s"
 TAXA="Tassel_TagTaxaDist_AllData_v5_v_B73-Ab10_BChrom"
+#This file is available in this repo under 4.2
 CHUNKS="SingleCopyCoreGene_Chunks.txt"
 
 #This checks the number of single copy core genes 
