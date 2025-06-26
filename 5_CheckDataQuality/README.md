@@ -13,7 +13,9 @@
 >5.  This joins all the files for the K10L2 Contigs
 >6.  This plots the unfiltered missing data for the K10L2 reference and filters it. Plots are available in 5.6_Plots
 
-3. This pulls all the tags overlapping all of the single copy core genes for B73-Ab10.
+3. This lifts the annotations from B73 v5 doi: 10.1126/science.abg5289 to the lastest reference genome of Ab10 https://doi.org/10.1093/genetics/iyaf091. I did this for compatibility with the B73 core gene names available through https://doi.org/10.1093/genetics/iyad146. The https://doi.org/10.1093/genetics/iyaf091 assembly only contains the Ab10 haplotype itself. Should you need to repeat this analysis append the Ab10 haplotype from https://doi.org/10.1093/genetics/iyaf091 to B73 v5 doi: 10.1126/science.abg5289 chromosomes 1-10, truncating chr10 at the colored1 gene [Zm00001eb429330](https://www.maizegdb.org/gene_center/gene/Zm00001eb429330).
+
+4. This pulls all the tags overlapping all of the single copy core genes for B73-Ab10.
 >1. This extracts the tag sequence of all the single copy core genes and then subsets this list into 20 files.
 >2. This finds the index of each tag in the large tag by taxa file, and pulls that index from the large tag by taxa file for each of the 20 subsets.
 >3. This takes those indexes and extracts the appropriate line from the large tag by taxa file for each of the 20 subsets
@@ -22,5 +24,4 @@
 >6. This adds bin values to th e 20 subset files generated in 5.3.3. Performing this on the merged file made in 5.3.4 takes too long.
 >7. This loads in all the files generated in 5.3.6 and generates the tag index
 
-4. This annotates the HiFi Ab10 genome
    
