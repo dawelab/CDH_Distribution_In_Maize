@@ -12,23 +12,23 @@ library(stringr)
 library(ComplexHeatmap)
 
 #This sets the working directory where all files being loaded in are located
-setwd("/scratch/mjb51923/Ab10_Global_Survey/out/AlignGBS_HiFiAb10Corrected_v2")
+setwd("")
 
 #This loads the original groups file
+#This is from 1.7
 GROUPS <- vroom::vroom("Controls_Swarts_RomeroNavarro_Romay_Groups_Env.csv")
 
 #This loads in the filtered, Romero Navarro merged data set. 
-MERGE_Ab10Hap_RPM_FILT_2_FIX <- vroom::vroom("Ab10_Model/BWAaln_All_v_Ab10HIFIBChrom.Ab10.RPM.RNMean.table")
+#This file is from 3.4
+MERGE_Ab10Hap_RPM_FILT_2_FIX <- vroom::vroom("Ab10_Model/BWAaln_All_v_B73-Ab10_BChrom.Ab10.RPM.RNMean.table")
 
 #This loads in the groups file with modified names
+#This file is from 6.1.1
 DF <- vroom::vroom("Ab10_Model/Controls_Swarts_RomeroNavarro_Romay_Groups_Env_NameChanges.table")
 
 #This loads in the BINS file
+#This file is from 4.1
 BINS <- read_excel("Bins_NoOverlap.table.xlsx")
-
-#This created output directories
-#dir.create("Ab10_Model/Experimental_Ab10N10Model/Images")
-#dir.create("Ab10_Model/Experimental_Ab10N10Model/SubSamples")
 
 #This function goes over each row and divides each value by the max in that row 
 MinMax = function(xx) { sweep(xx, 1, apply(xx, 1, max), '/') }
