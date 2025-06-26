@@ -12,9 +12,10 @@ library(stringr)
 library(ComplexHeatmap)
 
 #This loads and preps the data 
-GROUPS <- vroom::vroom("/Users/user/University_of_Georgia/Dawe_Lab_Documents/Ab10_Global_Survey/Data/Controls_Swarts_RomeroNavarro_Romay_Groups_Env.csv")
+#This file is from 1.7
+GROUPS <- vroom::vroom("Controls_Swarts_RomeroNavarro_Romay_Groups_Env.csv")
 
-SCG_GFF <- vroom::vroom("/Volumes/Transcend/Ab10_HiFi_v2_corrected.liftoff.CoreSingleCopy.gff3")
+SCG_GFF <- vroom::vroom("Ab10_HiFi_v2_corrected.liftoff.CoreSingleCopy.gff3")
 colnames(SCG_GFF) <- c("chr", "Liftoff", "Feature", "start", "end", "Dot1", "Strand", "Dot2", "ID")
 
 SCG_GFF$length <- SCG_GFF$end - SCG_GFF$start
@@ -23,13 +24,13 @@ sum(SCG_GFF$length)
 SCG_GFF$pseudo_start <- "NA"
 SCG_GFF$pseudo_end <- "NA"
 
-write.csv(SCG_GFF, file = "/Volumes/Transcend/Ab10_HiFi_v2_corrected.liftoff.CoreSingleCopy.temp1.gff3.csv", row.names = FALSE, quote = FALSE)
+write.csv(SCG_GFF, file = "Ab10_HiFi_v2_corrected.liftoff.CoreSingleCopy.temp1.gff3.csv", row.names = FALSE, quote = FALSE)
 
 #I went into excel and created the fields pseudo start and end 
-SCG_GFF <- vroom::vroom("/Volumes/Transcend/Ab10_HiFi_v2_corrected.liftoff.CoreSingleCopy.temp2.gff3.csv")
+SCG_GFF <- vroom::vroom("Ab10_HiFi_v2_corrected.liftoff.CoreSingleCopy.temp2.gff3.csv")
 
 #This loads in the BINS file
-BINS <- read_excel("~/University_of_Georgia/Dawe_Lab_Documents/Ab10_Global_Survey/Bins_NoOverlap_SCG.xlsx")
+BINS <- read_excel("Bins_NoOverlap_SCG.xlsx")
 
 #this adds a bin value to each line in the SCG_GFF genes 
 SCG_GFF$bin <- NA
@@ -48,9 +49,9 @@ for (i in 1:nrow(SCG_GFF)) {
 }
 
 #This writes out the file
-write.csv(SCG_GFF, file ="/Volumes/Transcend/Ab10_HiFi_v2_corrected.liftoff.CoreSingleCopy.bin.gff3.csv", row.names = FALSE, quote = FALSE)
+write.csv(SCG_GFF, file ="Ab10_HiFi_v2_corrected.liftoff.CoreSingleCopy.bin.gff3.csv", row.names = FALSE, quote = FALSE)
 
 #I went in and generated a bins file from the one above which ensures that there is 1MB of single copy core gene genomic sequence in each bin regardless of their physical distance
 
 #This loads in the edited final BINS file
-BINS <- read_excel("~/University_of_Georgia/Dawe_Lab_Documents/Ab10_Global_Survey/Bins_NoOverlap_SCG_final.xlsx")
+BINS <- read_excel("Bins_NoOverlap_SCG_final.xlsx")
