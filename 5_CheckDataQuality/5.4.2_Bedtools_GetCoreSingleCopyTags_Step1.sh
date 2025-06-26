@@ -3,7 +3,7 @@ module load BEDTools/2.30.0-GCC-10.2.0
 
 #This defines the variables
 DIR=""
-ANNOT_DIR="/scratch/mjb51923/annotations"
+ANNOT_DIR=""
 BED="BWAaln_AllData_v5_v_B73-Ab10_BChrom.s"
 TAXA="Tassel_TagTaxaDist_AllData_v5_v_B73-Ab10_BChrom"
 CHUNKS="SingleCopyCoreGene_Chunks.txt"
