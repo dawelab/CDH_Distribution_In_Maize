@@ -11,30 +11,30 @@ library(ggpubr)
 library(stringr)
 library(ComplexHeatmap)
 
-setwd("/scratch/mjb51923/Ab10_Global_Survey/out/AlignGBS_HiFiAb10Corrected_v2/")
+setwd("")
 
 #This loads the original groups file
-GROUPS <- vroom::vroom("/scratch/mjb51923/Ab10_Global_Survey/out/AlignGBS_HiFiAb10Corrected_v2/BChrom_Model/Controls_Swarts_RomeroNavarro_Romay_Groups_Env.csv")
+#This is from 1.7
+GROUPS <- vroom::vroom("Controls_Swarts_RomeroNavarro_Romay_Groups_Env.csv")
 
 #This reads in all the filtered files together  
 IT=1
-MERGE_SCG_RPM_FILT_2_FIX <- vroom::vroom(paste("/scratch/mjb51923/Ab10_Global_Survey/out/AlignGBS_HiFiAb10Corrected_v2/SingleCopyCoreGeneChunks/BWAaln_All_v_Ab10HIFIBChrom.SCG.RPM.RNMean.", IT, ".table", sep = ""))
+MERGE_SCG_RPM_FILT_2_FIX <- vroom::vroom(paste("BWAaln_All_v_Ab10HIFIBChrom.SCG.RPM.RNMean.", IT, ".table", sep = ""))
 
 for(i in 1:19) {
   i=i+1
   print(i)
-  TEMP <- vroom::vroom(paste("/scratch/mjb51923/Ab10_Global_Survey/out/AlignGBS_HiFiAb10Corrected_v2/SingleCopyCoreGeneChunks/BWAaln_All_v_Ab10HIFIBChrom.SCG.RPM.RNMean.", i, ".table", sep = ""))
+  TEMP <- vroom::vroom(paste("BWAaln_All_v_Ab10HIFIBChrom.SCG.RPM.RNMean.", i, ".table", sep = ""))
   MERGE_SCG_RPM_FILT_2_FIX <<- rbind(MERGE_SCG_RPM_FILT_2_FIX, TEMP)
 }
 
 #This writes out the full file
 fwrite(MERGE_SCG_RPM_FILT_2_FIX, file="BWAaln_All_v_Ab10HIFIBChrom.SCG.RPM.RNMean.All.table")
 
-#This loads in the groups file with modified names
-DF <- vroom::vroom("/scratch/mjb51923/Ab10_Global_Survey/out/AlignGBS_HiFiAb10Corrected_v2/BChrom_Model/Controls_Swarts_RomeroNavarro_Romay_Groups_Env_NameChanges.table")
-
 #This loads in the BINS file
-BINS <- read_excel("/scratch/mjb51923/Ab10_Global_Survey/out/AlignGBS_HiFiAb10Corrected_v2/BChrom_Model/Bins_NoOverlap_BChrom.table.xlsx")
+
+#This is available in 5.4.5
+BINS <- read_excel("Bins_NoOverlap_SCG.table.xlsx")
 
 #This function goes over each row and divides each value by the max in that row 
 MinMax = function(xx) { sweep(xx, 1, apply(xx, 1, max), '/') }
