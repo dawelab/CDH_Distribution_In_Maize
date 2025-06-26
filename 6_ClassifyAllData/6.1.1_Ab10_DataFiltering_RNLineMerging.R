@@ -12,15 +12,18 @@ library(stringr)
 library(ComplexHeatmap)
 
 #This sets the working directory where all files being loaded in are located
-setwd("/scratch/mjb51923/Ab10_Global_Survey/out/AlignGBS_HiFiAb10Corrected_v2")
+setwd("")
 
 #This loads and preps the data 
+#This file is from 1.7
 GROUPS <- vroom::vroom("Controls_Swarts_RomeroNavarro_Romay_Groups_Env.csv")
 
-MERGE_Ab10Hap_RPM <- vroom::vroom("Tassel_TagTaxaDist_AllData_v5_v_B73-Ab10HIFI_B-Chrom_v2.Ab10.RPM.txt")
+#This file is from 3.4
+MERGE_Ab10Hap_RPM <- vroom::vroom("Tassel_TagTaxaDist_AllData_v5_v_B73-Ab10_BChrom.Ab10.RPM.txt")
 #7 columns were classed as logicals because they have all NAs, these are the ones that had 0 coverage
 
 #This loads the data set with information on which lines passed missing data filters
+#This file is from 5.3
 PASS <- vroom::vroom("SamplesPASSEDMissingDataFILTER.csv")
 
 #This drops any column that had an average coverage of 0, resulting in all values being NA
@@ -29,6 +32,7 @@ DT <- DT[,which(unlist(lapply(DT, function(x)!all(is.na(x))))),with=F]
 MERGE_Ab10Hap_RPM <- as.data.frame(DT)
 
 #This loads in the BINS file
+#This file is available in 4.1
 BINS <- read_excel("Bins_NoOverlap.table.xlsx")
 
 #This selects only columns that passed the missing data filter
@@ -77,7 +81,6 @@ for(i in 1:nrow(NAME)){
 #This section isolates the Swarts Data and merges it with the groups.
 GROUPS_SW <- subset(GROUPS, Data_Source == "Swarts_etal_2017")
 NAME_SW <-merge(NAME, GROUPS_SW, by = "Name")
-#this drops 27 samples which were part of the Swarts et al 2017 project, but not GBS sequenced
 
 #This section isolates the Romay Data and merges it with the groups.
 GROUPS_RY <- subset(GROUPS, Data_Source == "Romay_etal_2013")
@@ -130,4 +133,4 @@ for(i in 1:length(SAMPS)) {
 MERGE_Ab10Hap_RPM_FILT_2_FIX <- MERGE_Ab10Hap_RPM_FILT_2_OTH
 
 #This writes out the final data frame
-fwrite(MERGE_Ab10Hap_RPM_FILT_2_FIX, file="Ab10_Model/BWAaln_All_v_Ab10HIFIBChrom.Ab10.RPM.RNMean.table", row.names = FALSE)
+fwrite(MERGE_Ab10Hap_RPM_FILT_2_FIX, file="Ab10_Model/BWAaln_All_v_B73-Ab10_BChrom.Ab10.RPM.RNMean.table", row.names = FALSE)
