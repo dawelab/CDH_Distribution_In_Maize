@@ -11,7 +11,7 @@
 >3.  This plots the unfiltered missing data fpr the B73 Ab10 B Chrom and filters it. Plots are available in 5.3._Plots
 >4.  This script uses the random 1 percent subsets generated in 3a.1 to determine percent missing data for each sample in the K10L2 contigs.
 >5.   This joins all the files for the K10L2 Contigs
->6.   This plots out the missing data and filters it for K10L2.
+>6.   This plots out the missing data and filters it for K10L2. Plots are available in 5.6_Plots.
 
 3. This pulls all the tags overlapping all of the single copy core genes for B73-Ab10.
 >1. This extracts the tag sequence of all the single copy core genes and then subsets this list into 20 files.
