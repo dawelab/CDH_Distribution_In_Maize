@@ -1,7 +1,7 @@
 library(vroom)
 library(data.table)
 
-setwd("/scratch/mjb51923/Ab10_Global_Survey/out/AlignGBS_HiFiAb10Corrected_v2/Ab10_Model/Experimental_Ab10N10Model/QualityControl")
+setwd("/Ab10_Model/Experimental_Ab10N10Model/QualityControl")
 
 #This cbinds all of the sorted columns together
 IT=1
