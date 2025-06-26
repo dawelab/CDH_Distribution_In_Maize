@@ -1,22 +1,11 @@
-#!/usr/bin/bash
-#SBATCH --partition=batch
-#SBATCH -J Bedtools_GetCoreSingleCopyTags_Step1
-#SBATCH --output Bedtools_GetCoreSingleCopyTags_Step1.out
-#SBATCH --mem=400GB
-#SBATCH --time=168:00:00
-#SBATCH	--nodes=1
-#SBATCH	--ntasks=1
-#SBATCH --mail-user=meghan.brady@uga.edu
-#SBATCH --mail-type=BEGIN,END
-
 #This loads the modules needed
 module load BEDTools/2.30.0-GCC-10.2.0
 
 #This defines the variables
-DIR="/scratch/mjb51923/Ab10_Global_Survey/out/AlignGBS_HiFiAb10Corrected_v2"
+DIR=""
 ANNOT_DIR="/scratch/mjb51923/annotations"
-BED="BWAaln_AllData_v5_v_B73-Ab10HIFI_B-Chrom_v2.s"
-TAXA="Tassel_TagTaxaDist_AllData_v5_v_B73-Ab10HIFI_B-Chrom_v2"
+BED="BWAaln_AllData_v5_v_B73-Ab10_BChrom.s"
+TAXA="Tassel_TagTaxaDist_AllData_v5_v_B73-Ab10_BChrom"
 CHUNKS="SingleCopyCoreGene_Chunks.txt"
 
 #This checks the number of single copy core genes 
