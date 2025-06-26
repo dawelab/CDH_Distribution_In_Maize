@@ -1,5 +1,5 @@
 ## 5. Check Data Quality
-1. This checks that the filtering by mapping quality is treating all my datasets roughly the same for all SGEs.
+1. This checks that the filtering by mapping quality is treating all my datasets roughly the same for all SGEs. Plots derived from these are available in 5.1_Plots
 >1.  Ab10
 >2. B chromosome
 >3. K10L2
