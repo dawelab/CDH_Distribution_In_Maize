@@ -6,9 +6,11 @@ library(readxl)
 library(stringr)
 
 ########################################This loads and preps the data 
-GROUPS <- vroom::vroom("/Users/user/University_of_Georgia/Dawe_Lab_Documents/Ab10_Global_Survey/Data/Controls_Swarts_RomeroNavarro_Romay_Groups_Env.csv")
+#This file comes from 1.7
+GROUPS <- vroom::vroom("Controls_Swarts_RomeroNavarro_Romay_Groups_Env.csv")
 
-MERGE_K10L2_RPM <- vroom::vroom("/Volumes/Transcend/Tassel_TagTaxaDist_AllData_v7_v_K10L2Contigs.K10L2.RPM.txt")
+#This file comes from 3.4
+MERGE_K10L2_RPM <- vroom::vroom("Tassel_TagTaxaDist_AllData_v7_v_K10L2.K10L2.RPM.txt")
 #8 columns were classed as logicals because they have all NAs, these are the ones that had 0 coverage
 
 #This counts the number of non 0 tags in each line before MAPQ filtering
@@ -50,23 +52,17 @@ QC_RN <- merge(QC_RN_temp, GROUPS_RN, by.x ="Simp_Name", by.y = "Name")
 #This section isolates the Swarts Data and merges it with the groups.
 GROUPS_SW <- subset(GROUPS, Data_Source == "Swarts_etal_2017")
 QC_SW <-merge(QC, GROUPS_SW, by = "Name")
-#this drops 27 samples which were part of the Swarts et al 2017 project, but not GBS sequenced
 
 #This section isolates the Romay Data and merges it with the groups.
 GROUPS_RY <- subset(GROUPS, Data_Source == "Romay_etal_2013")
 QC_RY <- merge(QC, GROUPS_RY, by = "Name")
 
-#This is correct
-
 #This section isolates the Romay Data and merges it with the groups.
 GROUPS_DC <- subset(GROUPS, Data_Source == "Dawe_Lab_1" | Data_Source == "Dawe_Lab_2")
 QC_DC <- merge(QC, GROUPS_DC, by = "Name")
-#This is correct
 
 #This brings together all of the merged data
 QC_v2 <- rbind(QC_DC, QC_RY, QC_SW, QC_RN)
-
-#This drops two Blank controls because they do not appear in the groups file. I am fine with this
 
 #This plots the distribution of the percentage of tags lost to the MAPQ filtering by dataset
 png(filename = "K10L2_PercentTagsFilteredForMAPQByData.png", height = 700, width = 500)
