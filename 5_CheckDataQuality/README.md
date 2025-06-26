@@ -20,7 +20,7 @@
 >2. This finds the index of each tag in the large tag by taxa file, and pulls that index from the large tag by taxa file for each of the 20 subsets.
 >3. This takes those indexes and extracts the appropriate line from the large tag by taxa file for each of the 20 subsets
 >4. This brings together the single copy core gene tag by taxa entries from all 20 subsets.
->5. This generates the bin file for the single copy core genes. It produces bins that have 1MB of single copy core gene sequence wihtout regard to the actual physical distance covered. This is acceptable because the tags have already been filtered to only those overlapign single copy core genes.
+>5. This generates the bin file for the single copy core genes. It produces bins that have 1MB of single copy core gene sequence wihtout regard to the actual physical distance covered. This is acceptable because the tags have already been filtered to only those overlaping single copy core genes.
 >6. This adds bin values to th e 20 subset files generated in 5.3.3. Performing this on the merged file made in 5.3.4 takes too long.
 >7. This loads in all the files generated in 5.3.6 and generates the tag index
 
