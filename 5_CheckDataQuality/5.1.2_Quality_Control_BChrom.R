@@ -6,9 +6,11 @@ library(readxl)
 library(stringr)
 
 ########################################This loads and preps the data 
-GROUPS <- vroom::vroom("/Users/user/University_of_Georgia/Dawe_Lab_Documents/Ab10_Global_Survey/Data/Controls_Swarts_RomeroNavarro_Romay_Groups_Env.csv")
+#This file is from 1.7
+GROUPS <- vroom::vroom("Controls_Swarts_RomeroNavarro_Romay_Groups_Env.csv")
 
-MERGE_BChrom_RPM <- vroom::vroom("/Volumes/Transcend/Tassel_TagTaxaDist_AllData_v5_v_B73-Ab10HIFI_B-Chrom_v2.BChrom.RPM.txt")
+#This file is from 3.4
+MERGE_BChrom_RPM <- vroom::vroom("Tassel_TagTaxaDist_AllData_v5_v_B73-Ab10_BChrom.BChrom.RPM.txt")
 #7 columns were classed as logicals because they have all NAs, these are the ones that had 0 coverage
 
 #This counts the number of non 0 tags in each line before MAPQ filtering
