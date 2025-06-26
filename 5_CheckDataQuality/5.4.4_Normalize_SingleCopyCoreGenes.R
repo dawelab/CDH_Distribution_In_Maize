@@ -17,7 +17,7 @@ setwd(DIRNAME)
 
 SGE <- vroom::vroom(paste("SingleCopyCoreGeneChunks/", NAME,"_temp2_", IT,".bed", sep=""))
 
-HEADER <- vroom::vroom("Tassel_TagTaxaDist_AllData_v5_v_B73-Ab10HIFI_B-Chrom_v2_header.bed")
+HEADER <- vroom::vroom("Tassel_TagTaxaDist_AllData_v5_v_B73-Ab10_BChrom_header.bed")
 
 colnames(SGE) <- colnames(HEADER)
 
