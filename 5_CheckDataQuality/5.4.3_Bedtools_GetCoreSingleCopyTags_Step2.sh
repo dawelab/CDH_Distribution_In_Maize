@@ -1,24 +1,14 @@
-#!/usr/bin/bash
-#SBATCH --partition=batch
-#SBATCH -J Bedtools_GetCoreSingleCopyTags_Step2
-#SBATCH --output Bedtools_GetCoreSingleCopyTags_Step2.%A-%a.out
-#SBATCH --mem=100GB
-#SBATCH --time=100:00:00
-#SBATCH	--nodes=1
-#SBATCH	--ntasks=1
-#SBATCH --mail-user=meghan.brady@uga.edu
-#SBATCH --mail-type=BEGIN,END
-#SBATCH --array=1-20
-
 #This loads the modules needed
 module load BEDTools/2.30.0-GCC-10.2.0
 
 #This defines the variables
 IT=$SLURM_ARRAY_TASK_ID
-DIR="/scratch/mjb51923/Ab10_Global_Survey/out/AlignGBS_HiFiAb10Corrected_v2"
-ANNOT_DIR="/scratch/mjb51923/annotations"
+DIR=""
+ANNOT_DIR=""
+#These files are from 2
 BED="BWAaln_AllData_v5_v_B73-Ab10HIFI_B-Chrom_v2.s"
 TAXA="Tassel_TagTaxaDist_AllData_v5_v_B73-Ab10HIFI_B-Chrom_v2"
+#This file is available in this repo under 5.4.3
 CHUNKS="SingleCopyCoreGene_Chunks.txt"
 
 #This checks the length of the SGE TAXA index subset list
