@@ -50,23 +50,18 @@ QC_RN <- merge(QC_RN_temp, GROUPS_RN, by.x ="ShortName", by.y = "Name")
 #This section isolates the Swarts Data and merges it with the groups.
 GROUPS_SW <- subset(GROUPS, Data_Source == "Swarts_etal_2017")
 QC_SW <-merge(QC, GROUPS_SW, by = "Name")
-#this drops 27 samples which were part of the Swarts et al 2017 project, but not GBS sequenced
 
 #This section isolates the Romay Data and merges it with the groups.
 GROUPS_RY <- subset(GROUPS, Data_Source == "Romay_etal_2013")
 QC_RY <- merge(QC, GROUPS_RY, by = "Name")
 
-#This is correct
 
 #This section isolates the Romay Data and merges it with the groups.
 GROUPS_DC <- subset(GROUPS, Data_Source == "Dawe_Lab_1" | Data_Source == "Dawe_Lab_2")
 QC_DC <- merge(QC, GROUPS_DC, by = "Name")
-#This is correct
 
 #This brings together all of the merged data
 QC_v2 <- rbind(QC_DC, QC_RY, QC_SW, QC_RN)
-
-#This drops two Blank controls because they do not appear in the groups file. I am fine with this
 
 #This plots the distribution of the percentage of tags lost to the MAPQ filtering by dataset
 png(filename = "BChrom_PercentTagsFilteredForMAPQByData.png", height = 700, width = 500)
