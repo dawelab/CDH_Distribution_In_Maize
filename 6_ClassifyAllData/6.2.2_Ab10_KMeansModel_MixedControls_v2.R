@@ -17,15 +17,18 @@ library(stringr)
 library(ComplexHeatmap)
 
 #This sets the working directory where all files being loaded in are located
-setwd("/scratch/mjb51923/Ab10_Global_Survey/out/AlignGBS_HiFiAb10Corrected_v2")
+setwd("")
 
 #This loads the original groups file
+#This is from 1.7
 GROUPS <- vroom::vroom("Controls_Swarts_RomeroNavarro_Romay_Groups_Env.csv")
 
 #This loads in the groups file with modified names
+#This is from 6.1.1
 DF <- vroom::vroom("Ab10_Model/Controls_Swarts_RomeroNavarro_Romay_Groups_Env_NameChanges.table")
 
 #This loads in the BINS file
+#This is from 4.1
 BINS <- read_excel("Bins_NoOverlap.table.xlsx")
 
 #This function goes over each row and divides each value by the max in that row 
