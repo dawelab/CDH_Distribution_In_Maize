@@ -13,20 +13,19 @@ library(ComplexHeatmap)
 
 
 #This loads the original groups file
-GROUPS <- vroom::vroom("/Users/user/University_of_Georgia/Dawe_Lab_Documents/Ab10_Global_Survey/Data/Controls_Swarts_RomeroNavarro_Romay_Groups_Env.csv")
+GROUPS <- vroom::vroom("")
 
 #This loads in the filtered, Romero Navarro merged data set. 
-MERGE_K10L2_RPM_FILT_2_FIX <- vroom::vroom("BWAaln_All_v_CI66Contigs.K10L2.RPM.RNMean.table")
+#This file is from 3.4
+MERGE_K10L2_RPM_FILT_2_FIX <- vroom::vroom("BWAaln_All_v_K10L2.K10L2.RPM.RNMean.table")
 
 #This loads in the groups file with modified names
+#This is from 1.7
 DF <- vroom::vroom("Controls_Swarts_RomeroNavarro_Romay_Groups_Env_NameChanges.table")
 
 #This loads in the BINS file
-BINS <- read_excel("~/University_of_Georgia/Dawe_Lab_Documents/Ab10_Global_Survey/Bins_NoOverlap_K10L2.table.xlsx")
-
-#This created output directories
-#dir.create("Ab10_Model/Experimental_Ab10N10Model/Images")
-#dir.create("Ab10_Model/Experimental_Ab10N10Model/SubSamples")
+#This is from 4.3
+BINS <- read_excel("Bins_NoOverlap_K10L2.table.xlsx")
 
 #This function goes over each row and divides each value by the max in that row 
 MinMax = function(xx) { sweep(xx, 1, apply(xx, 1, max), '/') }
