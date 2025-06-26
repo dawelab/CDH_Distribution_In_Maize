@@ -10,7 +10,7 @@ library(stringr)
 GROUPS <- vroom::vroom("Controls_Swarts_RomeroNavarro_Romay_Groups_Env.csv")
 
 #This file is from 3.4
-MERGE_Ab10Hap_RPM <- vroom::vroom("Tassel_TagTaxaDist_AllData_v5_v_B73-Ab10HIFI_B-Chrom_v2.Ab10.RPM.txt")
+MERGE_Ab10Hap_RPM <- vroom::vroom("Tassel_TagTaxaDist_AllData_v5_v_B73-Ab10_BChrom.Ab10.RPM.txt")
 #7 columns were classed as logicals because they have all NAs, these are the ones that had 0 coverage
 
 #This counts the number of non 0 tags in each line before MAPQ filtering
