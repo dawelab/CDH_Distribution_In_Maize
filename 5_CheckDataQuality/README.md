@@ -9,7 +9,7 @@
 >1.  This script uses the random 1 percent subsets generated in 3.1 to determine percent missing data for each sample in the B73 Ab10 B chr reference.
 >2.  This joins all the output files ofrom 2.1 for B73 Ab10  BChrom.
 >3.  This plots the unfiltered missing data fpr the B73 Ab10 B Chrom and filters it. Plots are available in 5.3._Plots
->4.  This script uses the random 1 percent subsets generated in 3a.1 to determine percent missing data for each sample in the K10L2 contigs.
+>4.  This script uses the random 1 percent subsets generated in 3a.1 to determine percent missing data for each sample in the K10L2 contigs. It uses the same R script used in 5.2.1 on different files. 
 >5.   This joins all the files for the K10L2 Contigs
 >6.   This plots out the missing data and filters it for K10L2. Plots are available in 5.6_Plots.
 
