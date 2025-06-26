@@ -12,13 +12,16 @@ library(stringr)
 library(ComplexHeatmap)
 
 #This loads and preps the data 
-GROUPS <- vroom::vroom("/Users/user/University_of_Georgia/Dawe_Lab_Documents/Ab10_Global_Survey/Data/Controls_Swarts_RomeroNavarro_Romay_Groups_Env.csv")
+#This is from 1.7
+GROUPS <- vroom::vroom("Controls_Swarts_RomeroNavarro_Romay_Groups_Env.csv")
 
-MERGE_BChrom_RPM <- vroom::vroom("/Volumes/Transcend/Tassel_TagTaxaDist_AllData_v5_v_B73-Ab10HIFI_B-Chrom_v2.BChrom.RPM.txt")
+#This is from 3.4
+MERGE_BChrom_RPM <- vroom::vroom("Tassel_TagTaxaDist_AllData_v5_v_B73-Ab10_BChrom.BChrom.RPM.txt")
 #7 columns were classed as logicals because they have all NAs, these are the ones that had 0 coverage
 
 #This loads the data set with information on which lines passed missing data filters
-PASS <- vroom::vroom("/Users/user/University_of_Georgia/Dawe_Lab_Documents/Ab10_Global_Survey/R_Sessions/Quality_Control_Ab10/SamplesPASSEDMissingDataFILTER.csv")
+#This file is from 5.3
+PASS <- vroom::vroom("SamplesPASSEDMissingDataFILTER.csv")
 
 #This drops any column that had an average coverage of 0, resulting in all values being NA
 DT <- as.data.table(MERGE_BChrom_RPM)
@@ -26,7 +29,8 @@ DT <- DT[,which(unlist(lapply(DT, function(x)!all(is.na(x))))),with=F]
 MERGE_BChrom_RPM <- as.data.frame(DT)
 
 #This loads in the BINS file
-BINS <- read_excel("~/University_of_Georgia/Dawe_Lab_Documents/Ab10_Global_Survey/Bins_NoOverlap_BChrom.table.xlsx")
+#This is from 4.3
+BINS <- read_excel("Bins_NoOverlap_BChrom.table.xlsx")
 
 #This selects only columns that passed the missing data filter
 KEEP <- c(1:6, which(colnames(MERGE_BChrom_RPM) %in% PASS$Name))
@@ -74,7 +78,6 @@ for(i in 1:nrow(NAME)){
 #This section isolates the Swarts Data and merges it with the groups.
 GROUPS_SW <- subset(GROUPS, Data_Source == "Swarts_etal_2017")
 NAME_SW <-merge(NAME, GROUPS_SW, by = "Name")
-#this drops 27 samples which were part of the Swarts et al 2017 project, but not GBS sequenced
 
 #This section isolates the Romay Data and merges it with the groups.
 GROUPS_RY <- subset(GROUPS, Data_Source == "Romay_etal_2013")
