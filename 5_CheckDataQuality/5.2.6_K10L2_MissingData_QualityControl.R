@@ -1,10 +1,11 @@
 library(ggplot2)
 
 #This loads in the joined files with the Missing Data
-MISS <- read.table("/Volumes/Transcend/Tassel_TagTaxaDist_AllData_v7_v_K10L2Contigs.Sub1Perc.Missing.txt", header = TRUE)
+MISS <- read.table("Tassel_TagTaxaDist_AllData_v7_v_K10L2.Sub1Perc.Missing.txt", header = TRUE)
 
 #This loads the Groups File
-GROUPS <- read.csv("/Users/user/University_of_Georgia/Dawe_Lab_Documents/Ab10_Global_Survey/Data/Controls_Swarts_RomeroNavarro_Romay_Groups_Env.csv")
+#This file is from 1.7
+GROUPS <- read.csv("Controls_Swarts_RomeroNavarro_Romay_Groups_Env.csv")
 
 #This isolates the Names
 MISS_v2 <- MISS[,c("Names")]
@@ -25,7 +26,7 @@ DF$Total <- as.numeric(DF$Total)
 DF$Perc_Missing <- DF$Missing/DF$Total
 
 #This writes out the final file
-write.csv(DF, file="Tassel_TagTaxaDist_AllData_v7_v_K10L2Contigs.Sub1Perc.MissingAll.txt", row.names = FALSE, quote = FALSE)
+write.csv(DF, file="Tassel_TagTaxaDist_AllData_v7_v_K10L2.Sub1Perc.MissingAll.txt", row.names = FALSE, quote = FALSE)
 
 #############Merging all of these separately makes trouble shooting easier.
 
@@ -36,7 +37,6 @@ DF$OG_Name <- NA
 #This section isolates the Swarts Data and merges it with the groups.
 GROUPS_SW <- subset(GROUPS, Data_Source == "Swarts_etal_2017")
 DF_SW <-merge(DF, GROUPS_SW, by = "Name")
-#this drops 27 samples which were part of the Swarts et al 2017 project, but not GBS sequenced
 
 #This section isolates the Romay Data and merges it with the groups.
 GROUPS_RY <- subset(GROUPS, Data_Source == "Romay_etal_2013")
