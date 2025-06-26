@@ -49,7 +49,6 @@ QC_RN <- merge(QC_RN_temp, GROUPS_RN, by.x ="ShortName", by.y = "Name")
 #This section isolates the Swarts Data and merges it with the groups.
 GROUPS_SW <- subset(GROUPS, Data_Source == "Swarts_etal_2017")
 QC_SW <-merge(QC, GROUPS_SW, by = "Name")
-#this drops 27 samples which were part of the Swarts et al 2017 project, but not GBS sequenced
 
 #This section isolates the Romay Data and merges it with the groups.
 GROUPS_RY <- subset(GROUPS, Data_Source == "Romay_etal_2013")
