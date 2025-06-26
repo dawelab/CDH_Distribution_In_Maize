@@ -53,5 +53,5 @@ write.csv(SCG_GFF, file ="Ab10_HiFi_v2_corrected.liftoff.CoreSingleCopy.bin.gff3
 
 #I went in and generated a bins file from the one above which ensures that there is 1MB of single copy core gene genomic sequence in each bin regardless of their physical distance
 
-#This loads in the edited final BINS file
+#This loads in the edited final BINS file, this file is available in this repo under 5.4.5
 BINS <- read_excel("Bins_NoOverlap_SCG_final.xlsx")
