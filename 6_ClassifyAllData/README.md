@@ -18,7 +18,7 @@
 
 3. This determines if all samples that were identified as N10 above are actually N10 or K10L2
 >1. This uses Kmeans clusters to determine if controls are N10 or K10L2. I am separating the heterozygous (1) and homozygous (2) controls because it improves the clustering.
->2. This uses Kmeans clusters to class all experimental samples called N10 in 7.2.2 into K10L2 and N10 100 times. It requires that all the control samples be classed correctly.
+>2. This uses Kmeans clusters to class all experimental samples called N10 in 6.2.2 into K10L2 and N10 100 times. It requires that all the control samples be classed correctly.
 >3. This script merges all the individual files into a single output file. I ran it on the command line. 218 K10L2 Positive, 38 Ambiguous. Cutoffs 94 for K10L2 positive, 13 for N10, everything inbetween ambiguous determined by control clustering. 
 >4. This is the final call file edited so that Ab10 = 1 and N10=0.
 >5. This uses Kmeans clusters to determine if controls are N10 or K10L2. I am including Ab10-I and Ab10-III in the model because it improves clutering. Ab10-II muddles it because it seems to be intermediate. I am only clustering on region 7:10 as they are the most consistenly covered in K10L2 and Ab10. I am separating the heterozygous and homozygous (2) controls because it improves the clustering.
