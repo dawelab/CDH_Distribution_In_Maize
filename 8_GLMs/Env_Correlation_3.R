@@ -108,7 +108,7 @@ CORMAT <- cor(ENV_filt_sub)
 
 #This makes a decent plot of the correlation matrix
 pdf("/Users/user/University_of_Georgia/Dawe_Lab_Documents/Ab10_Global_Survey/R_Sessions/SGE_Distribution_Paper/Ab10-Global-Survey/7_Map/ENV_filtironmental_Variable_Correlation_Plot.pdf")
-corrplot(CORMAT)
+corrplot(CORMAT, method = 'color')
 dev.off()
 
 #This sets the lower triangle of the matrix to NA to remove redundant information
@@ -137,7 +137,7 @@ CORMAT_SUB <- cor(ENV_filt_sub2)
 
 #This makes a decent plot of the correlation matrix
 pdf("/Users/user/University_of_Georgia/Dawe_Lab_Documents/Ab10_Global_Survey/R_Sessions/SGE_Distribution_Paper/Ab10-Global-Survey/7_Map/ENV_filtironmental_Variable_Correlation_Plot_Sub.pdf")
-corrplot(CORMAT_SUB)
+corrplot(CORMAT_SUB, method = color)
 dev.off()
 
 #This sets the lower triangle of the matrix to NA to remove redundant information
