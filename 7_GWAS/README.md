@@ -14,3 +14,9 @@ These scripts call filter, and impute SNPs before running a GWAS for all CDHs an
 ## Run GWAS
 1. Run GWAS using Plink using SNPs on chr 1-10
 2. Run GWAS using Plink using SNPs on the CDH itself as a control
+
+
+## Filter Hits
+Remove_CDH_Orthologs. These scripts are explained in doi: 10.1002/pld3.567 and serve to identify genes in chromosomes 1-10 of the genome that are orthologs to genes on each CDH and may cause mismapping and incorrect associations. 
+1. This script identifies SNPs that overlap with transposable elements. The output is used to filter them. 
+
