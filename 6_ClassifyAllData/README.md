@@ -22,26 +22,27 @@
 3. This determines if all samples that were identified as N10 above are actually N10 or K10L2
 >1. This uses Kmeans clusters to determine if controls are N10 or K10L2. I am separating the heterozygous (1) and homozygous (2) controls because it improves the clustering.
 >2. This uses Kmeans clusters to class all experimental samples called N10 in 6.2.2 into K10L2 and N10 100 times. It requires that all the control samples be classed correctly.
->3. This script merges all the individual files into a single output file. I ran it on the command line. 218 K10L2 Positive, 38 Ambiguous. Cutoffs 94 for K10L2 positive, 13 for N10, everything inbetween ambiguous determined by control clustering. 
+>3. This script merges all the individual files into a single output file. I ran it on the command line. 
 >4. This is the final call file edited so that Ab10 = 1 and N10=0.
->5. This uses Kmeans clusters to determine if controls are N10 or K10L2. I am including Ab10-I and Ab10-III in the model because it improves clutering. Ab10-II muddles it because it seems to be intermediate. I am only clustering on region 7:10 as they are the most consistenly covered in K10L2 and Ab10. I am separating the heterozygous and homozygous (2) controls because it improves the clustering.
->6. This uses Kmeans clusters to class all experimental samples called N10 in 7.2.2 into K10L2 and N10 100 times. I am including Ab10-I and Ab10-III in the model because it improves clutering. It requires that all the control samples be classed correctly.
+>5. This uses Kmeans clusters to determine if controls are N10 or K10L2. I am including Ab10-I and Ab10-III in the model because it improves clutering. I am separating the heterozygous and homozygous (2) controls because it improves the clustering.
+>6. This uses Kmeans clusters to class all experimental samples called N10 in 6.2.2 into K10L2 and N10 100 times. I am including Ab10-I and Ab10-III in the model because it improves clutering. It requires that all the control samples be classed correctly.
 >7. This is the final call file edited so that K10L2 = 1 and N10=0.
 >8. This writes out the K10L2 calls in the group file.
 >9. This plots all of the K10L2 and N10 controls along with all of the K10L2 called positive experimental samples
 
 4. This determines if all samples have B Chromosomes 
 >1. This creates files used to annotate the B Chromosome.
->2. This uses Kmeans clusters to determine if controls do or do not have B chromosomes. I am separating the high (1) and low (2) copy number controls because it improves the clustering. The low B chromosome copy number controls could not be subsampled into 3 groups because I didn't have enough low (only 4).
->3.  This uses Kmeans clusters to class all experimental samples with the high copy number B chromosomes. It requires that all the control samples be classed correctly. This must happen first or the controls will not be reliably classed and the script will hang. I tried doing the low copy Bs first and doing mixed controls, both hung.
+>2. This uses Kmeans clusters to determine if controls do or do not have B chromosomes. I am separating the high (1) and low (2) copy number controls because it improves the clustering. The low B chromosome copy number controls could not be subsampled into 3 groups.
+>3.  This uses Kmeans clusters to class all experimental samples with the high copy number B chromosomes. It requires that all the control samples be classed correctly. This must happen first or the controls will not be reliably classed and the script will hang.
 >4.  This joins the Kmeans clusters scripts and the quality control scripts.
->5.   This uses Kmeans clusters to class all experimental samples that were not called as B positive in 7.4.3 with the low copy number B chromosomes.
+>5.   This uses Kmeans clusters to class all experimental samples that were not called as B positive in 6.4.3 with the low copy number B chromosome controls.
 >6.   This joins the Kmeans clusters scripts and the quality control scripts.
 >7.   This plots all the B chromosome samples identified and writes out a file with all the B Chromosome Positive Samples.
 >8.   This makes the final calls for B chromosome positive, ambigious, and absent and writes them into the Groups File
->9.   This divides each bin across the selfish genetic element by the mean of all single copy core gene tag index values. This acts as a proxy for copy number for the B Chromosome validated by Abnormal Chromsoome 10.
+
+5.   This divides each bin across the selfish genetic element by the mean of all single copy core gene tag index values. This acts as a proxy for copy number for the B Chromosome validated by Abnormal Chromsoome 10.
 >>1. Ab10
 >>2. K10L2
 >>3. BChrom
 
-5. This is the groups file with the final calls for Ab10, K10L2, and the B chromosome including pseudo copy number
+6. This is the groups file with the final calls for Ab10, K10L2, and the B chromosome including pseudo copy number
