@@ -12,7 +12,6 @@
 >2. This uses Kmeans clusters to class all experimental samples into Ab10 and N10 100 times. It requires that all the control samples be classed correctly. 
 >3. This script merges all the individual files into a single output file. I ran it on the command line.
 >4. This is the final call file edited so that Ab10 = 1 and N10=0.
->6. This uses a random forest model (ntrees=1000000) to assign Ab10 class. It requires that 50% of the decision trees report the same class.
 >7. This uses a random forest model (ntrees=1000000) to assign Ab10 class. It requires that 65% of the decision trees report the same class and performs a PCA on the highest mean decreasing gini score variables (=2) to explore the ambigous classes.
 >8. This writes out the Ab10 classes and generates a few tables describing what Maize type Ab10 and the types occur in. 
 
