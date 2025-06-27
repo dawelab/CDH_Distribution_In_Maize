@@ -1,14 +1,3 @@
-#!/bin/bash
-#SBATCH --partition=highmem_p
-#SBATCH -J TASSEL_GWAS_B73v3_Ab10
-#SBATCH --output TASSEL_GWAS_B73v3_Ab10.out
-#SBATCH --mem=900GB
-#SBATCH --time=48:00:00
-#SBATCH	--nodes=1
-#SBATCH	--ntasks=30
-#SBATCH --mail-user=meghan.brady@uga.edu
-#SBATCH --mail-type=END
-
 #Load modules
 module load TASSEL/5.2.44-Java-1.8.0_241
 module load BWA/0.7.17-GCCcore-11.3.0
@@ -16,14 +5,14 @@ module load SAMtools/0.1.20-GCC-11.3.0
 module load BEDTools/2.29.2-GCC-8.3.0
 
 #Define Variables
-OUT_DIR="/scratch/mjb51923/Ab10_Global_Survey/out/AlignGBS_HiFiAb10Corrected_v2"
-READ_DIR="/scratch/mjb51923/raw_reads/GBS/Swarts_AllControls_LengthFiltFakeBarcodedRomeroNavarro_Romay"
-KEY="/scratch/mjb51923/Ab10_Global_Survey/Ab10-Global-Survey/8_SNPs/SwartsAllControlsLengthFiltRomeroNavarroRomay_Key_GWASSNPs.txt"
-REF="/scratch/mjb51923/Ab10_Global_Survey/out/AlignGBS_HiFiAb10Corrected_v2/Zm-Mo17-REFERENCE-CAU-2.0_Ab10.fa"
+OUT_DIR=""
+READ_DIR="Swarts_AllControls_LengthFiltFakeBarcodedRomeroNavarro_Romay"
+KEY="SwartsAllControlsLengthFiltRomeroNavarroRomay_Key_GWASSNPs.txt"
+REF="Zm-Mo17-REFERENCE-CAU-2.0_Ab10.fa"
 NAME="GWAS_Mo17_Ab10"
 
 #This v2 refers to the corrected Hifi genome
-REF_NAME="B73v3_Ab10"
+REF_NAME="Mo17_Ab10"
 
 #Demultiplex the Additional Control reads
 echo "#####Demultiplexing Fastq Files"
