@@ -1,17 +1,6 @@
-#!/usr/bin/bash
-#SBATCH --partition=batch
-#SBATCH -J SplitVCF_ForBeagle_Ab10
-#SBATCH --output SplitVCF_ForBeagle_Ab10.out
-#SBATCH --mem=100GB
-#SBATCH --time=4:00:00
-#SBATCH	--nodes=1
-#SBATCH	--ntasks=24
-#SBATCH --mail-user=meghan.brady@uga.edu
-#SBATCH --mail-type=BEGIN,END
-
 module load BCFtools/1.15.1-GCC-11.3.0
 
-DIR="/scratch/mjb51923/Ab10_Global_Survey/out/AlignGBS_HiFiAb10Corrected_v2"
+DIR=""
 VCF=GWAS_Mo17_Ab10.chr.landrace.filt
 
 for chr in {1..10}; do
