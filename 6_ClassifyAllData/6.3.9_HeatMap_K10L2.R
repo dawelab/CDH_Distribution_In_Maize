@@ -10,18 +10,22 @@ library(ggpubr)
 library(stringr)
 library(ComplexHeatmap)
 
-setwd("/Users/user/University_of_Georgia/Dawe_Lab_Documents/Ab10_Global_Survey/R_Sessions/SGE_Distribution_Paper/Ab10-Global-Survey/6_ClassifyAllData")
+setwd("")
 
-GROUPS <- vroom::vroom("/Users/user/University_of_Georgia/Dawe_Lab_Documents/Ab10_Global_Survey/Data/Controls_Swarts_RomeroNavarro_Romay_Groups_Env_Ab10K10L2Complete.csv")
+#from 6.3.8
+GROUPS <- vroom::vroom("Controls_Swarts_RomeroNavarro_Romay_Groups_Env_Ab10K10L2Complete.csv")
 
 #This loads in the K10L2 tag index
-B_COMB <- vroom::vroom("/Users/user/University_of_Georgia/Dawe_Lab_Documents/Ab10_Global_Survey/R_Sessions/K10L2_Model/K10L2_TagSumPlusTagDensAllSamples.csv")
+#from 6.1.4
+B_COMB <- vroom::vroom("K10L2_TagSumPlusTagDensAllSamples.csv")
 
 #This loads in the groups file with modified names
-DF <- vroom::vroom("/Users/user/University_of_Georgia/Dawe_Lab_Documents/Ab10_Global_Survey/R_Sessions/K10L2_Model/Controls_Swarts_RomeroNavarro_Romay_Groups_Env_NameChanges.table")
+#from 6.1.1
+DF <- vroom::vroom("Controls_Swarts_RomeroNavarro_Romay_Groups_Env_NameChanges.table")
 
 #This loads in the BINS file
-BINS <- read_excel("~/University_of_Georgia/Dawe_Lab_Documents/Ab10_Global_Survey/Bins_NoOverlap_K10L2.table.xlsx")
+#from 4.3
+BINS <- read_excel("Bins_NoOverlap_K10L2.table.xlsx")
 
 #This function goes over each row and divides each value by the max in that row 
 MinMax = function(xx) { sweep(xx, 1, apply(xx, 1, max), '/') }
