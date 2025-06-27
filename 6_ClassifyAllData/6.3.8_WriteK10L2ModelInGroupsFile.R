@@ -3,9 +3,10 @@ library(tidyverse)
 
 
 #This loades in Ab10 and Ab10 type calls 
-GROUPS <- vroom::vroom("/Users/user/University_of_Georgia/Dawe_Lab_Documents/Ab10_Global_Survey/Data/Controls_Swarts_RomeroNavarro_Romay_Groups_Env_Ab10Complete.csv")
-K10L2 <- vroom::vroom("/Volumes/Transcend/7.6.7_K10L2_Kmeans_Exp_Groups_MixedControls_All.csv")
-# I determined that any sample called the same thing 95% of the time was
+#This is from 6.2.7
+GROUPS <- vroom::vroom("Controls_Swarts_RomeroNavarro_Romay_Groups_Env_Ab10Complete.csv")
+#This is from 6.3.3
+K10L2 <- vroom::vroom("K10L2_Kmeans_Exp_Groups_MixedControls_All.csv")
 
 #This selects Ab10 positive experimental samples
 K10L2 <- K10L2[,-c(127, 128)]
@@ -43,7 +44,7 @@ colnames(K10L2_small) <- c("Name", "KMeans_K10L2")
 GROUPS_2 <- merge(GROUPS, K10L2_small, by = "Name", all.x = TRUE)
 
 #This writes out the final file
-write.csv(GROUPS_2, file="/Users/user/University_of_Georgia/Dawe_Lab_Documents/Ab10_Global_Survey/Data/Controls_Swarts_RomeroNavarro_Romay_Groups_Env_Ab10K10L2Complete.csv", row.names = FALSE, quote = FALSE)
+write.csv(GROUPS_2, file="Controls_Swarts_RomeroNavarro_Romay_Groups_Env_Ab10K10L2Complete.csv", row.names = FALSE, quote = FALSE)
 
 GROUPS_3 <- subset(GROUPS_2, Data_Source != "Dawe_Lab_1" & Data_Source != "Dawe_Lab_2")
 K10L2_Counts <- GROUPS_3 %>% 
