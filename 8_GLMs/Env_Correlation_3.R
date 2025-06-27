@@ -2,7 +2,7 @@ library("ggplot2")
 library("ggpubr")
 library(corrplot)
 
-#This loads in the 540 Genotyped samples as well as their Ab10 status as determined yb GBS and the WorldClim2 data
+#This loads in the samples and env data
 ENV <- read.csv("/Users/user/University_of_Georgia/Dawe_Lab_Documents/Ab10_Global_Survey/R_Sessions/SGE_Distribution_Paper/Ab10-Global-Survey/7_Map/Controls_Swarts_RomeroNavarro_Romay_Groups_Env.csv")
 
 #This filters to only lines with ENV_filtironmental data
