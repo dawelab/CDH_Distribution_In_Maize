@@ -17,23 +17,28 @@ library(stringr)
 library(ComplexHeatmap)
 
 #This sets the working directory where all files being loaded in are located
-setwd("/scratch/mjb51923/Ab10_Global_Survey/out/AlignGBS_K10L2Contigs")
+setwd("s")
 
 #This loads the original groups file
+#from 1.7
 GROUPS <- vroom::vroom("Controls_Swarts_RomeroNavarro_Romay_Groups_Env.csv")
 
 #This loads in the groups file with modified names
+#from 6.1.1
 DF <- vroom::vroom("Controls_Swarts_RomeroNavarro_Romay_Groups_Env_NameChanges.table")
 
 #This loads in the BINS file
+#from 4.3
 BINS <- read_excel("Bins_NoOverlap_K10L2.table.xlsx")
 
+#from 6.2.2
 POS <- vroom::vroom("Kmeans_Exp_Groups_MixedControls_All.csv")
 
 #This function goes over each row and divides each value by the max in that row 
 MinMax = function(xx) { sweep(xx, 1, apply(xx, 1, max), '/') }
 
 #This loads in the combination of the tag sums and tag density
+#from 6.1.4
 B_COMB <- vroom::vroom("K10L2_TagSumPlusTagDensAllSamples.csv")
 
 #This scales the data so that the min is always 0 and the max is always 1. 
