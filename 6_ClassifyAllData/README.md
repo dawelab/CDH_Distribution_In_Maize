@@ -41,8 +41,9 @@
 >8.   This makes the final calls for B chromosome positive, ambigious, and absent and writes them into the Groups File
 
 5.   This divides each bin across the selfish genetic element by the mean of all single copy core gene tag index values. This acts as a proxy for copy number for the B Chromosome validated by Abnormal Chromsoome 10.
->>1. Ab10
->>2. K10L2
->>3. BChrom
+>1. Ab10
+>2. K10L2
+>3. BChrom
+>4. Plot all copy numbers together
 
 6. This is the groups file with the final calls for Ab10, K10L2, and the B chromosome including pseudo copy number
