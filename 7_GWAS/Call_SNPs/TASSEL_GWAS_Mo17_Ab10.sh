@@ -19,8 +19,8 @@ module load BEDTools/2.29.2-GCC-8.3.0
 OUT_DIR="/scratch/mjb51923/Ab10_Global_Survey/out/AlignGBS_HiFiAb10Corrected_v2"
 READ_DIR="/scratch/mjb51923/raw_reads/GBS/Swarts_AllControls_LengthFiltFakeBarcodedRomeroNavarro_Romay"
 KEY="/scratch/mjb51923/Ab10_Global_Survey/Ab10-Global-Survey/8_SNPs/SwartsAllControlsLengthFiltRomeroNavarroRomay_Key_GWASSNPs.txt"
-REF="/scratch/mjb51923/Ab10_Global_Survey/out/AlignGBS_HiFiAb10Corrected_v2/B73_RefGen_v3_NoChr10Shared_Ab10.fa"
-NAME="GWAS_B73v3_Ab10"
+REF="/scratch/mjb51923/Ab10_Global_Survey/out/AlignGBS_HiFiAb10Corrected_v2/Zm-Mo17-REFERENCE-CAU-2.0_Ab10.fa"
+NAME="GWAS_Mo17_Ab10"
 
 #This v2 refers to the corrected Hifi genome
 REF_NAME="B73v3_Ab10"
