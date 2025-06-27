@@ -26,6 +26,8 @@ seqkit faidx -r /scratch/mjb51923/ref_genomes/Zm-Mo17-REFERENCE-CAU-2.0.fa chr7 
 seqkit faidx -r /scratch/mjb51923/ref_genomes/Zm-Mo17-REFERENCE-CAU-2.0.fa chr8 > Mo17_temp8.fa
 seqkit faidx -r /scratch/mjb51923/ref_genomes/Zm-Mo17-REFERENCE-CAU-2.0.fa chr9 > Mo17_temp9.fa
 seqkit faidx -r /scratch/mjb51923/ref_genomes/Zm-Mo17-REFERENCE-CAU-2.0.fa chr10 > Mo17_temp10.fa
+
+#The bed file contains the single line chr10:1-138838780
 samtools faidx -r Mo17_NoChr10Shared.bed Mo17_temp10.fa > Mo17_temp10_cut.fa
 
 cat Mo17_temp1_clip.fa Mo17_temp2.fa Mo17_temp3.fa Mo17_temp4.fa Mo17_temp5.fa Mo17_temp6.fa Mo17_temp7.fa Mo17_temp8.fa Mo17_temp9.fa Mo17_temp10_cut.fa > Zm-Mo17-REFERENCE-CAU-2.0_NoChr10Shared.fa
