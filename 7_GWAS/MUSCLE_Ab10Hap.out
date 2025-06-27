@@ -1,21 +1,0 @@
-
-muscle 5.2.linux64 [-]  1052Gb RAM, 64 cores
-Built Sep 12 2024 21:41:05
-(C) Copyright 2004-2021 Robert C. Edgar.
-https://drive5.com
-
-Input: 70 seqs, length avg 53942945 max 53942945
-
-
-WARNING: Sequence length >5k may require excessive memory
-
-00:26 4.7Gb     1.4% Derep 0 uniques, 0 dupes00:27 4.7Gb     5.7% Derep 3 uniques, 0 dupes00:28 4.7Gb    10.0% Derep 6 uniques, 0 dupes00:29 4.7Gb    12.9% Derep 8 uniques, 0 dupes00:30 4.7Gb    17.1% Derep 11 uniques, 0 dupes00:31 4.7Gb    21.4% Derep 14 uniques, 0 dupes00:32 4.7Gb    25.7% Derep 17 uniques, 0 dupes00:33 4.7Gb    28.6% Derep 19 uniques, 0 dupes00:34 4.7Gb    32.9% Derep 22 uniques, 0 dupes00:35 4.7Gb    37.1% Derep 25 uniques, 0 dupes00:36 4.7Gb    41.4% Derep 28 uniques, 0 dupes00:37 4.7Gb    44.3% Derep 30 uniques, 0 dupes00:38 4.7Gb    48.6% Derep 33 uniques, 0 dupes00:39 4.7Gb    52.9% Derep 36 uniques, 0 dupes00:40 4.7Gb    57.1% Derep 39 uniques, 0 dupes00:41 4.7Gb    60.0% Derep 41 uniques, 0 dupes00:42 4.7Gb    64.3% Derep 44 uniques, 0 dupes00:43 4.7Gb    68.6% Derep 47 uniques, 0 dupes00:44 4.7Gb    72.9% Derep 50 uniques, 0 dupes00:45 4.7Gb    75.7% Derep 52 uniques, 0 dupes00:46 4.7Gb    80.0% Derep 55 uniques, 0 dupes00:47 4.7Gb    84.3% Derep 58 uniques, 0 dupes00:48 4.7Gb    88.6% Derep 61 uniques, 0 dupes00:49 4.7Gb    91.4% Derep 63 uniques, 0 dupes00:50 4.7Gb    95.7% Derep 66 uniques, 0 dupes00:51 4.7Gb   100.0% Derep 69 uniques, 0 dupes
-00:51 4.7Gb     1.4% UCLUST 70 seqs EE<0.01, 0 centroids, 0 members00:53 5.0Gb     2.9% UCLUST 70 seqs EE<0.01, 1 centroids, 0 members07:39 5.0Gb  CPU has 64 cores, running 30 threads                  
-
-
-muscle -super5 /scratch/mjb51923/Ab10_Global_Survey/out/AlignGBS_HiFiAb10Corrected_v2/Consensus/HigginsN10_Ab10Hap.fa -output /scratch/mjb51923/Ab10_Global_Survey/out/AlignGBS_HiFiAb10Corrected_v2/HigginsN10_Ab10Hap.kaln.fasta -threads 30
-Elapsed time 07:39
-Max memory 5.0Gb
-
----Fatal error---
-Memory object too large due to sequence lengths 53942945, 53942945

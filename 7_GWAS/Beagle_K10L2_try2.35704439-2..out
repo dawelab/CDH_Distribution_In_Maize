@@ -1,6 +1,0 @@
-To execute Beagle-5.4.22Jul22.46e run: java -jar ${EBROOTBEAGLE}/beagle.jar
-############ working on chr2
-[W::vcf_parse] Contig '2' is not defined in the header. (Quick workaround: index the file with tabix.)
-Checking the headers and starting positions of 3 files
-[E::bcf_hdr_read] Input is not detected as bcf or vcf format
-Failed to parse header: /scratch/mjb51923/Ab10_Global_Survey/out/AlignGBS_HiFiAb10Corrected_v2/GWAS_Mo17_K10L2.chr.filt2_chr1.imputed.filt.vcf.gz

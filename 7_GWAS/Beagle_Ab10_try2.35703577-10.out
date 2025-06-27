@@ -1,7 +1,0 @@
-To execute Beagle-5.4.22Jul22.46e run: java -jar ${EBROOTBEAGLE}/beagle.jar
-############ working on chr10
-Failed to read from /scratch/mjb51923/Ab10_Global_Survey/out/AlignGBS_HiFiAb10Corrected_v2/GWAS_Mo17_Ab10.chr.filt2_chr10.imputed.vcf.gz: unknown file type
-tbx_index_build failed: /scratch/mjb51923/Ab10_Global_Survey/out/AlignGBS_HiFiAb10Corrected_v2/GWAS_Mo17_Ab10.chr.filt2_chr10.imputed.filt.vcf.gz
-Checking the headers and starting positions of 7 files
-[E::bcf_hdr_read] Input is not detected as bcf or vcf format
-Failed to parse header: /scratch/mjb51923/Ab10_Global_Survey/out/AlignGBS_HiFiAb10Corrected_v2/GWAS_Mo17_Ab10.chr.filt2_chr7.imputed.filt.vcf.gz

@@ -1,5 +1,0 @@
-To execute Beagle-5.4.22Jul22.46e run: java -jar ${EBROOTBEAGLE}/beagle.jar
-############ working on chr8
-/var/lib/slurmd/job35703234/slurm_script: line 37: bcftools: command not found
-/var/lib/slurmd/job35703234/slurm_script: line 38: tabix: command not found
-/var/lib/slurmd/job35703234/slurm_script: line 40: bcftools: command not found

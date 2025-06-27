@@ -1,8 +1,0 @@
-To execute Beagle-5.4.22Jul22.46e run: java -jar ${EBROOTBEAGLE}/beagle.jar
-############ working on chr4
-[W::bcf_sr_add_reader] No BGZF EOF marker; file '/scratch/mjb51923/Ab10_Global_Survey/out/AlignGBS_HiFiAb10Corrected_v2/GWAS_Mo17_Ab10.chr.filt2_chr4.imputed.vcf.gz' may be truncated
-[W::vcf_parse] Contig '4' is not defined in the header. (Quick workaround: index the file with tabix.)
-Error: no BGZF EOF marker; file may be truncated
-Checking the headers and starting positions of 6 files
-[E::bcf_hdr_read] Input is not detected as bcf or vcf format
-Failed to parse header: /scratch/mjb51923/Ab10_Global_Survey/out/AlignGBS_HiFiAb10Corrected_v2/GWAS_Mo17_Ab10.chr.filt2_chr3.imputed.filt.vcf.gz

@@ -1,6 +1,0 @@
-[W::bcf_hdr_check_sanity] PL should be declared as Number=G
-[W::vcf_parse_info] INFO 'QualityScore' is not defined in the header, assuming Type=String
-[W::bcf_hdr_check_sanity] PL should be declared as Number=G
-[W::vcf_parse_info] INFO 'QualityScore' is not defined in the header, assuming Type=String
-[W::bcf_hdr_check_sanity] PL should be declared as Number=G
-[W::vcf_parse_info] INFO 'QualityScore' is not defined in the header, assuming Type=String
