@@ -1,7 +1,7 @@
 library(vroom)
 library(data.table)
 
-setwd("/scratch/mjb51923/Ab10_Global_Survey/out/AlignGBS_K10L2Contigs/K10L2_Model/Experimental_K10L2N10Model/KmeansGroups_Files")
+setwd("K10L2_Model/Experimental_K10L2N10Model/KmeansGroups_Files")
 
 #This sorts all the files
 for(i in 1:25) {
