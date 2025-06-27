@@ -1,2 +1,0 @@
-Name,Data_Source,Accession,Group,Maize_Type,Ab10_Status,B_Chrom_Status,Latitude,Longitude,Altitude,DTA_BLUP,DTS_BLUP,PH_BLUP,PresTiller_BLUP,KMeans_Ab10,RF_Ab10Type
-SEEDGWAS4517.RN,Romero-Navarro_etal_2017,CIMMYTMA-BANK-008482,NA,Landrace,Unknown,Unknown,19.71666667,-98.73333333,2371,NA,NA,NA,NA,Ab10,Ab10-II
