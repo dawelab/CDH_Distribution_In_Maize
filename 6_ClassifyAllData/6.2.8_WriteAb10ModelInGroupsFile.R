@@ -2,8 +2,11 @@ library(ggplot2)
 library(tidyverse)
 
 #This loades in Ab10 and Ab10 type calls 
-GROUPS <- vroom::vroom("/Users/user/University_of_Georgia/Dawe_Lab_Documents/Ab10_Global_Survey/Data/Controls_Swarts_RomeroNavarro_Romay_Groups_Env.csv")
-Ab10 <- vroom::vroom("/Volumes/Transcend/Kmeans_Exp_Groups_MixedControls_All.csv")
+#from 1.7
+GROUPS <- vroom::vroom("Controls_Swarts_RomeroNavarro_Romay_Groups_Env.csv")
+#from 6.2.3
+Ab10 <- vroom::vroom("Kmeans_Exp_Groups_MixedControls_All.csv")
+#from 6.2.7
 TYPE <- vroom::vroom("RF_Ab10TypeClassifications.csv")
 
 #This selects Ab10 positive experimental samples
@@ -39,7 +42,7 @@ colnames(TYPE) <- c("Name", "RF_Ab10Type")
 GROUPS_3 <- merge(GROUPS_2, TYPE, by="Name", all.x = TRUE)
 
 #This writes out the final file
-write.csv(GROUPS_3, file="/Users/user/University_of_Georgia/Dawe_Lab_Documents/Ab10_Global_Survey/Data/Controls_Swarts_RomeroNavarro_Romay_Groups_Env_Ab10Complete.csv", row.names = FALSE, quote = FALSE)
+write.csv(GROUPS_3, file="Controls_Swarts_RomeroNavarro_Romay_Groups_Env_Ab10Complete.csv", row.names = FALSE, quote = FALSE)
 
 GROUPS_4 <- subset(GROUPS_3, Data_Source != "Dawe_Lab_1" & Data_Source != "Dawe_Lab_2")
 Chr10_Counts <- GROUPS_4 %>% 
