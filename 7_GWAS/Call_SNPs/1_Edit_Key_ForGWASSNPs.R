@@ -1,7 +1,9 @@
 library(stringr)
 
-GROUPS <- read.csv("/Users/user/University_of_Georgia/Dawe_Lab_Documents/Ab10_Global_Survey/6.5_Controls_Swarts_RomeroNavarro_Romay_Groups_Env_Ab10K10L2BChromCopyNumComplete.csv")
-KEY <- read.delim("/Users/user/University_of_Georgia/Dawe_Lab_Documents/Ab10_Global_Survey/SwartsAllControlsLengthFiltRomeroNavarroRomay_Key.txt")
+#This is from 6.5
+GROUPS <- read.csv("Controls_Swarts_RomeroNavarro_Romay_Groups_Env_Ab10K10L2BChromCopyNumComplete.csv")
+#This is from 1.5
+KEY <- read.delim("SwartsAllControlsLengthFiltRomeroNavarroRomay_Key.txt")
 
 #This drops duplicate rows
 KEY <- KEY[!duplicated(KEY), ]
@@ -84,5 +86,5 @@ for(i in 1:nrow(MA)) {
 #This drops duplicate rows
 GWAS_KEY <- GWAS_KEY[!duplicated(GWAS_KEY), ]
 
-write.table(GWAS_KEY, file="/Users/user/University_of_Georgia/Dawe_Lab_Documents/Ab10_Global_Survey/R_Sessions/SGE_Distribution_Paper/Ab10-Global-Survey/8_SNPs/SwartsAllControlsLengthFiltRomeroNavarroRomay_Key_GWASSNPs.txt", quote = FALSE, row.names = FALSE, sep = "\t")
+write.table(GWAS_KEY, file="SwartsAllControlsLengthFiltRomeroNavarroRomay_Key_GWASSNPs.txt", quote = FALSE, row.names = FALSE, sep = "\t")
 
