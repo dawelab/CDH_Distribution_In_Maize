@@ -8,9 +8,11 @@ seqkit faidx -r /scratch/mjb51923/ref_genomes/Zm-B73_B_CHROMOSOME-MBSC-1.0.fa ch
 cat /scratch/mjb51923/ref_genomes/Zm-Mo17-REFERENCE-CAU-2.0.fa ChrB_temp.fa > Zm-Mo17-REFERENCE-CAU-2.0_chrB.fa
 
 seqkit faidx -r /scratch/mjb51923/ref_genomes/Ab10_HiFi_v2_corrected.fa chr10 > Ab10_chr10.fa
+#This bed file contains the single line chr10:141115174-195055488
 samtools faidx -r Ab10_HiFi_v2_corrected_Ab10Hap.bed Ab10_chr10.fa > Ab10chr10_Ab10Hap.fa
-
+#This bed file contains the single line K10L2:2730186-31891546
 seqkit faidx -r /scratch/mjb51923/TRKIN_CRISPR/out_paper/RepeatMasker/CI66_K10L2_v1.fasta K10L2 > CI66_K10L2chr.fa
+
 samtools faidx -r CI66_K10L2.bed CI66_K10L2chr.fa > CI66_K10L2chr_K10L2Hap.fa
 
 #The colored 1 gene in Mo17 is at 138838780 
