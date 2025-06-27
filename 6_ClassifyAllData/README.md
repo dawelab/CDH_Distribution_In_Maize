@@ -18,6 +18,7 @@
 >8. This plots all of the Ab10 and N10 controls along with all of the Ab10 called positive experimental samples
 
 
+
 3. This determines if all samples that were identified as N10 above are actually N10 or K10L2
 >1. This uses Kmeans clusters to determine if controls are N10 or K10L2. I am separating the heterozygous (1) and homozygous (2) controls because it improves the clustering.
 >2. This uses Kmeans clusters to class all experimental samples called N10 in 6.2.2 into K10L2 and N10 100 times. It requires that all the control samples be classed correctly.
