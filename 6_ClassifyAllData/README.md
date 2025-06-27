@@ -45,5 +45,6 @@
 >2. K10L2
 >3. BChrom
 >4. Plot all copy numbers together
+>5. Merge all of the copy number data with the large meta deta file.
 
 6. This is the groups file with the final calls for Ab10, K10L2, and the B chromosome including pseudo copy number
