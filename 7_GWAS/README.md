@@ -9,3 +9,8 @@ These scripts call filter, and impute SNPs before running a GWAS for all CDHs an
 5. These scripts split the filtered VCF file indo chunks for faster processing.
 6. These scripts impute SNPs on Mo17 chr1-10 based on the population using BEAGLE.
 7. These scripts impute SNPs on the CDH itself based on the population using BEAGLE. This was done as a control
+
+
+## Run GWAS
+1. Run GWAS using Plink using SNPs on chr 1-10
+2. Run GWAS using Plink using SNPs on the CDH itself as a control
