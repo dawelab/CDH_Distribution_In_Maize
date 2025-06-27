@@ -14,7 +14,9 @@
 >4. This is the final call file edited so that Ab10 = 1 and N10=0.
 >5. This is the output file of 4
 >6. This uses a random forest model (ntrees=1000000) to assign Ab10 class. It requires that 65% of the decision trees report the same class and performs a PCA on the highest mean decreasing gini score variables (=2) to explore the ambigous classes.
->7. This writes out the Ab10 classes and generates a few tables describing what Maize type Ab10 and the types occur in. 
+>7. This writes out the Ab10 classes and generates a few tables describing what Maize type Ab10 and the types occur in.
+>8. This plots all of the Ab10 and N10 controls along with all of the Ab10 called positive experimental samples
+
 
 3. This determines if all samples that were identified as N10 above are actually N10 or K10L2
 >1. This uses Kmeans clusters to determine if controls are N10 or K10L2. I am separating the heterozygous (1) and homozygous (2) controls because it improves the clustering.
