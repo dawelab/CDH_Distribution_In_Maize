@@ -1,27 +1,0 @@
-
-   *****       ***   vcfR   ***       *****
-   This is vcfR 1.15.0 
-     browseVignettes('vcfR') # Documentation
-     citation('vcfR') # Citation
-   *****       *****      *****       *****
-
-Scanning file to determine attributes.
-File attributes:
-  meta lines: 27
-  header_line: 28
-  variant count: 462
-  column count: 4455
-Meta line 27 read in.
-All meta lines processed.
-gt matrix initialized.
-Character matrix gt created.
-  Character matrix gt rows: 462
-  Character matrix gt cols: 4455
-  skip: 0
-  nrows: 462
-  row_num: 0
-Processed variant: 462
-All variants processed
-[1] "#####Extracting genotypes"
-[1] "#####Converting genotypes to additive coding"
-slurmstepd: error: *** JOB 34791853 ON b6-13 CANCELLED AT 2025-02-09T22:20:25 ***

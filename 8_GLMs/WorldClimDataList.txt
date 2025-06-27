@@ -1,8 +1,0 @@
-prec
-tavg
-tmin
-tmax
-wind
-srad
-vapr
-bio
