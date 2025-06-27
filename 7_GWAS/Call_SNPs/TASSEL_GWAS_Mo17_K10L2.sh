@@ -23,7 +23,7 @@ REF="/scratch/mjb51923/Ab10_Global_Survey/out/AlignGBS_HiFiAb10Corrected_v2/Zm-M
 NAME="GWAS_Mo17_K10L2"
 
 #This v2 refers to the corrected Hifi genome
-REF_NAME="B73v3_K10L2"
+REF_NAME="Mo17_K10L2"
 
 #Demultiplex the Additional Control reads
 echo "#####Demultiplexing Fastq Files"
